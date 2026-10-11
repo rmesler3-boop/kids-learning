@@ -1,0 +1,45 @@
+{
+ "date": "2026-10-14",
+ "subject": "history",
+ "henry": {
+  "title": "Ancient Engineers of Chaco Canyon",
+  "intro": "Over 1,000 years ago Ancestral Puebloans in New Mexico built Pueblo Bonito, with hundreds of rooms \u2014 without metal tools!",
+  "steps": [
+   "Explore the Chaco Culture NPS site.",
+   "Read about the Great Houses.",
+   "Complete the worksheet."
+  ],
+  "worksheet": [
+   "About how long ago was Chaco a major center?",
+   "What materials did they build with?",
+   "Why do you think they aligned buildings with the sun and moon?",
+   "Sketch a floor plan of a 5-room pueblo.",
+   "What engineering problem would be hardest without metal tools?"
+  ],
+  "links": [
+   [
+    "NPS: Chaco Culture",
+    "https://www.nps.gov/chcu/index.htm"
+   ]
+  ]
+ },
+ "frankie": {
+  "title": "Long-Ago Homes",
+  "intro": "Long ago, people in New Mexico built homes out of stone and mud. Super strong!",
+  "steps": [
+   "Look at Chaco pictures with a grown-up.",
+   "Draw your own pueblo home."
+  ],
+  "worksheet": [
+   "Draw a house made of bricks \ud83e\uddf1",
+   "Draw yourself living long ago",
+   "Circle what is NEW: tablet / stone bowl"
+  ],
+  "links": [
+   [
+    "NPS: Chaco Culture",
+    "https://www.nps.gov/chcu/index.htm"
+   ]
+  ]
+ }
+}

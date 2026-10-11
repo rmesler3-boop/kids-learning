@@ -1,0 +1,50 @@
+{
+ "date": "2026-10-13",
+ "subject": "science",
+ "henry": {
+  "title": "Energy Skate Park Engineers",
+  "intro": "Potential and kinetic energy \u2014 like a roller coaster or a skateboarder at a New Mexico skate park!",
+  "steps": [
+   "Play Energy Skate Park Basics (5 min).",
+   "Build a track that keeps the skater going.",
+   "Fill in the worksheet."
+  ],
+  "worksheet": [
+   "Where does the skater go fastest? Why?",
+   "Where is potential energy highest?",
+   "Draw your best track design and label high/low energy.",
+   "What happens with friction turned on?",
+   "Engineering challenge: how would you design a coaster that never stops? Is it possible?"
+  ],
+  "links": [
+   [
+    "PhET: Energy Skate Park Basics",
+    "https://phet.colorado.edu/en/simulations/energy-skate-park-basics"
+   ],
+   [
+    "NASA Space Place",
+    "https://spaceplace.nasa.gov/"
+   ]
+  ]
+ },
+ "frankie": {
+  "title": "Hero Science: Solid, Liquid, Gas",
+  "intro": "Ice Hero freezes water. Fire Hero melts it! Let's see how water changes.",
+  "steps": [
+   "Watch the States of Matter sim with a grown-up.",
+   "Draw ice, water, and steam."
+  ],
+  "worksheet": [
+   "Draw an ice cube \ud83e\uddca",
+   "Draw a glass of water \ud83d\udca7",
+   "Draw steam from a cup \u2601\ufe0f",
+   "Circle the cold one: ice / hot cocoa"
+  ],
+  "links": [
+   [
+    "PhET: States of Matter Basics",
+    "https://phet.colorado.edu/en/simulations/states-of-matter-basics"
+   ]
+  ]
+ }
+}

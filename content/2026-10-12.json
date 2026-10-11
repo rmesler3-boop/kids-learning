@@ -1,0 +1,51 @@
+{
+ "date": "2026-10-12",
+ "subject": "math",
+ "henry": {
+  "title": "Gear Ratio Fractions",
+  "intro": "Engineers use fractions to design gears! A gear with 12 teeth turning a gear with 24 teeth turns it 1/2 a rotation.",
+  "steps": [
+   "Explore the PhET Fractions sim for 5 minutes.",
+   "Complete the worksheet.",
+   "Bonus: design a gear pair that makes 1/3 turn."
+  ],
+  "worksheet": [
+   "Shade 3/4 of a 4-tooth gear. Draw it.",
+   "Which is bigger: 2/3 or 3/5? Explain.",
+   "A 30-tooth gear drives a 10-tooth gear. How many turns does the small one make per big turn?",
+   "Add: 1/4 + 2/4 = ___",
+   "A rocket fuel tank is 5/8 full. How much is empty?",
+   "Order smallest to largest: 1/2, 3/8, 7/8"
+  ],
+  "links": [
+   [
+    "PhET: Fractions Intro",
+    "https://phet.colorado.edu/en/simulations/fractions-intro"
+   ],
+   [
+    "Khan Academy 4th grade math",
+    "https://www.khanacademy.org/math/cc-fourth-grade-math"
+   ]
+  ]
+ },
+ "frankie": {
+  "title": "Super Counting Heroes",
+  "intro": "Captain Count needs help counting things to save the city!",
+  "steps": [
+   "Count heroes on the sheet.",
+   "Draw the right number of stars."
+  ],
+  "worksheet": [
+   "Count the capes: \ud83e\uddb8\ud83e\uddb8\ud83e\uddb8  How many? ___",
+   "Draw 5 stars \u2b50",
+   "Circle the bigger number: 4 or 7",
+   "Draw 2 heroes + 1 hero. How many? ___"
+  ],
+  "links": [
+   [
+    "PBS KIDS Math Games",
+    "https://pbskids.org/games/math"
+   ]
+  ]
+ }
+}

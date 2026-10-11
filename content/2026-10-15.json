@@ -1,0 +1,49 @@
+{
+ "date": "2026-10-15",
+ "subject": "art/music",
+ "henry": {
+  "title": "Sound Engineering with Song Maker",
+  "intro": "Music has patterns, like code! Rhythm and pitch are engineering tools for sound.",
+  "steps": [
+   "Open Song Maker.",
+   "Compose an 8-bar rocket launch theme.",
+   "Fill in the worksheet."
+  ],
+  "worksheet": [
+   "What makes a note higher or lower?",
+   "Describe your rocket theme in 3 words.",
+   "Draw a blueprint-style picture of your song (shapes for notes).",
+   "How many beats did you use?"
+  ],
+  "links": [
+   [
+    "Chrome Music Lab: Song Maker",
+    "https://musiclab.chromeexperiments.com/Song-Maker/"
+   ],
+   [
+    "Chrome Music Lab: Kandinsky",
+    "https://musiclab.chromeexperiments.com/Kandinsky/"
+   ]
+  ]
+ },
+ "frankie": {
+  "title": "Draw Your Superhero Song",
+  "intro": "Draw lines and shapes and hear them make music!",
+  "steps": [
+   "Play Kandinsky \u2014 draw and press play.",
+   "Draw your own superhero on the sheet."
+  ],
+  "worksheet": [
+   "Draw your superhero \ud83e\uddb8",
+   "What color is their cape? ___",
+   "Draw their super symbol",
+   "Clap your name! How many claps? ___"
+  ],
+  "links": [
+   [
+    "Chrome Music Lab: Kandinsky",
+    "https://musiclab.chromeexperiments.com/Kandinsky/"
+   ]
+  ]
+ }
+}

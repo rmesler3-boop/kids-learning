@@ -1,0 +1,46 @@
+{
+ "date": "2026-10-16",
+ "subject": "language arts",
+ "henry": {
+  "title": "Mission Log: Write Like an Engineer",
+  "intro": "Real engineers write clear logs. Write a mission log for a rocket launch from Spaceport America, NM!",
+  "steps": [
+   "Read the example.",
+   "Write 5 sentences.",
+   "Check capitals and punctuation."
+  ],
+  "worksheet": [
+   "Write a title for your mission.",
+   "Write 5 sentences: goal, launch, problem, fix, result.",
+   "Underline 3 action verbs.",
+   "Find a compound word you used.",
+   "Circle any adjectives."
+  ],
+  "links": [
+   [
+    "Khan Academy: ELA",
+    "https://www.khanacademy.org/ela"
+   ]
+  ]
+ },
+ "frankie": {
+  "title": "Super Letters: S is for Super!",
+  "intro": "Super Why says: letters have super powers! Let's find S.",
+  "steps": [
+   "Play Super Why games.",
+   "Trace and draw S things."
+  ],
+  "worksheet": [
+   "Trace: S S S s s s",
+   "Draw something that starts with S (sun? snake?)",
+   "Circle the S word: sun / cat",
+   "Write your name"
+  ],
+  "links": [
+   [
+    "PBS KIDS: Super Why",
+    "https://pbskids.org/superwhy"
+   ]
+  ]
+ }
+}
