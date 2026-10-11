@@ -1,0 +1,294 @@
+{
+ "district": "Las Cruces Public Schools (NM)",
+ "schoolYear": "2026-2027",
+ "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline",
+ "sourceTitle": "LCPS 2026-2027 Instructional Calendar (Board approved Feb 18, 2025; revised July 27, 2026)",
+ "firstDay": {
+  "K": "2026-07-24",
+  "grades1to5": "2026-07-27"
+ },
+ "lastDay": {
+  "K": "2027-05-20",
+  "grades1to5": "2027-05-21"
+ },
+ "nonSchoolDays": [
+  {
+   "date": "2026-07-20",
+   "label": "Teacher professional learning / work days (before students start)",
+   "type": "teacher_work",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-07-21",
+   "label": "Teacher professional learning / work days (before students start)",
+   "type": "teacher_work",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-07-22",
+   "label": "Teacher professional learning / work days (before students start)",
+   "type": "teacher_work",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-07-23",
+   "label": "Teacher professional learning / work days (before students start)",
+   "type": "teacher_work",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-08-27",
+   "label": "Educator Planning (remote learning activities)",
+   "type": "educator_planning_remote",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-08-28",
+   "label": "Parent/Teacher Conferences (no school)",
+   "type": "conferences",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-09-07",
+   "label": "Labor Day (no school)",
+   "type": "holiday",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-10-05",
+   "label": "Fall Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-10-06",
+   "label": "Fall Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-10-07",
+   "label": "Fall Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-10-08",
+   "label": "Fall Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-10-09",
+   "label": "Fall Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-10-12",
+   "label": "Educator Planning (remote learning activities)",
+   "type": "educator_planning_remote",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-11-03",
+   "label": "Election Day (no school)",
+   "type": "holiday",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-11-23",
+   "label": "Thanksgiving Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-11-24",
+   "label": "Thanksgiving Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-11-25",
+   "label": "Thanksgiving Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-11-26",
+   "label": "Thanksgiving Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-11-27",
+   "label": "Thanksgiving Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-21",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-22",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-23",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-24",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-25",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-28",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-29",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-30",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2026-12-31",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-01-01",
+   "label": "Winter Break",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-01-04",
+   "label": "Site/District Professional Learning",
+   "type": "teacher_pd",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-01-05",
+   "label": "Teacher Work Day",
+   "type": "teacher_work",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-01-18",
+   "label": "MLK Holiday (no school)",
+   "type": "holiday",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-02-11",
+   "label": "Educator Planning (remote learning activities)",
+   "type": "educator_planning_remote",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-02-12",
+   "label": "Next Step Planning / Parent Teacher Conferences (no school K-12)",
+   "type": "conferences",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-02-15",
+   "label": "Presidents' Day (no school)",
+   "type": "holiday",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-15",
+   "label": "Spring Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-16",
+   "label": "Spring Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-17",
+   "label": "Spring Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-18",
+   "label": "Spring Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-19",
+   "label": "Spring Break (no school)",
+   "type": "break",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-26",
+   "label": "Spring Holiday",
+   "type": "holiday",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-03-29",
+   "label": "Educator Planning (remote learning activities)",
+   "type": "educator_planning_remote",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  }
+ ],
+ "gradeSpecific": [
+  {
+   "date": "2026-07-24",
+   "label": "First day K only (no school for grades 1-5)",
+   "appliesTo": [
+    "henry"
+   ],
+   "type": "grade_specific",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  },
+  {
+   "date": "2027-05-21",
+   "label": "Last day grades 1-5 (K finished May 20)",
+   "appliesTo": [
+    "frankie"
+   ],
+   "type": "grade_specific",
+   "source": "https://files-backend.assets.thrillshare.com/documents/asset/uploaded_file/2256/Lcps/efc29787-3ac2-4539-b53a-e9c56fea343f/2026-27-FINAL_corrected_3.31.26.pdf?disposition=inline"
+  }
+ ],
+ "earlyReleaseDays": [],
+ "notes": [
+  "The official calendar lists no early-release days.",
+  "'Educator Planning (remote learning activities)' days have no in-person school; treated as non-school days here.",
+  "Memorial Day (2027-05-31) and Juneteenth (2027-06-18) fall after the last student day."
+ ]
+}

@@ -1,47 +1,48 @@
 {
  "date": "2026-10-16",
  "subject": "language arts",
+ "theme": "Autumn Harvest",
  "henry": {
-  "title": "Mission Log: Write Like an Engineer",
-  "intro": "Real engineers write clear logs. Write a mission log for a rocket launch from Spaceport America, NM!",
+  "title": "Autumn Senses Poem",
+  "intro": "Poets use the five senses. Think about roasting green chile in fall: the smell, the crackle, the color!",
   "steps": [
-   "Read the example.",
-   "Write 5 sentences.",
-   "Check capitals and punctuation."
+   "Look at a fall satellite picture on NASA Earth Observatory for ideas.",
+   "Brainstorm sense words.",
+   "Write your poem."
   ],
   "worksheet": [
-   "Write a title for your mission.",
-   "Write 5 sentences: goal, launch, problem, fix, result.",
-   "Underline 3 action verbs.",
-   "Find a compound word you used.",
-   "Circle any adjectives."
+   "List one fall word for each sense: see, hear, smell, taste, touch.",
+   "Write a 5-line poem, one line per sense.",
+   "Underline 2 adjectives.",
+   "Find a simile (like/as) or write one.",
+   "Give your poem a title."
   ],
   "links": [
    [
-    "NASA for Kids",
-    "https://www.nasa.gov/learning-resources/for-kids-and-students/",
-    "Find a real NASA mission story to get ideas for your log."
+    "NASA Earth Observatory",
+    "https://earthobservatory.nasa.gov/",
+    "Look at the satellite pictures and find colors to use in your poem."
    ]
   ]
  },
  "frankie": {
-  "title": "Super Letters: S is for Super!",
-  "intro": "Super Why says: letters have super powers! Let's find S.",
+  "title": "P is for Pumpkin!",
+  "intro": "P makes the /p/ sound, like pop, pie, and pumpkin!",
   "steps": [
-   "Play Super Why games.",
-   "Trace and draw S things."
+   "Play a PBS KIDS reading game with a grown-up.",
+   "Trace and draw P things."
   ],
   "worksheet": [
-   "Trace: S S S s s s",
-   "Draw something that starts with S (sun? snake?)",
-   "Circle the S word: sun / cat",
+   "Trace: P P P p p p",
+   "Draw a pumpkin \ud83c\udf83",
+   "Circle the P word: pumpkin / apple",
    "Write your name"
   ],
   "links": [
    [
-    "PBS KIDS: Super Why",
-    "https://pbskids.org/superwhy",
-    "Tap a game with a grown-up and find the letter S."
+    "PBS KIDS Reading Games",
+    "https://pbskids.org/games/reading",
+    "Pick a game with a grown-up and listen for the /p/ sound."
    ]
   ]
  }

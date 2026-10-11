@@ -7,10 +7,13 @@ function home(){app.innerHTML=`<div class="home"><h1>🌵 Mesler Learning Lab �
 <button class="big bh" onclick="go('henry')">⚙️ HENRY 🚀</button><button class="big bf" onclick="go('frankie')">💥 FRANKIE 🦸</button></div>
 <div class="foot"><a href="#parents">Parents</a></div></div>`}
 function go(k){location.hash=k}
-async function kid(k,date){const K=KIDS[k];const today=iso(new Date());const dow=new Date().getDay();
- let d=date||today,c=await get(d),msg='';
- if(!c){const past=INDEX.filter(x=>x<=today);d=past.length?past[past.length-1]:INDEX[0];c=await get(d);
-  msg=(dow==0||dow==6)?(k=='henry'?'🛰️ Weekend! Lab is closed — go build something! Here is the latest mission:':'🎉 It\'s the weekend, hero! Rest your powers! Here is the latest one:'):'No new lesson yet for today — here is the latest:'}
+let CAL=null;async function cal(){if(!CAL)CAL=await fetch('school-calendar.json').then(r=>r.json()).catch(()=>({nonSchoolDays:[],gradeSpecific:[]}));return CAL}
+function off(k,d){const w=new Date(d+'T12:00').getDay();if(w==0||w==6)return 'the weekend';const n=CAL.nonSchoolDays.find(x=>x.date==d);if(n)return n.label;const g=(CAL.gradeSpecific||[]).find(x=>x.date==d&&x.appliesTo.includes(k));return g?g.label:null}
+async function kid(k,date){const K=KIDS[k];await cal();const d=date||iso(new Date());const o=off(k,d);const c=o&&!date?null:await get(d);
+ if(!c){app.innerHTML=`<div class="${K.cls}"><div class="wrap"><a href="#">🏠 Home</a><h1>${K.e} ${k=='henry'?"Henry's Engineering Lab":"Super Frankie!"}</h1>
+ <div class="card" style="text-align:center"><h2>🎉 No school today, no homework!</h2><p>${o?`Today is ${o}.`:'There is no lesson for today.'} ${k=='henry'?'Go build, explore, and have fun!':'Go play and draw, hero!'}</p></div>
+ <div class="card">Past lessons: ${INDEX.map(x=>`<a href="#${k}/${x}">${x.slice(5)}</a>`).join(' · ')}</div><p><a href="#parents">Parents</a></p></div></div>`;return}
+ const msg='';
  const L=c[k];app.innerHTML=`<div class="${K.cls}"><div class="wrap"><a href="#">🏠 Home</a>
  <h1>${K.e} ${k=='henry'?"Henry's Engineering Lab":"Super Frankie!"}</h1>${msg?`<div class="card">${msg}</div>`:''}
  <div class="card"><b>${new Date(d+'T12:00').toDateString()} — ${c.subject.toUpperCase()}</b><h2>${L.title}</h2><p>${L.intro}</p><ol>${L.steps.map(s=>`<li>${s}</li>`).join('')}</ol>

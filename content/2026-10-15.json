@@ -1,46 +1,52 @@
 {
  "date": "2026-10-15",
  "subject": "art/music",
+ "theme": "Autumn Harvest",
  "henry": {
-  "title": "Sound Engineering with Song Maker",
-  "intro": "Music has patterns, like code! Rhythm and pitch are engineering tools for sound.",
+  "title": "Harvest Dance Rhythms",
+  "intro": "Harvest festivals have music with strong beats. A rhythm is a pattern of sounds and quiet spaces.",
   "steps": [
-   "Open Song Maker.",
-   "Compose an 8-bar rocket launch theme.",
+   "Make beats in Rhythm (3 min).",
+   "Compose a 'harvest dance' in Song Maker.",
    "Fill in the worksheet."
   ],
   "worksheet": [
-   "What makes a note higher or lower?",
-   "Describe your rocket theme in 3 words.",
-   "Draw a blueprint-style picture of your song (shapes for notes).",
-   "How many beats did you use?"
+   "Write your rhythm with X for a beat and - for quiet (8 boxes).",
+   "What did changing the tempo do?",
+   "Describe your harvest dance in 3 words.",
+   "Draw a picture of a fall festival with music."
   ],
   "links": [
    [
+    "Chrome Music Lab: Rhythm",
+    "https://musiclab.chromeexperiments.com/Rhythm/",
+    "Tap the dots to make the monkeys drum, then press \u25b6."
+   ],
+   [
     "Chrome Music Lab: Song Maker",
     "https://musiclab.chromeexperiments.com/Song-Maker/",
-    "Click squares to add notes, then press \u25b6 to hear your rocket theme."
+    "Click squares to add notes for your harvest dance, then press \u25b6."
    ]
   ]
  },
  "frankie": {
-  "title": "Draw Your Superhero Song",
-  "intro": "Draw lines and shapes and hear them make music!",
+  "title": "Falling Leaves Song",
+  "intro": "Fall leaves are red, orange, and yellow. Let's draw leaves and hear them sing!",
   "steps": [
-   "Play Kandinsky \u2014 draw and press play.",
-   "Draw your own superhero on the sheet."
+   "Draw leaves in Kandinsky and press play.",
+   "Color leaves on your worksheet."
   ],
   "worksheet": [
-   "Draw your superhero \ud83e\uddb8",
-   "What color is their cape? ___",
-   "Draw their super symbol",
-   "Clap your name! How many claps? ___"
+   "Draw a red leaf \ud83c\udf41",
+   "Draw an orange leaf",
+   "Draw a yellow leaf",
+   "Clap: leaf, leaf, fall-ing! How many claps? ___"
   ],
   "links": [
    [
     "Chrome Music Lab: Kandinsky",
     "https://musiclab.chromeexperiments.com/Kandinsky/",
-    "Draw with your finger or mouse, then tap \u25b6 to hear your picture sing!"
+    "Draw leaves with your finger, then tap \u25b6 to hear them sing!"
    ]
   ]
  }

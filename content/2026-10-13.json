@@ -1,52 +1,53 @@
 {
  "date": "2026-10-13",
  "subject": "science",
+ "theme": "Autumn Harvest",
  "henry": {
-  "title": "Energy Skate Park Engineers",
-  "intro": "Potential and kinetic energy \u2014 like a roller coaster or a skateboarder at a New Mexico skate park!",
+  "title": "Will a Pumpkin Float?",
+  "intro": "It's harvest time in New Mexico! Pumpkins are huge and heavy, but they float. The secret is density: how much stuff is packed into a space.",
   "steps": [
-   "Play Energy Skate Park Basics (5 min).",
-   "Build a track that keeps the skater going.",
+   "Open PhET Density and test blocks in the water (5 min).",
+   "Read NASA's 'What Causes the Seasons?' to see why fall comes.",
    "Fill in the worksheet."
   ],
   "worksheet": [
-   "Where does the skater go fastest? Why?",
-   "Where is potential energy highest?",
-   "Draw your best track design and label high/low energy.",
-   "What happens with friction turned on?",
-   "Engineering challenge: how would you design a coaster that never stops? Is it possible?"
+   "In the sim, which blocks floated? Which sank?",
+   "Finish the sentence: An object floats when it is ___ dense than water.",
+   "Predict: will an apple float or sink? A chile pepper? A potato?",
+   "Why does the Northern Hemisphere get autumn in October? (Use the NASA page.)",
+   "Draw a pumpkin floating in a tub and label 'water' and 'pumpkin'."
   ],
   "links": [
    [
-    "PhET: Energy Skate Park Basics",
-    "https://phet.colorado.edu/sims/html/energy-skate-park-basics/latest/energy-skate-park-basics_en.html",
-    "Click 'Intro', drop the skater on the track, and watch where they go fastest."
+    "PhET: Density",
+    "https://phet.colorado.edu/sims/html/density/latest/density_en.html",
+    "Click 'Intro', then drag blocks into the water. Which ones float?"
    ],
    [
-    "NASA Space Place",
-    "https://spaceplace.nasa.gov/",
-    "Bonus: pick any game or video about space."
+    "NASA Space Place: Seasons",
+    "https://spaceplace.nasa.gov/seasons/en/",
+    "Read the short answer and look at the Earth-and-Sun picture."
    ]
   ]
  },
  "frankie": {
-  "title": "Hero Science: Solid, Liquid, Gas",
-  "intro": "Ice Hero freezes water. Fire Hero melts it! Let's see how water changes.",
+  "title": "Apples Grow on Trees!",
+  "intro": "In fall, farmers pick apples, pumpkins, and chile. Apples grow on trees and have seeds inside!",
   "steps": [
-   "Watch the States of Matter sim with a grown-up.",
-   "Draw ice, water, and steam."
+   "Play Apple Picking with Curious George.",
+   "Draw and count on your worksheet."
   ],
   "worksheet": [
-   "Draw an ice cube \ud83e\uddca",
-   "Draw a glass of water \ud83d\udca7",
-   "Draw steam from a cup \u2601\ufe0f",
-   "Circle the cold one: ice / hot cocoa"
+   "Draw an apple tree \ud83c\udf33\ud83c\udf4e",
+   "Draw 3 apples in the basket. Count them: ___",
+   "Circle what grows on a tree: \ud83c\udf4e / \ud83e\udd55",
+   "Draw the seeds inside an apple"
   ],
   "links": [
    [
-    "PhET: States of Matter",
-    "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html",
-    "Tap the ice-water-cloud picture, then push the fire up \ud83d\udd25 and the ice down \u2744\ufe0f."
+    "PBS KIDS: Apple Picking",
+    "https://pbskids.org/games/play/apple-picking/18951",
+    "Press the green PLAY arrow and help George pick apples!"
    ]
   ]
  }
