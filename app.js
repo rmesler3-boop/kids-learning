@@ -15,7 +15,7 @@ async function kid(k,date){const K=KIDS[k];const today=iso(new Date());const dow
  <h1>${K.e} ${k=='henry'?"Henry's Engineering Lab":"Super Frankie!"}</h1>${msg?`<div class="card">${msg}</div>`:''}
  <div class="card"><b>${new Date(d+'T12:00').toDateString()} — ${c.subject.toUpperCase()}</b><h2>${L.title}</h2><p>${L.intro}</p><ol>${L.steps.map(s=>`<li>${s}</li>`).join('')}</ol>
  <h3>${k=='henry'?'🔬 Tools & Sims':'📺 Watch & Play'}</h3>${L.links.map(([t,u])=>`<button class="act" onclick="window.open('${u}','_blank')">${t}</button>`).join('')}</div>
- <div class="card"><button class="act" onclick="print()">🖨️ Print Worksheet</button>
+ <div class="card"><button class="printbig" onclick="window.print()">🖨️ PRINT MY WORKSHEET</button>
  <div id="ws" class="ws"><h2>${K.n}'s Worksheet — ${L.title}</h2><p>Name: ____________ Date: ${d}</p><ol>${L.worksheet.map(q=>`<li>${q}</li>`).join('')}</ol></div></div>
  <div class="card">Other days: ${INDEX.map(x=>`<a href="#${k}/${x}">${x.slice(5)}</a>`).join(' · ')}</div>
  <p><a href="#parents">Parents</a></p></div></div>`}
@@ -25,6 +25,13 @@ async function parents(){const db=DB(),rows=[];for(const d of INDEX){const c=awa
  <td><input type="number" data-id="${d}|${k}" data-f="mins" value="${r.mins||''}"></td><td><input data-id="${d}|${k}" data-f="notes" value="${(r.notes||'').replace(/"/g,'&quot;')}"></td></tr>`)}}
  app.innerHTML=`<div class="parent"><div class="wrap"><a href="#">🏠 Home</a><h1>Parent Dashboard</h1><p>Score 1 (needs practice) – 5 (got it). Saved automatically on this device.</p>
  <table><tr><th>Date</th><th>Kid</th><th>Subject</th><th>Score</th><th>Minutes</th><th>Notes</th></tr>${rows.join('')}</table>
+ <h2>🖨️ Printer Setup (Windows, one-click printing)</h2>
+ <ol><li>Set your default printer: Start → Settings → Bluetooth &amp; devices → Printers &amp; scanners. Turn <b>off</b> "Let Windows manage my default printer", click your printer → <b>Set as default</b>.</li>
+ <li>Close <b>all</b> Chrome windows (check the system tray too). Kiosk printing only works if Chrome starts fresh from this shortcut.</li>
+ <li>Right-click the desktop → New → Shortcut. For the location, paste:<br><code>"C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe" --kiosk-printing https://rmesler3-boop.github.io/kids-learning/</code></li>
+ <li>Name it "Learning Lab". If Chrome is somewhere else, right-click a Chrome shortcut → Properties to copy its path.</li>
+ <li>Open the app with that shortcut. Now <b>Print My Worksheet</b> goes straight to the default printer with no dialog.</li></ol>
+ <p>Android: Chrome always shows the system print screen. Choose the printer and tap the print button.</p>
  <h2>Strengths & Weaknesses</h2><div id="sum"></div>
  <button class="act" onclick="exp()">Export JSON</button> <label class="act">Import JSON <input type="file" accept=".json" onchange="imp(this)" hidden></label></div></div>`;
  app.querySelectorAll('[data-id]').forEach(el=>el.onchange=()=>{const db=DB(),o=db[el.dataset.id]||{};o[el.dataset.f]=el.value;db[el.dataset.id]=o;save(db);summary()});summary()}
