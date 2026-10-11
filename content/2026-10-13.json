@@ -19,11 +19,13 @@
   "links": [
    [
     "PhET: Energy Skate Park Basics",
-    "https://phet.colorado.edu/en/simulations/energy-skate-park-basics"
+    "https://phet.colorado.edu/sims/html/energy-skate-park-basics/latest/energy-skate-park-basics_en.html",
+    "Click 'Intro', drop the skater on the track, and watch where they go fastest."
    ],
    [
     "NASA Space Place",
-    "https://spaceplace.nasa.gov/"
+    "https://spaceplace.nasa.gov/",
+    "Bonus: pick any game or video about space."
    ]
   ]
  },
@@ -42,8 +44,9 @@
   ],
   "links": [
    [
-    "PhET: States of Matter Basics",
-    "https://phet.colorado.edu/en/simulations/states-of-matter-basics"
+    "PhET: States of Matter",
+    "https://phet.colorado.edu/sims/html/states-of-matter-basics/latest/states-of-matter-basics_en.html",
+    "Tap the ice-water-cloud picture, then push the fire up \ud83d\udd25 and the ice down \u2744\ufe0f."
    ]
   ]
  }

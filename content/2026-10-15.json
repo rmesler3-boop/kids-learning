@@ -18,11 +18,8 @@
   "links": [
    [
     "Chrome Music Lab: Song Maker",
-    "https://musiclab.chromeexperiments.com/Song-Maker/"
-   ],
-   [
-    "Chrome Music Lab: Kandinsky",
-    "https://musiclab.chromeexperiments.com/Kandinsky/"
+    "https://musiclab.chromeexperiments.com/Song-Maker/",
+    "Click squares to add notes, then press \u25b6 to hear your rocket theme."
    ]
   ]
  },
@@ -42,7 +39,8 @@
   "links": [
    [
     "Chrome Music Lab: Kandinsky",
-    "https://musiclab.chromeexperiments.com/Kandinsky/"
+    "https://musiclab.chromeexperiments.com/Kandinsky/",
+    "Draw with your finger or mouse, then tap \u25b6 to hear your picture sing!"
    ]
   ]
  }

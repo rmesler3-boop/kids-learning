@@ -20,11 +20,8 @@
   "links": [
    [
     "PhET: Fractions Intro",
-    "https://phet.colorado.edu/en/simulations/fractions-intro"
-   ],
-   [
-    "Khan Academy 4th grade math",
-    "https://www.khanacademy.org/math/cc-fourth-grade-math"
+    "https://phet.colorado.edu/sims/html/fractions-intro/latest/fractions-intro_en.html",
+    "Click 'Intro', pick a shape, and drag pieces in to build 3/4 and 2/3."
    ]
   ]
  },
@@ -43,8 +40,9 @@
   ],
   "links": [
    [
-    "PBS KIDS Math Games",
-    "https://pbskids.org/games/math"
+    "PhET: Number Play",
+    "https://phet.colorado.edu/sims/html/number-play/latest/number-play_en.html",
+    "Tap the butterfly picture, then tap the arrows to add things and count them!"
    ]
   ]
  }

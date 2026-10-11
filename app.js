@@ -14,7 +14,7 @@ async function kid(k,date){const K=KIDS[k];const today=iso(new Date());const dow
  const L=c[k];app.innerHTML=`<div class="${K.cls}"><div class="wrap"><a href="#">🏠 Home</a>
  <h1>${K.e} ${k=='henry'?"Henry's Engineering Lab":"Super Frankie!"}</h1>${msg?`<div class="card">${msg}</div>`:''}
  <div class="card"><b>${new Date(d+'T12:00').toDateString()} — ${c.subject.toUpperCase()}</b><h2>${L.title}</h2><p>${L.intro}</p><ol>${L.steps.map(s=>`<li>${s}</li>`).join('')}</ol>
- <h3>${k=='henry'?'🔬 Tools & Sims':'📺 Watch & Play'}</h3>${L.links.map(([t,u])=>`<button class="act" onclick="window.open('${u}','_blank')">${t}</button>`).join('')}</div>
+ <h3>${k=='henry'?'🔬 Tools & Sims':'📺 Watch & Play'}</h3>${L.links.map(([t,u,i])=>`<p><button class="act" onclick="window.open('${u}','_blank')">${t}</button> ${i||''}</p>`).join('')}</div>
  <div class="card"><button class="printbig" onclick="window.print()">🖨️ PRINT MY WORKSHEET</button>
  <div id="ws" class="ws"><h2>${K.n}'s Worksheet — ${L.title}</h2><p>Name: ____________ Date: ${d}</p><ol>${L.worksheet.map(q=>`<li>${q}</li>`).join('')}</ol></div></div>
  <div class="card">Other days: ${INDEX.map(x=>`<a href="#${k}/${x}">${x.slice(5)}</a>`).join(' · ')}</div>
