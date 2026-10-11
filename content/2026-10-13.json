@@ -15,7 +15,8 @@
    "Finish the sentence: An object floats when it is ___ dense than water.",
    "Predict: will an apple float or sink? A chile pepper? A potato?",
    "Why does the Northern Hemisphere get autumn in October? (Use the NASA page.)",
-   "Draw a pumpkin floating in a tub and label 'water' and 'pumpkin'."
+   "Draw a pumpkin floating in a tub and label 'water' and 'pumpkin'.",
+   "Which materials floated, and were their densities bigger or smaller than 1?"
   ],
   "links": [
    [
@@ -28,7 +29,35 @@
     "https://spaceplace.nasa.gov/seasons/en/",
     "Read the short answer and look at the Earth-and-Sun picture."
    ]
-  ]
+  ],
+  "guides": {
+   "0": {
+    "steps": [
+     [
+      "guides/density1.webp",
+      "Click the picture that says <b>Intro</b>."
+     ],
+     [
+      "guides/density2.webp",
+      "See the wood block <b>floating</b>? Its density is less than water."
+     ],
+     [
+      "guides/density3.webp",
+      "Click the little \u25bc menu at the top right and pick <b>Brick</b>."
+     ],
+     [
+      "guides/density4.webp",
+      "Watch: the brick <b>sinks</b> to the bottom!"
+     ],
+     [
+      "guides/density5.webp",
+      "Look at the density bar on top. Water is 1. Anything bigger than 1 sinks."
+     ]
+    ],
+    "look": "Try Ice, Styrofoam and Aluminum too. Which ones float?",
+    "q": "Which materials floated, and were their densities bigger or smaller than 1?"
+   }
+  }
  },
  "frankie": {
   "title": "Apples Grow on Trees!",
@@ -41,7 +70,8 @@
    "Draw an apple tree \ud83c\udf33\ud83c\udf4e",
    "Draw 3 apples in the basket. Count them: ___",
    "Circle what grows on a tree: \ud83c\udf4e / \ud83e\udd55",
-   "Draw the seeds inside an apple"
+   "Draw the seeds inside an apple",
+   "How many apples did you get? Draw them!"
   ],
   "links": [
    [
@@ -49,6 +79,22 @@
     "https://pbskids.org/games/play/apple-picking/18951",
     "Press the green PLAY arrow and help George pick apples!"
    ]
-  ]
+  ],
+  "guides": {
+   "0": {
+    "steps": [
+     [
+      "guides/apple1.webp",
+      "\u25b6 Tap PLAY."
+     ],
+     [
+      "guides/apple2.webp",
+      "\ud83d\udd22 Find the missing number \u2753. Tap that apple!"
+     ]
+    ],
+    "look": "Grown-up: read the numbers out loud together, 0, 1, 2...",
+    "q": "How many apples did you get? Draw them!"
+   }
+  }
  }
 }

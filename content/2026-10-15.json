@@ -14,7 +14,9 @@
    "Write your rhythm with X for a beat and - for quiet (8 boxes).",
    "What did changing the tempo do?",
    "Describe your harvest dance in 3 words.",
-   "Draw a picture of a fall festival with music."
+   "Draw a picture of a fall festival with music.",
+   "Write your rhythm with X for a beat and - for quiet.",
+   "What happened when you changed the tempo?"
   ],
   "links": [
    [
@@ -27,7 +29,45 @@
     "https://musiclab.chromeexperiments.com/Song-Maker/",
     "Click squares to add notes for your harvest dance, then press \u25b6."
    ]
-  ]
+  ],
+  "guides": {
+   "0": {
+    "steps": [
+     [
+      "guides/rhythm1.webp",
+      "Click the dots to turn beats on (orange) or off."
+     ],
+     [
+      "guides/rhythm2.webp",
+      "Press \u25b6 to hear the monkeys drum your pattern."
+     ],
+     [
+      "guides/rhythm3.webp",
+      "Click the \u2192 arrow to try other drummers."
+     ]
+    ],
+    "look": "Make a pattern that repeats, like a harvest dance.",
+    "q": "Write your rhythm with X for a beat and - for quiet."
+   },
+   "1": {
+    "steps": [
+     [
+      "guides/song1.webp",
+      "Click squares on the grid to add notes. Higher = higher sound."
+     ],
+     [
+      "guides/song2.webp",
+      "Press the big blue \u25b6 to play your song."
+     ],
+     [
+      "guides/song3.webp",
+      "Drag the Tempo slider to go faster or slower. Click Marimba to change instruments."
+     ]
+    ],
+    "look": "Try a low, bouncy part at the bottom and a tune on top.",
+    "q": "What happened when you changed the tempo?"
+   }
+  }
  },
  "frankie": {
   "title": "Falling Leaves Song",
@@ -40,7 +80,8 @@
    "Draw a red leaf \ud83c\udf41",
    "Draw an orange leaf",
    "Draw a yellow leaf",
-   "Clap: leaf, leaf, fall-ing! How many claps? ___"
+   "Clap: leaf, leaf, fall-ing! How many claps? ___",
+   "Draw your singing leaf on your paper \ud83c\udf41"
   ],
   "links": [
    [
@@ -48,6 +89,26 @@
     "https://musiclab.chromeexperiments.com/Kandinsky/",
     "Draw leaves with your finger, then tap \u25b6 to hear them sing!"
    ]
-  ]
+  ],
+  "guides": {
+   "0": {
+    "steps": [
+     [
+      "guides/kand1.webp",
+      "\u270f\ufe0f Draw!"
+     ],
+     [
+      "guides/kand2.webp",
+      "\u25b6 Tap to hear it!"
+     ],
+     [
+      "guides/kand3.webp",
+      "\ud83d\udd04 Reset to draw again."
+     ]
+    ],
+    "look": "Grown-up: draw a circle together and it gets a face that sings!",
+    "q": "Draw your singing leaf on your paper \ud83c\udf41"
+   }
+  }
  }
 }
