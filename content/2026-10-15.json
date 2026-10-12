@@ -3,112 +3,111 @@
  "subject": "art/music",
  "theme": "Autumn Harvest",
  "henry": {
-  "title": "Harvest Dance Rhythms",
-  "intro": "Harvest festivals have music with strong beats. A rhythm is a pattern of sounds and quiet spaces.",
+  "title": "Harvest Dance Rhythms + First Ukulele Strums",
+  "intro": "Harvest festivals are full of music with strong beats. Today you'll make a rhythm on the computer, then play that same rhythm on YOUR ukulele, and learn your very first chord!",
   "steps": [
-   "Make beats in Rhythm (3 min).",
-   "Compose a 'harvest dance' in Song Maker.",
+   "Make a 4-beat harvest rhythm in Chrome Music Lab Rhythm (3 min).",
+   "Ukulele: follow the 'Show me how' steps below (8 min).",
    "Fill in the worksheet."
   ],
   "worksheet": [
-   "Write your rhythm with X for a beat and - for quiet (8 boxes).",
-   "What did changing the tempo do?",
-   "Describe your harvest dance in 3 words.",
-   "Draw a picture of a fall festival with music.",
-   "Write your rhythm with X for a beat and - for quiet.",
-   "What happened when you changed the tempo?"
+   "Write your 4-beat rhythm: X = strum, - = quiet.  ___ ___ ___ ___",
+   "Name the 4 ukulele strings from top to bottom: ___ ___ ___ ___",
+   "Which string do you press for the C chord, and with which finger?",
+   "Did the open strings or the C chord sound happier to you? Why?",
+   "Draw the C chord dot on this chart:  G | C | E | A  (fret 1, 2, 3)",
+   "How many times could you play your harvest dance without stopping? ___"
   ],
   "links": [
    [
     "Chrome Music Lab: Rhythm",
     "https://musiclab.chromeexperiments.com/Rhythm/",
-    "Tap the dots to make the monkeys drum, then press \u25b6."
+    "Tap the dots to make a 4-beat pattern, then press \u25b6."
    ],
    [
-    "Chrome Music Lab: Song Maker",
-    "https://musiclab.chromeexperiments.com/Song-Maker/",
-    "Click squares to add notes for your harvest dance, then press \u25b6."
+    "Video: Beginner Ukulele Lesson for Kids (C chord)",
+    "https://www.youtube.com/watch?v=RIAjybgTqV8",
+    "Free 6-minute video from My Music Workshop. Watch it, then play along."
    ]
   ],
-  "guides": {
-   "0": {
-    "steps": [
-     [
-      "guides/rhythm1.webp",
-      "Click the dots to turn beats on (orange) or off."
-     ],
-     [
-      "guides/rhythm2.webp",
-      "Press \u25b6 to hear the monkeys drum your pattern."
-     ],
-     [
-      "guides/rhythm3.webp",
-      "Click the \u2192 arrow to try other drummers."
-     ]
+  "handsOn": {
+   "title": "\ud83c\udfb8 Ukulele from zero",
+   "steps": [
+    [
+     "guides/uke-strings.svg",
+     "<b>Hold it:</b> Sit up. Hug the round body gently against your tummy with your right arm. Your left hand holds the skinny neck like a light handshake."
     ],
-    "look": "Make a pattern that repeats, like a harvest dance.",
-    "q": "Write your rhythm with X for a beat and - for quiet."
-   },
-   "1": {
-    "steps": [
-     [
-      "guides/song1.webp",
-      "Click squares on the grid to add notes. Higher = higher sound."
-     ],
-     [
-      "guides/song2.webp",
-      "Press the big blue \u25b6 to play your song."
-     ],
-     [
-      "guides/song3.webp",
-      "Drag the Tempo slider to go faster or slower. Click Marimba to change instruments."
-     ]
+    [
+     "guides/uke-strings.svg",
+     "<b>Meet the strings:</b> From the top string (nearest your face) to the bottom: <b>G, C, E, A</b>. Remember: <i>Green Cows Eat Apples</i>. Pluck each one with your thumb: G\u2026 C\u2026 E\u2026 A."
     ],
-    "look": "Try a low, bouncy part at the bottom and a tune on top.",
-    "q": "What happened when you changed the tempo?"
-   }
+    [
+     "guides/uke-strings.svg",
+     "<b>Strum:</b> Brush your right pointer finger DOWN across all 4 strings over the hole. No left-hand fingers yet, these are 'open strings'. Count 1-2-3-4 and strum on every beat."
+    ],
+    [
+     "guides/uke-strings.svg",
+     "<b>Play your computer rhythm:</b> Strum only on the beats you turned ON in Chrome Music Lab. Stay quiet on the others."
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "<b>Your first chord, C:</b> Put the TIP of your left ring finger (finger 3) on the bottom A string, in the 3rd space (fret 3). Press firmly. Pluck the A string: does it ring? Then strum all 4. That's a C chord!"
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "<b>Harvest dance:</b> Strum C, C, C, C (4 beats), then 4 open strums. Repeat 4 times. Go slowly!"
+    ]
+   ],
+   "look": "If a string buzzes, press harder with your fingertip, just behind the fret wire. If it sounds very wrong, the uke may be out of tune: ask a grown-up to tune it with a free tuner app.",
+   "q": "Which string do you press for the C chord, and with which finger?"
   }
  },
  "frankie": {
-  "title": "Falling Leaves Song",
-  "intro": "Fall leaves are red, orange, and yellow. Let's draw leaves and hear them sing!",
+  "title": "Falling Leaves on the Piano \ud83c\udf42",
+  "intro": "Leaves fall DOWN from the tree. Let's make music that falls down too, then paint it!",
   "steps": [
-   "Draw leaves in Kandinsky and press play.",
-   "Color leaves on your worksheet."
+   "Piano: follow the pictures below with a grown-up (7 min).",
+   "Easel: paint falling leaves while a grown-up plays your song (6 min)."
   ],
   "worksheet": [
-   "Draw a red leaf \ud83c\udf41",
-   "Draw an orange leaf",
-   "Draw a yellow leaf",
-   "Clap: leaf, leaf, fall-ing! How many claps? ___",
-   "Draw your singing leaf on your paper \ud83c\udf41"
+   "Color the leaves: \ud83d\udd34 red, \ud83d\udfe0 orange, \ud83d\udfe1 yellow, \ud83d\udfe2 green, \ud83d\udfe4 brown",
+   "Draw the 2 black keys \u2b1b\u2b1b",
+   "Draw the 3 black keys \u2b1b\u2b1b\u2b1b",
+   "Draw your falling leaves \ud83c\udf41 (from your easel picture)"
   ],
   "links": [
    [
     "Chrome Music Lab: Kandinsky",
     "https://musiclab.chromeexperiments.com/Kandinsky/",
-    "Draw leaves with your finger, then tap \u25b6 to hear them sing!"
+    "Bonus: draw leaves and tap \u25b6 to hear them sing!"
    ]
   ],
-  "guides": {
-   "0": {
-    "steps": [
-     [
-      "guides/kand1.webp",
-      "\u270f\ufe0f Draw!"
-     ],
-     [
-      "guides/kand2.webp",
-      "\u25b6 Tap to hear it!"
-     ],
-     [
-      "guides/kand3.webp",
-      "\ud83d\udd04 Reset to draw again."
-     ]
+  "handsOn": {
+   "title": "\ud83c\udfb9 Piano + \ud83c\udfa8 Easel",
+   "steps": [
+    [
+     "guides/piano-leaves.svg",
+     "\ud83d\udc40 Find the <b>2</b> black keys (blue). Find the <b>3</b> black keys (purple)."
     ],
-    "look": "Grown-up: draw a circle together and it gets a face that sings!",
-    "q": "Draw your singing leaf on your paper \ud83c\udf41"
-   }
+    [
+     "guides/piano-leaves.svg",
+     "\ud83c\udff7\ufe0f Grown-up: put stickers on 5 white keys: \ud83d\udd345 \ud83d\udfe04 \ud83d\udfe13 \ud83d\udfe22 \ud83d\udfe41. The brown 1 is just left of the 2 black keys."
+    ],
+    [
+     "guides/piano-leaves.svg",
+     "\u261d\ufe0f Play 5 \u2192 4 \u2192 3 \u2192 2 \u2192 1. Leaves falling! \ud83c\udf42"
+    ],
+    [
+     "guides/piano-leaves.svg",
+     "\ud83d\udd01 Play it 3 times: slow\u2026 slower\u2026 sleepy."
+    ],
+    [
+     "guides/piano-leaves.svg",
+     "\ud83c\udfa8 Easel: paint leaves falling while a grown-up plays the song."
+    ]
+   ],
+   "look": "Grown-up, read aloud. Each key is a leaf: red at the top of the tree, brown on the ground. Say the colors as he plays.",
+   "q": "Draw your falling leaves \ud83c\udf41"
   }
  }
 }
