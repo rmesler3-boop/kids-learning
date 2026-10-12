@@ -25,3 +25,4 @@ details.guide summary{font-weight:900;cursor:pointer;font-size:1.1em}
 details.guide ol{padding-left:1.4em}details.guide li{margin:.8rem 0}
 details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333;border-radius:8px;margin-bottom:.3rem}
 .frankie details.guide li span{font-size:1.4em}
+.simf{width:100%;height:1150px;border:4px solid #000;border-radius:12px;background:#fff}@media print{.simf{display:none}}

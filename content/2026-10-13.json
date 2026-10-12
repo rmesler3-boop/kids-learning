@@ -3,59 +3,53 @@
  "subject": "science",
  "theme": "Autumn Harvest",
  "henry": {
-  "title": "Will a Pumpkin Float?",
-  "intro": "It's harvest time in New Mexico! Pumpkins are huge and heavy, but they float. The secret is density: how much stuff is packed into a space.",
+  "title": "Harvest Barge: Why Does a Steel Ship Float?",
+  "intro": "A steel block sinks, but a giant steel ship floats. The secret is SHAPE: a hull pushes away lots of water. If the water pushed away weighs more than the boat and its cargo, it floats. Your mission: shape 170 g of clay into a barge that carries the most mini pumpkins to the harvest market!",
   "steps": [
-   "Open PhET Density and test blocks in the water (5 min).",
-   "Read NASA's 'What Causes the Seasons?' to see why fall comes.",
-   "Fill in the worksheet."
+   "Open the Harvest Barge sim. Try the clay lump first.",
+   "Shape a boat with the sliders and load pumpkins. Predict before each one!",
+   "Find the design that carries the most pumpkins, and fill in the worksheet.",
+   "Bonus (with a grown-up): build a foil boat and load it with pennies in the sink."
   ],
   "worksheet": [
-   "In the sim, which blocks floated? Which sank?",
-   "Finish the sentence: An object floats when it is ___ dense than water.",
-   "Predict: will an apple float or sink? A chile pepper? A potato?",
-   "Why does the Northern Hemisphere get autumn in October? (Use the NASA page.)",
-   "Draw a pumpkin floating in a tub and label 'water' and 'pumpkin'.",
-   "Which materials floated, and were their densities bigger or smaller than 1?"
+   "Prediction table: for 3 designs, write width, wall height, your guess for max pumpkins, and the real max.",
+   "Archimedes' idea in your own words: a floating boat pushes away water that weighs ___.",
+   "The lump and the boat are the SAME 170 g of clay. Why does one sink and the other float?",
+   "Why did the boat sink when you added one too many pumpkins? Use the words 'average density' and '1.0'.",
+   "Sketch your best design. Label width, wall height, and pumpkin count.",
+   "Why do walls that are too tall and wide tear? What trade-off did you have to make?",
+   "Hands-on bonus: how many pennies did your foil boat hold?"
   ],
   "links": [
    [
-    "PhET: Density",
-    "https://phet.colorado.edu/sims/html/density/latest/density_en.html",
-    "Click 'Intro', then drag blocks into the water. Which ones float?"
+    "Harvest Barge Challenge (built-in sim)",
+    "sims/harvest-barge.html",
+    "Shape your clay boat, then load pumpkins until it almost sinks!"
    ],
    [
     "NASA Space Place: Seasons",
     "https://spaceplace.nasa.gov/seasons/en/",
-    "Read the short answer and look at the Earth-and-Sun picture."
+    "Bonus: why is it autumn in October?"
    ]
   ],
   "guides": {
    "0": {
     "steps": [
      [
-      "guides/density1.webp",
-      "Click the picture that says <b>Intro</b>."
+      "guides/barge1.webp",
+      "Tap <b>Clay lump</b>. 170 g squeezed into 100 cm\u00b3 has a density of 1.7, so it sinks."
      ],
      [
-      "guides/density2.webp",
-      "See the wood block <b>floating</b>? Its density is less than water."
+      "guides/barge2.webp",
+      "Tap <b>Boat shape</b> and drag the <b>width</b> and <b>wall height</b> sliders. Now the same clay holds lots of air."
      ],
      [
-      "guides/density3.webp",
-      "Click the little \u25bc menu at the top right and pick <b>Brick</b>."
-     ],
-     [
-      "guides/density4.webp",
-      "Watch: the brick <b>sinks</b> to the bottom!"
-     ],
-     [
-      "guides/density5.webp",
-      "Look at the density bar on top. Water is 1. Anything bigger than 1 sinks."
+      "guides/barge3.webp",
+      "Tap <b>Load a pumpkin</b>, predict FLOAT or SINK, and watch the density meter creep toward 1.0."
      ]
     ],
-    "look": "Try Ice, Styrofoam and Aluminum too. Which ones float?",
-    "q": "Which materials floated, and were their densities bigger or smaller than 1?"
+    "look": "Watch 'Water pushed away' and 'Boat + cargo weight'. It sinks when the weight passes the most water the hull CAN push away.",
+    "q": "What was your best design (width and height), and how many pumpkins did it carry?"
    }
   }
  },

@@ -1,0 +1,83 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Harvest Barge Challenge</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Arial,sans-serif;background:#fef3c7;color:#1f2937;font-size:18px}
+.wrap{max-width:860px;margin:auto;padding:.5rem}h1{margin:.2rem 0;text-align:center;font-size:1.5rem}
+.q{text-align:center;font-weight:700;margin:.2rem 0 .5rem}
+svg{width:100%;height:auto;display:block;border:5px solid #334155;border-radius:14px;background:#e0f2fe;touch-action:manipulation}
+.row{display:flex;flex-wrap:wrap;gap:.5rem;justify-content:center;align-items:center;margin:.5rem 0}
+button{font-size:1.1rem;font-weight:800;padding:.6rem 1rem;border-radius:12px;border:3px solid #334155;background:#fff;cursor:pointer;min-height:48px}
+button.on{background:#facc15}button.big{font-size:1.3rem;background:#fb923c;color:#fff}
+.sl{background:#fff;border:3px solid #334155;border-radius:12px;padding:.4rem .7rem;flex:1;min-width:250px}
+.sl input{width:100%;height:36px}
+#msg{min-height:3rem;padding:.5rem;border-radius:12px;border:3px solid #334155;background:#fff;font-weight:800;text-align:center;font-size:1.15rem}
+.f{color:#15803d}.s{color:#b91c1c}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:.4rem;margin:.5rem 0}
+.stats div{background:#fff;border:3px solid #334155;border-radius:12px;padding:.4rem;text-align:center}.stats b{display:block;font-size:1.4rem}
+#meter{position:relative;height:40px;margin:.6rem 0 1.6rem;background:linear-gradient(90deg,#bbf7d0 0 50%,#fecaca 50%);border:3px solid #334155;border-radius:10px}
+#meter .one{position:absolute;left:50%;top:-8px;bottom:-8px;border-left:4px solid #0c4a6e}
+#meter span{position:absolute;bottom:-1.5rem;font-size:.85rem;font-weight:700;transform:translateX(-50%)}
+#mk{position:absolute;top:0;font-size:1.8rem;transform:translateX(-50%);transition:left .6s}
+#pq{display:none;background:#fff;border:3px solid #f59e0b;border-radius:12px;padding:.5rem;text-align:center;font-weight:800;font-size:1.2rem}
+#pq .fb{background:#bbf7d0}#pq .sb{background:#fecaca}
+table{width:100%;border-collapse:collapse;background:#fff}td,th{border:2px solid #334155;padding:.25rem;text-align:center}
+</style></head><body><div class="wrap">
+<h1>🎃 Harvest Barge Challenge 🚢</h1>
+<p class="q">Why does a steel ship float when a steel block sinks? You have <b>170 g of clay</b>. Shape it, then carry the most 50 g mini pumpkins!</p>
+<div class="row"><button id="mLump">🪨 Clay lump</button><button id="mBoat" class="on">🛶 Boat shape</button><button id="pt" class="on">🤔 Predict first: ON</button></div>
+<div class="row" id="sliders">
+ <div class="sl">↔ Hull width: <b id="wv"></b> cm<input id="w" type="range" min="4" max="20" step="0.5" value="8"></div>
+ <div class="sl">↕ Wall height: <b id="hv"></b> cm<input id="h" type="range" min="1" max="10" step="0.5" value="3"></div>
+</div>
+<svg id="sv" viewBox="0 0 800 340"></svg>
+<div id="pq"></div>
+<div class="row"><button class="big" id="add">➕ Load a pumpkin</button><button id="rem">➖ Unload</button><button id="rst">🔄 New boat</button></div>
+<div id="msg"></div>
+<div class="stats">
+ <div>⚖️ Boat + cargo weight<b id="wt"></b></div>
+ <div>💧 Water pushed away now<b id="dp"></b></div>
+ <div>🛟 Most water it CAN push away<b id="mx"></b></div>
+ <div>🎯 Score / 🏆 Best<b id="sc"></b></div>
+</div>
+<div>Average density of boat + air + cargo: <b id="dv"></b></div>
+<div id="meter"><div class="one"></div><span style="left:0">0</span><span style="left:50%">1.0 = water</span><span style="left:97%">2.0</span><div id="mk">▼</div></div>
+<table><thead><tr><th>Width</th><th>Wall height</th><th>Pumpkins carried</th><th>What happened</th></tr></thead><tbody id="log"></tbody></table>
+<p style="font-size:.9rem">Walls thinner than 0.2 cm tear. Each pumpkin needs a 4 cm × 4 cm spot on the deck. (Square boat: width × width floor.)</p>
+</div>
+<script>
+const CLAY=170,CV=100,PK=50,TMIN=0.2,$=s=>document.getElementById(s);
+let boat=true,pred=true,n=0,sunk=false,right=0,tries=0,best=+localStorage.hbBest||0;
+const geo=()=>{const W=+$('w').value,H=+$('h').value,area=W*W+4*W*H,t=CV/area,spots=Math.floor(W/4)**2;return{W,H,t,spots,vol:boat?W*W*H:CV}};
+function state(k){const g=geo(),m=CLAY+k*PK,d=m/g.vol;let why=null;
+ if(boat&&g.t<TMIN)why='tear';else if(d>1)why=boat?'over':'dense';return{g,m,d,why}}
+function draw(){const s=state(n),g=s.g,sv=$('sv'),wl=110,sc=14,bw=boat?g.W*sc*1.6:70,bh=boat?g.H*sc*1.6:70;
+ let y;if(sunk||s.why)y=320-bh;else{const draft=boat?s.m/(g.W*g.W):0;y=wl-bh+draft*sc*1.6}
+ const x=400-bw/2;let p='';
+ for(let i=0;i<n;i++){const per=Math.max(1,Math.floor(bw/34));p+=`<text x="${x+8+(i%per)*34}" y="${y+bh-6-Math.floor(i/per)*30}" font-size="30">🎃</text>`}
+ sv.innerHTML=`<rect x="0" y="${wl}" width="800" height="230" fill="#38bdf8"/><line x1="0" x2="800" y1="${wl}" y2="${wl}" stroke="#0c4a6e" stroke-width="3" stroke-dasharray="10 6"/>
+ <text x="790" y="${wl-8}" text-anchor="end" font-size="20" font-weight="900" fill="#0c4a6e">water line</text>
+ ${boat?`<path d="M${x} ${y} L${x} ${y+bh} L${x+bw} ${y+bh} L${x+bw} ${y}" fill="${sunk||s.why?'#38bdf888':'#fff8'}" stroke="#92400e" stroke-width="${Math.max(3,g.t*25)}"/>`:`<rect x="${x}" y="${y}" width="${bw}" height="${bh}" rx="25" fill="#b45309"/>`}${p}
+ <rect x="0" y="330" width="800" height="10" fill="#a16207"/>`;
+ $('wv').textContent=g.W;$('hv').textContent=g.H;$('wt').textContent=s.m+' g';
+ $('mx').textContent=(boat?Math.round(g.vol):CV)+' g';$('dp').textContent=Math.round(Math.min(s.m,boat&&!s.why?s.m:(boat?g.vol:CV)))+' g';
+ $('dv').textContent=s.d.toFixed(2)+(s.d<1?' (less than water, floats)':' (more than water, sinks)');$('mk').style.left=Math.min(98,s.d/2*100)+'%';
+ $('sc').textContent=`${right}/${tries} · 🏆 ${best}🎃`;$('add').disabled=sunk||!boat;$('sliders').style.opacity=boat?1:.4}
+function say(h){$('msg').innerHTML=h}
+function check(){const s=state(n),g=s.g;
+ if(s.why){sunk=true;const r={tear:'💥 The walls were too thin and tore! Thicker walls or a smaller boat.',over:`🌊 SUNK! Weight ${s.m} g is more than the ${Math.round(g.vol)} g of water the hull can push away. Water poured over the walls!`,dense:`⬇ The lump sinks: 170 g in only 100 cm³ = density 1.7, more than water.`}[s.why];
+  say(`<span class="s">${r}</span>`);return false}
+ say(`<span class="f">⬆ Floating! It pushes away ${s.m} g of water, the same as its weight. Average density ${s.d.toFixed(2)} &lt; 1.0</span>`);return true}
+function log(k,what){const g=geo();$('log').insertAdjacentHTML('beforeend',`<tr><td>${g.W}</td><td>${g.H}</td><td>${k}</td><td>${what}</td></tr>`);if(boat&&k>best&&what!='tore'){best=k;localStorage.hbBest=best}}
+function load(g){const ok=(()=>{n++;return check()})();if(g){tries++;const real=ok?'FLOAT':'SINK';if(real==g){right++;say($('msg').innerHTML+'<br>✅ You predicted it!')}else say($('msg').innerHTML+'<br>🤔 Surprise! Figure out why.')}
+ if(ok&&n>best){best=n;localStorage.hbBest=best}if(!ok)log(n-1,'sank with '+n);draw()}
+$('add').onclick=()=>{if(sunk)return;const g=geo();if(n>=g.spots){say('No room on deck! Make the hull wider.');return}
+ if(pred){$('pq').style.display='block';$('pq').innerHTML=`With pumpkin #${n+1} will it float or sink?<br><button class="fb" onclick="go('FLOAT')">⬆ FLOAT</button> <button class="sb" onclick="go('SINK')">⬇ SINK</button>`}else load(null)};
+window.go=g=>{$('pq').style.display='none';load(g)};
+$('rem').onclick=()=>{if(n>0){n--;sunk=false;check();draw()}};
+$('rst').onclick=()=>{if(boat&&n&&!sunk)log(n,'floated');n=0;sunk=false;check();draw()};
+['w','h'].forEach(i=>$(i).oninput=()=>{n=0;sunk=false;const g=geo();check();say($('msg').innerHTML+`<br>Wall thickness ${g.t.toFixed(2)} cm · deck holds ${g.spots} 🎃`);draw()});
+$('mLump').onclick=()=>{boat=false;n=0;sunk=false;$('mLump').classList.add('on');$('mBoat').classList.remove('on');check();draw()};
+$('mBoat').onclick=()=>{boat=true;n=0;sunk=false;$('mBoat').classList.add('on');$('mLump').classList.remove('on');check();draw()};
+$('pt').onclick=()=>{pred=!pred;$('pt').classList.toggle('on',pred);$('pt').textContent='🤔 Predict first: '+(pred?'ON':'OFF')};
+check();draw();
+</script></body></html>
