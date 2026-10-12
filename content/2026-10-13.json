@@ -24,7 +24,7 @@
    [
     "Harvest Barge Challenge (built-in sim)",
     "sims/harvest-barge.html",
-    "Shape your clay boat, then load pumpkins until it almost sinks!"
+    "Follow the 3 steps: sink the lump, shape a boat, then load pumpkins!"
    ],
    [
     "NASA Space Place: Seasons",
@@ -37,18 +37,18 @@
     "steps": [
      [
       "guides/barge1.webp",
-      "Tap <b>Clay lump</b>. 170 g squeezed into 100 cm\u00b3 has a density of 1.7, so it sinks."
+      "<b>Step 1:</b> Tap <b>Drop the clay lump</b>. Watch it sink, then tap Next."
      ],
      [
       "guides/barge2.webp",
-      "Tap <b>Boat shape</b> and drag the <b>width</b> and <b>wall height</b> sliders. Now the same clay holds lots of air."
+      "<b>Step 2:</b> Drag <b>How wide?</b> and <b>How tall are the walls?</b> until the message turns green, then tap Next."
      ],
      [
       "guides/barge3.webp",
-      "Tap <b>Load a pumpkin</b>, predict FLOAT or SINK, and watch the density meter creep toward 1.0."
+      "<b>Step 3:</b> Tap <b>\u2795 Add pumpkin</b>, guess \ud83d\udc4d or \ud83d\udc4e, and watch the Sink-o-meter. When it sinks, tap Try again with a new shape!"
      ]
     ],
-    "look": "Watch 'Water pushed away' and 'Boat + cargo weight'. It sinks when the weight passes the most water the hull CAN push away.",
+    "look": "The Sink-o-meter needle moves toward red with each pumpkin. Open 'Show the science numbers' to see the weight and how much water the boat can push away.",
     "q": "What was your best design (width and height), and how many pumpkins did it carry?"
    }
   }
