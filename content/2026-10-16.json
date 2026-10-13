@@ -4,45 +4,40 @@
  "theme": "Autumn Harvest",
  "henry": {
   "title": "Autumn Senses Poem",
-  "intro": "Poets use the five senses. Think about roasting green chile in fall: the smell, the crackle, the color!",
+  "intro": "Poets use the 5 senses: see, hear, smell, taste, touch. Today you'll collect real fall sense words and turn them into a 5-line poem. (About 15 minutes.)",
   "steps": [
-   "Look at a fall satellite picture on NASA Earth Observatory for ideas.",
-   "Brainstorm sense words.",
-   "Write your poem."
+   "FIRST (5 min): Sense hunt! Go outside or to a window, and the kitchen. For each sense, write one fall thing on question 1. Example: <i>see: yellow cottonwood leaves</i>, <i>smell: roasting green chile</i>.",
+   "NEXT (7 min): Turn each word into one line of your poem (question 2). Start each line with 'I see', 'I hear', 'I smell', 'I taste', 'I feel'. Example: <i>I hear leaves crunch under my shoes.</i>",
+   "LAST (3 min): do questions 3 and 4. You're done when your poem has 5 lines and a title!"
   ],
   "worksheet": [
-   "List one fall word for each sense: see, hear, smell, taste, touch.",
-   "Write a 5-line poem, one line per sense.",
-   "Underline 2 adjectives.",
-   "Find a simile (like/as) or write one.",
-   "Give your poem a title."
+   "Sense hunt: see ________ hear ________ smell ________ taste ________ touch ________",
+   "My poem (one line for each sense):<br>I see ____________________<br>I hear ____________________<br>I smell ____________________<br>I taste ____________________<br>I feel ____________________",
+   "Describing words (adjectives) tell what something is like, like <i>crunchy</i> or <i>golden</i>. Underline 2 in your poem.",
+   "A simile compares with 'like' or 'as'. Example: <i>The leaves are as red as chile.</i> Write one: ____________________",
+   "Title of my poem: ____________________"
   ],
-  "links": [
-   [
-    "NASA Earth Observatory",
-    "https://earthobservatory.nasa.gov/",
-    "Look at the satellite pictures and find colors to use in your poem."
-   ]
-  ]
+  "links": []
  },
  "frankie": {
-  "title": "P is for Pumpkin!",
-  "intro": "P makes the /p/ sound, like pop, pie, and pumpkin!",
+  "title": "P is for Pumpkin! \ud83c\udf83",
+  "intro": "Grown-up, read aloud: P says /p/, like pop, pie and pumpkin! (About 10 minutes.)",
   "steps": [
-   "Play a PBS KIDS reading game with a grown-up.",
-   "Trace and draw P things."
+   "Grown-up: say 'p-p-pumpkin' and pop your lips together. Frankie copies you.",
+   "P hunt (4 min): find 3 things at home that start with /p/ (pillow, pan, pencil, plate, pajamas).",
+   "Worksheet: trace the P's, circle the P pictures, draw a pumpkin. Done!"
   ],
   "worksheet": [
-   "Trace: P P P p p p",
-   "Draw a pumpkin \ud83c\udf83",
-   "Circle the P word: pumpkin / apple",
-   "Write your name"
+   "Trace:<br><img src=\"guides/ws-trace-p.svg\" style=\"height:100px;max-width:100%;display:block\">",
+   "Circle the /p/ pictures:<br><span style=\"font-size:44px;letter-spacing:18px\">\ud83c\udf83 \ud83d\udc37 \ud83c\udf4e \u270f\ufe0f \ud83d\udc31</span>",
+   "Draw a big pumpkin \ud83c\udf83",
+   "Draw one P thing you found at home"
   ],
   "links": [
    [
-    "PBS KIDS Reading Games",
-    "https://pbskids.org/games/reading",
-    "Pick a game with a grown-up and listen for the /p/ sound."
+    "PBS KIDS: Super Why",
+    "https://pbskids.org/superwhy",
+    "Bonus with a grown-up: play a Super Why letter game."
    ]
   ]
  }

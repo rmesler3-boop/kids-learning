@@ -3,46 +3,54 @@
  "subject": "history",
  "theme": "Autumn Harvest",
  "henry": {
-  "title": "The Three Sisters: Ancient Farming in New Mexico",
-  "intro": "Long ago, Ancestral Puebloan farmers grew corn, beans, and squash together, called the Three Sisters. Corn holds up the beans, and squash leaves shade the soil.",
+  "title": "The Three Sisters: How Ancient Farmers Grew Food in the Desert",
+  "intro": "About 800 years ago, Ancestral Pueblo people farmed in the canyons of northern New Mexico, where it hardly rains. They grew corn, beans and squash together, called the 'Three Sisters'. Today you'll find out how they did it. (About 12 minutes.)",
   "steps": [
-   "Look at the Bandelier National Monument page (cliff homes of farming families).",
-   "Read the intro above again.",
-   "Complete the worksheet."
+   "FIRST: open the 'Three Sisters' page (link 1). Read the part that starts 'Corn serves as a trellis'. You'll see how each plant helps the others. Answer questions 1 and 2.",
+   "NEXT: open the 'Ancestral Pueblo Farming' page (link 2). Scroll to the paragraph about rain and water. Find the words <b>pumice</b>, <b>digging stick</b>, and <b>scattering plots</b>. Answer questions 3, 4 and 5.",
+   "LAST: draw your garden (question 6). You're done when all 6 answers are filled in!",
+   "Word help: <b>trellis</b> = something a plant climbs on. <b>mulch</b> = a cover on the dirt that keeps water in. <b>plot</b> = a small patch of garden."
   ],
   "worksheet": [
-   "Name the Three Sisters crops.",
-   "How does each sister help the others?",
-   "Why was water so important for farmers in New Mexico's desert?",
-   "Name one food you eat that comes from corn.",
-   "Draw a Three Sisters garden and label each plant."
+   "The Three Sisters are ________, ________ and ________.",
+   "Match each sister to its job (draw a line):  Corn \u2022   \u2022 adds food to the soil<br>Beans \u2022   \u2022 a pole for beans to climb<br>Squash \u2022   \u2022 big leaves shade the ground",
+   "Pumice is a rock that acts like a ________. Why did farmers put it on their gardens? (Hint: water!)",
+   "What tool did they use to plant seeds? ________",
+   "Why did they plant lots of small gardens in different places instead of one big one? (Example start: 'If one garden dried up...')",
+   "Draw a Three Sisters garden. Label the corn, the beans climbing it, and the squash on the ground."
   ],
   "links": [
    [
-    "NPS: Bandelier National Monument",
-    "https://www.nps.gov/band/index.htm",
-    "Look at the photos of cliff homes where farming families lived."
+    "NPS: The Three Sisters",
+    "https://www.nps.gov/tont/learn/nature/the-three-sisters.htm",
+    "Read the paragraph about how corn, beans and squash help each other."
+   ],
+   [
+    "NPS: Ancestral Pueblo Farming (Bandelier)",
+    "https://www.nps.gov/band/learn/historyculture/ancestral-pueblo-farming.htm",
+    "Look at the photo, then find pumice, digging stick, and scattering plots."
    ]
   ]
  },
  "frankie": {
-  "title": "Long-Ago Farmers",
-  "intro": "Long ago, families in New Mexico grew corn, beans, and squash. They worked together like a team!",
+  "title": "The Three Sisters Garden \ud83c\udf3d",
+  "intro": "Grown-up, read aloud: Long ago, families in New Mexico grew three plants together, like three sisters helping each other: corn \ud83c\udf3d, beans \ud83e\uded8 and squash \ud83c\udf83. (About 10 minutes.)",
   "steps": [
-   "Look at Bandelier pictures with a grown-up.",
-   "Draw a garden on your worksheet."
+   "Grown-up: print the coloring page (link) or show it on the screen.",
+   "Point to each plant together: tall corn, beans climbing up, squash on the ground.",
+   "Frankie colors the page, then does the worksheet. Done!"
   ],
   "worksheet": [
-   "Draw a tall corn plant \ud83c\udf3d",
-   "Draw a round squash \ud83c\udf83",
-   "Circle the food: \ud83c\udf3d / \ud83e\uddf1",
-   "Draw your family picking food"
+   "Circle the 3 sisters:<br><span style=\"font-size:44px;letter-spacing:18px\">\ud83c\udf3d \ud83d\ude97 \ud83e\uded8 \ud83e\uddf8 \ud83c\udf83</span>",
+   "Color the tall one green \ud83c\udf3d and draw beans climbing up it.",
+   "Circle the food:<br><span style=\"font-size:44px;letter-spacing:18px\">\ud83c\udf83 \ud83e\uddf1</span>",
+   "Draw you and your family picking food."
   ],
   "links": [
    [
-    "NPS: Bandelier National Monument",
-    "https://www.nps.gov/band/index.htm",
-    "Look at the pictures with a grown-up. Find the cliff homes!"
+    "NPS: Three Sisters coloring page (printable PDF)",
+    "https://nps.gov/grpo/learn/kidsyouth/upload/coloring-page-3-sisters-508.pdf",
+    "Print it and color the corn, beans and squash."
    ]
   ]
  }

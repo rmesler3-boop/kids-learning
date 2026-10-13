@@ -4,30 +4,30 @@
  "theme": "Autumn Harvest",
  "henry": {
   "title": "Harvest Dance Rhythms + First Ukulele Strums",
-  "intro": "Harvest festivals are full of music with strong beats. Today you'll make a rhythm on the computer, then play that same rhythm on YOUR ukulele, and learn your very first chord!",
+  "intro": "Harvest festivals have music with strong beats. First you'll hear beats on the computer, then you'll play a harvest beat on YOUR ukulele and learn your first chord. (About 15 minutes.)",
   "steps": [
-   "Make a 4-beat harvest rhythm in Chrome Music Lab Rhythm (3 min).",
-   "Ukulele: follow the 'Show me how' steps below (8 min).",
-   "Fill in the worksheet."
+   "FIRST (2 min): open Chrome Music Lab Rhythm. Tap some dots so they light up, then press \u25b6. Each lit dot is a drum hit. Count how many you turned on (question 1).",
+   "NEXT (10 min): open 'Show me how: Ukulele from zero' below and do steps 1 to 6 with your ukulele. Stuck on the C chord? Watch the video (link 2).",
+   "LAST (3 min): fill in the worksheet. You're done when you can play the harvest beat 2 times in a row!"
   ],
   "worksheet": [
-   "Write your 4-beat rhythm: X = strum, - = quiet.  ___ ___ ___ ___",
-   "Name the 4 ukulele strings from top to bottom: ___ ___ ___ ___",
-   "Which string do you press for the C chord, and with which finger?",
-   "Did the open strings or the C chord sound happier to you? Why?",
-   "Draw the C chord dot on this chart:  G | C | E | A  (fret 1, 2, 3)",
-   "How many times could you play your harvest dance without stopping? ___"
+   "How many dots did you light up in Chrome Music Lab Rhythm? ___",
+   "Name the 4 ukulele strings from top to bottom (Hint: Green Cows Eat Apples): ___ ___ ___ ___",
+   "For the C chord, I press the ___ string with my ___ finger, in fret ___.",
+   "Draw a dot where your finger goes for C:<br><img src=\"guides/ws-uke-blank.svg\" style=\"height:150px;display:block\">",
+   "Write the harvest beat with X for strum and - for rest: ___ ___ ___ ___",
+   "Which sounded better to you, open strings or the C chord? Circle one: OPEN / C"
   ],
   "links": [
    [
     "Chrome Music Lab: Rhythm",
     "https://musiclab.chromeexperiments.com/Rhythm/",
-    "Tap the dots to make a 4-beat pattern, then press \u25b6."
+    "Tap dots to light them up, then press \u25b6 to hear the monkeys drum."
    ],
    [
     "Video: Beginner Ukulele Lesson for Kids (C chord)",
     "https://www.youtube.com/watch?v=RIAjybgTqV8",
-    "Free 6-minute video from My Music Workshop. Watch it, then play along."
+    "Only if you're stuck: free 6-minute video that shows the strings and the C chord."
    ]
   ],
   "handsOn": {
@@ -47,7 +47,7 @@
     ],
     [
      "guides/uke-strings.svg",
-     "<b>Play your computer rhythm:</b> Strum only on the beats you turned ON in Chrome Music Lab. Stay quiet on the others."
+     "<b>Harvest beat:</b> Count out loud 1, 2, 3, 4. Strum DOWN on 1, DOWN on 2, rest (no strum) on 3, DOWN on 4. Written down that's <b>X X - X</b>. Do it 4 times."
     ],
     [
      "guides/uke-c-chord.svg",
@@ -55,7 +55,7 @@
     ],
     [
      "guides/uke-c-chord.svg",
-     "<b>Harvest dance:</b> Strum C, C, C, C (4 beats), then 4 open strums. Repeat 4 times. Go slowly!"
+     "<b>Harvest dance with C:</b> Hold the C chord and play the same beat: X X - X. Then let go and play it on open strings. You're done when you can play it 2 times in a row without stopping!"
     ]
    ],
    "look": "If a string buzzes, press harder with your fingertip, just behind the fret wire. If it sounds very wrong, the uke may be out of tune: ask a grown-up to tune it with a free tuner app.",
@@ -66,14 +66,14 @@
   "title": "Falling Leaves on the Piano \ud83c\udf42",
   "intro": "Leaves fall DOWN from the tree. Let's make music that falls down too, then paint it!",
   "steps": [
-   "Piano: follow the pictures below with a grown-up (7 min).",
-   "Easel: paint falling leaves while a grown-up plays your song (6 min)."
+   "Grown-up: open 'Show me how' below and put stickers (or dots of washable marker or small tape) on 5 piano keys like the picture.",
+   "Piano (6 min): Frankie finds the black-key groups, then plays 5-4-3-2-1.",
+   "Easel (6 min): grown-up plays the song while Frankie paints falling leaves. Done!"
   ],
   "worksheet": [
-   "Color the leaves: \ud83d\udd34 red, \ud83d\udfe0 orange, \ud83d\udfe1 yellow, \ud83d\udfe2 green, \ud83d\udfe4 brown",
-   "Draw the 2 black keys \u2b1b\u2b1b",
-   "Draw the 3 black keys \u2b1b\u2b1b\u2b1b",
-   "Draw your falling leaves \ud83c\udf41 (from your easel picture)"
+   "Color the leaves to match the dots:<br><img src=\"guides/ws-leaves.svg\" style=\"height:110px;max-width:100%;display:block\">",
+   "Circle the 2 black keys. Box the 3 black keys.<br><img src=\"guides/ws-keys.svg\" style=\"height:120px;max-width:100%;display:block\">",
+   "Draw your falling-leaves painting \ud83c\udf42"
   ],
   "links": [
    [
