@@ -6,12 +6,12 @@
   "title": "Harvest Dance Rhythms + First Ukulele Strums",
   "intro": "Harvest festivals have music with strong beats. First you'll hear beats on the computer, then you'll play a harvest beat on YOUR ukulele and learn your first chord. (About 15 minutes.)",
   "steps": [
-   "FIRST (2 min): open Chrome Music Lab Rhythm. Tap some dots so they light up, then press \u25b6. Each lit dot is a drum hit. Count how many you turned on (question 1).",
+   "FIRST (2 min): open Chrome Music Lab Rhythm. A few dots are already lit. Tap dots to turn them on (colored) or off (gray), then press \u25b6 in the middle. Each lit dot is a drum hit. Count the lit dots (question 1).",
    "NEXT (10 min): open 'Show me how: Ukulele from zero' below and do steps 1 to 6 with your ukulele. Stuck on the C chord? Watch the video (link 2).",
    "LAST (3 min): fill in the worksheet. You're done when you can play the harvest beat 2 times in a row!"
   ],
   "worksheet": [
-   "How many dots did you light up in Chrome Music Lab Rhythm? ___",
+   "How many dots were lit when you pressed \u25b6 in Chrome Music Lab Rhythm? ___",
    "Name the 4 ukulele strings from top to bottom (Hint: Green Cows Eat Apples): ___ ___ ___ ___",
    "For the C chord, I press the ___ string with my ___ finger, in fret ___.",
    "Draw a dot where your finger goes for C:<br><img src=\"guides/ws-uke-blank.svg\" style=\"height:150px;display:block\">",
@@ -22,7 +22,7 @@
    [
     "Chrome Music Lab: Rhythm",
     "https://musiclab.chromeexperiments.com/Rhythm/",
-    "Tap dots to light them up, then press \u25b6 to hear the monkeys drum."
+    "Tap dots to turn them on or off, then press \u25b6 to hear the monkeys drum."
    ],
    [
     "Video: Beginner Ukulele Lesson for Kids (C chord)",
