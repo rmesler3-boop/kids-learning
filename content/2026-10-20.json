@@ -1,0 +1,82 @@
+{
+ "date": "2026-10-20",
+ "subject": "science",
+ "theme": "Scotland",
+ "henry": {
+  "title": "Loch Ness Layers: Why the Deep Water Stays Cold",
+  "intro": "Loch Ness in Scotland is about 36 km long and about 230 m deep. It holds more fresh water than all the lakes in England and Wales put together! In the deep, the water stays very cold, about 5°C, all year. Today you'll build a tiny loch in a glass to see why. (About 15 minutes.)",
+  "steps": [
+   "FIRST (3 min): ask a grown-up for: a clear glass, cold water, warm water from the tap (grown-up helps with hot), two colors of food coloring (or two juices), a spoon, a small cup.",
+   "NEXT (7 min): Fill the glass 3/4 full with COLD water and add 3 drops of blue. Put 3 drops of red in the small cup of WARM water. Guess first (question 1). Then pour the warm red water slowly onto the back of the spoon over the glass. What you'll see: red floats on top of blue.",
+   "THEN (3 min): stir with the spoon. What you'll see: it turns purple, all mixed. Wind on a real loch does this too.",
+   "LAST (2 min): answer questions 1 to 5. You're done when you've drawn your glass!"
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "🧪 Build a mini loch",
+   "steps": [
+    [
+     "",
+     "<b>1.</b> Cold blue water in the glass. Warm red water in the cup."
+    ],
+    [
+     "",
+     "<b>2.</b> Hold the spoon (back side up) just above the blue. Pour the red onto the spoon, slowly."
+    ],
+    [
+     "",
+     "<b>3.</b> Look from the side. Red sits on top! Cold water is <b>denser</b> (heavier for its size), so it stays down low."
+    ],
+    [
+     "",
+     "<b>4.</b> Stir. Purple means the layers mixed."
+    ]
+   ],
+   "look": "Where is the line between red and blue? That line is like the layers in a real loch.",
+   "q": "Which layer was on top, warm or cold?"
+  },
+  "worksheet": [
+   "Guess BEFORE you pour: will the warm red water go on top or sink? ____________",
+   "What happened? The warm red water stayed on ______ (top / bottom).",
+   "Draw your glass from the side. Color the red layer and the blue layer. Label WARM and COLD.",
+   "Cold water is denser than warm water. In Loch Ness the cold water stays at the ______ (top / bottom).",
+   "What happened when you stirred? Why do you think wind on a loch mixes the layers? ____________"
+  ]
+ },
+ "frankie": {
+  "title": "Rain Cloud in a Jar ☁️🌧️",
+  "intro": "Grown-up, read aloud: Scotland has lots of rain! Let's make a rain cloud in a jar. (About 10 minutes.)",
+  "steps": [
+   "Grown-up: fill a clear glass with water. Spray a puffy cloud of shaving foam on top.",
+   "Frankie drips blue food coloring on the cloud (5 drops).",
+   "Watch! The cloud gets heavy and the blue rain falls down. 🌧️",
+   "Frankie does the worksheet. Done!"
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "☁️ Make rain",
+   "steps": [
+    [
+     "",
+     "☁️ Foam on the water."
+    ],
+    [
+     "",
+     "💧 Blue drops on the cloud."
+    ],
+    [
+     "",
+     "🌧️ Watch it rain!"
+    ]
+   ],
+   "look": "Grown-up: the cloud holds water until it gets too heavy, just like a real cloud.",
+   "q": "Draw the rain!"
+  },
+  "worksheet": [
+   "Draw your cloud and the rain falling.<br><div style='border:3px solid #111;height:110px'></div>",
+   "Scotland is rainy. Circle the weather:<br><span style=\"font-size:44px;letter-spacing:14px\">☔ ☀️ 🌵</span>",
+   "Count the raindrops and circle the number:<br><span style='font-size:44px'>💧💧💧💧</span> &nbsp; <span style='font-size:30px'>3 &nbsp; 4 &nbsp; 5</span>",
+   "Color the cloud grey and the rain blue ☁️"
+  ]
+ }
+}

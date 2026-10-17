@@ -1,0 +1,108 @@
+{
+ "date": "2026-10-22",
+ "subject": "art/music",
+ "theme": "Scotland",
+ "henry": {
+  "title": "Bagpipe Drones, Ukulele and String Detective",
+  "intro": "Bagpipes make a steady hum called a <b>drone</b> while the tune plays on top. Today you'll make your own drone on the ukulele and explore the strings on the guitar and cello. (About 15 minutes.)",
+  "steps": [
+   "FIRST (2 min): watch the 1-minute video (link). Listen for the drone hum and the tune.",
+   "NEXT (6 min): open 'Show me how: Drone on your uke'. Do steps 1 to 4.",
+   "THEN (5 min): open 'Show me how: String detective' and do steps 1 to 4 with the guitar and cello (a grown-up helps with the cello).",
+   "LAST (2 min): answer questions 1 to 5. Done when you can play the drone and sing for 8 beats!"
+  ],
+  "links": [
+   [
+    "Video: What Is a Bagpipe? (1 minute)",
+    "https://www.youtube.com/shorts/A8GMxamH2mc",
+    "Watch and listen for the drone and the tune."
+   ],
+   [
+    "BBC: How bagpipes work",
+    "https://www.bbc.co.uk/programmes/articles/15mzZBRs8rRYrxw0rrrPl2g/how-bagpipes-work",
+    "Optional: read the 'Drones' part."
+   ]
+  ],
+  "handsOn": {
+   "title": "🎸 Drone on your uke + String detective",
+   "steps": [
+    [
+     "guides/uke-c-chord.svg",
+     "<b>Drone:</b> Make your C chord from last week (ring finger on the A string, fret 3)."
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "<b>Strum slowly:</b> down, down, rest, down (X X - X). Keep it going. That steady sound is your <b>drone</b>."
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "<b>Tune on top:</b> Keep strumming and sing 'Row, Row, Row Your Boat'. The C chord fits the whole song! Then try the first line of 'Auld Lang Syne': 'Should auld acquaintance be forgot'."
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "Count how many beats you kept the drone going without stopping."
+    ],
+    [
+     "guides/strings-compare.svg",
+     "<b>Guitar and cello:</b> Pluck each open string on the guitar from thickest to thinnest. Listen: which is lowest?"
+    ],
+    [
+     "guides/strings-compare.svg",
+     "Pluck the cello strings too (grown-up helps). Which is thickest? Does it sound low or high?"
+    ],
+    [
+     "guides/strings-compare.svg",
+     "Pluck one string. Now press your finger halfway down the neck on that string and pluck again. A shorter string sounds higher or lower?"
+    ],
+    [
+     "guides/strings-compare.svg",
+     "Write what you heard on the worksheet."
+    ]
+   ],
+   "look": "Thick strings make low sounds. Short strings make high sounds. The drone is the steady sound underneath a tune.",
+   "q": "What is a drone?"
+  },
+  "worksheet": [
+   "A drone is a ________ sound that keeps going while the tune plays. Circle: STEADY / QUICK",
+   "How many beats did your uke drone last without stopping? ___",
+   "On the guitar, the thickest string sounds ______ (low / high). The thinnest sounds ______.",
+   "When you pressed halfway down a string, the sound got ______ (higher / lower).",
+   "Which instrument is the biggest of the four (piano, ukulele, guitar, cello)? ________ Does it make the lowest sounds? YES / NO"
+  ]
+ },
+ "frankie": {
+  "title": "Mary Had a Little Lamb with a Drone 🎹🐑",
+  "intro": "Grown-up, read aloud: Bagpipes hum one steady sound called a drone while the tune plays. We'll do that on the piano! (About 12 minutes.)",
+  "steps": [
+   "Grown-up: put the colored stickers back on the 5 keys like last Thursday (🟤1 🟢2 🟡3 🟠4 🔴5).",
+   "Grown-up: hold down the LOW brown 1 key (the drone). Frankie plays the tune from the picture with one finger, going left to right.",
+   "Swap! Frankie holds the drone and the grown-up plays the tune.",
+   "Crayons: color a tartan on the worksheet. Done!"
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "🎹 Piano drone song",
+   "steps": [
+    [
+     "guides/song-numbers.svg",
+     "👀 Look at the colored dots. They match your key stickers."
+    ],
+    [
+     "guides/song-numbers.svg",
+     "👆 Press the dots in order: 3 2 1 2 3 3 3 · 2 2 2 · 3 5 5 🐑"
+    ],
+    [
+     "guides/song-numbers.svg",
+     "🤝 A grown-up holds the low 1 the whole time: the drone!"
+    ]
+   ],
+   "look": "Grown-up: the tune is 'Mary Had a Little Lamb'. Sing it together.",
+   "q": "Color the dots on your sheet."
+  },
+  "worksheet": [
+   "Color the dots to match your stickers. 🟤1 🟢2 🟡3 🟠4 🔴5<br><img src=\"guides/ws-song.svg\" style=\"height:170px;max-width:100%;display:block\">",
+   "Color a tartan: first color every row with stripes (red, blue), then color the columns (green, yellow).<br><img src=\"guides/ws-tartan.svg\" style=\"height:150px;max-width:100%;display:block\">",
+   "Circle the piano:<br><span style=\"font-size:44px;letter-spacing:14px\">🎹 🎸 🥁</span>"
+  ]
+ }
+}

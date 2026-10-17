@@ -1,0 +1,53 @@
+{
+ "date": "2026-10-23",
+ "subject": "language arts",
+ "theme": "Scotland",
+ "henry": {
+  "title": "A Postcard to Dad in Scotland",
+  "intro": "Dad will be far away in Scotland. Write him a real postcard! A postcard is short: a greeting, 3 to 4 sentences, and a goodbye. (About 15 minutes.)",
+  "steps": [
+   "FIRST (3 min): look at the Word bank on your worksheet. Pick 3 Scotland words to use.",
+   "NEXT (8 min): write the postcard on the worksheet. Start with <b>Dear Dad,</b> (capital D, comma). Write 4 sentences: (1) what you did this week, (2) one Scotland fact you learned, (3) one wee question for Dad, (4) 'I miss you.' End with <b>Love,</b> and your name.",
+   "THEN (3 min): draw the front of the postcard. You can look at the Scotland pictures (link) for ideas.",
+   "LAST (1 min): check: capital letters? periods? 3 Scotland words? You're done when you check all three!",
+   "Example sentences: <i>This week I learned a drone on my ukulele. Edinburgh Castle is on a rock. Did you see a wee sheep?</i>"
+  ],
+  "links": [
+   [
+    "VisitScotland: Castles (pictures for the front)",
+    "https://www.visitscotland.com/see-do/attractions/castles/",
+    "Look at the pictures and pick one to draw on your postcard."
+   ]
+  ],
+  "worksheet": [
+   "<b>Word bank:</b> loch (lake), glen (valley), wee (small), bonnie (pretty), braw (great), kilt, castle, bagpipes, ceilidh (KAY-lee, a dance party)",
+   "My 3 Scotland words: ______ ______ ______",
+   "<div style='border:3px solid #111;padding:6px;line-height:2.1'>Dear Dad,<br>1. _______________________________<br>2. _______________________________<br>3. _______________________________<br>4. I miss you.<br>Love, ____________</div>",
+   "Draw the front of your postcard: 🖼️<div style='border:3px solid #111;height:110px'></div>",
+   "Check: ☐ capital letters  ☐ periods at the end  ☐ 3 Scotland words"
+  ]
+ },
+ "frankie": {
+  "title": "A Postcard for Dad 💌",
+  "intro": "Grown-up, read aloud: Frankie, let's make a postcard to send Dad in Scotland! (About 10 minutes.)",
+  "steps": [
+   "Grown-up: read the picture words together: castle, sheep, rain, plane, heart.",
+   "Frankie draws a picture for the front. (Draw something Dad will see in Scotland.)",
+   "Frankie tells the grown-up one sentence for Dad. The grown-up writes it. Frankie traces DAD and writes his name. Done!"
+  ],
+  "links": [
+   [
+    "VisitScotland: Castles (pictures)",
+    "https://www.visitscotland.com/see-do/attractions/castles/",
+    "Grown-up: look at the pictures together to get ideas."
+   ]
+  ],
+  "worksheet": [
+   "Picture words:<br><span style=\"font-size:44px;letter-spacing:14px\">🏰 🐑 🌧️ ✈️ ❤️</span>",
+   "Draw the front of the postcard 🖼️<div style='border:3px solid #111;height:130px'></div>",
+   "Say it, the grown-up writes it: <br><div style='border-bottom:3px solid #111;height:36px'></div><div style='border-bottom:3px solid #111;height:36px'></div>",
+   "Trace:<br><img src=\"guides/ws-trace-dad.svg\" style=\"height:90px;max-width:100%;display:block\">",
+   "Write your name: ____________"
+  ]
+ }
+}

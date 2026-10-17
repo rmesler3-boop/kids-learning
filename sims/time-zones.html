@@ -1,0 +1,34 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clock Across the World</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,Arial,sans-serif;background:#eef6ff;color:#111;font-size:20px}
+.w{max-width:760px;margin:auto;padding:8px}h1{font-size:1.3rem;text-align:center;margin:.3rem 0}
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.c{border:4px solid #111;border-radius:16px;padding:10px;text-align:center;background:#fff}
+.c .sky{font-size:3rem}.c .t{font-size:2.2rem;font-weight:900}.c .d{font-size:1rem;font-weight:700}
+#nm{background:#fff7e6}#sc{background:#eef2ff}
+.night{filter:none;background:#1e293b!important;color:#fff}
+.sl{margin:12px 0;border:4px solid #111;border-radius:16px;padding:10px;background:#fff;font-weight:900}
+input[type=range]{width:100%;height:44px;accent-color:#2563eb}
+button{font:inherit;font-weight:900;border:4px solid #111;border-radius:14px;padding:10px 14px;background:#fff;cursor:pointer;min-height:52px}
+button.on{background:#facc15}.row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;margin:8px 0}
+#msg{border:4px solid #111;border-radius:14px;background:#fff;padding:10px;text-align:center;font-weight:800;min-height:3.4rem}
+@media(max-width:480px){.c .t{font-size:1.6rem}body{font-size:18px}}
+</style></head><body><div class="w"><h1>🌍 Clock Across the World: New Mexico ↔ Scotland</h1>
+<div class="cards"><div class="c" id="nm"><b>🏜️ New Mexico</b><div class="sky" id="s1"></div><div class="t" id="t1"></div><div class="d" id="d1"></div></div>
+<div class="c" id="sc"><b>🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland</b><div class="sky" id="s2"></div><div class="t" id="t2"></div><div class="d" id="d2"></div></div></div>
+<div class="sl">⏰ Slide the New Mexico time:<input id="r" type="range" min="0" max="47" value="31"></div>
+<div class="row"><button id="b1">🏫 After school</button><button id="b2">🌙 Bedtime</button><button id="b3">☀️ Wake up</button></div>
+<div class="row"><button id="z7" class="on">This week: Scotland is 7 hours ahead</button><button id="z6">Oct 25–31: 6 hours ahead</button></div>
+<div id="msg"></div></div>
+<script>
+const $=i=>document.getElementById(i);let off=7;
+const fmt=m=>{m=((m%1440)+1440)%1440;const h=Math.floor(m/60),mm=m%60;return(h%12||12)+':'+(mm?'30':'00')+' '+(h<12?'AM':'PM')};
+const sky=m=>{m=((m%1440)+1440)%1440;return m>=420&&m<1080?'☀️':'🌙'};
+function go(){const m=$('r').value*30,s=m+off*60,day=s>=1440?'tomorrow':'same day';
+ $('t1').textContent=fmt(m);$('s1').textContent=sky(m);$('d1').textContent='Today';
+ $('t2').textContent=fmt(s);$('s2').textContent=sky(s);$('d2').textContent=s>=1440?'Next day!':'Same day';
+ $('nm').classList.toggle('night',sky(m)=='🌙');$('sc').classList.toggle('night',sky(s)=='🌙');
+ $('msg').textContent=`When it is ${fmt(m)} in New Mexico, it is ${fmt(s)} in Scotland${s>=1440?' (the next day)':''}. Scotland = New Mexico + ${off} hours.`}
+$('r').oninput=go;$('b1').onclick=()=>{$('r').value=31;go()};$('b2').onclick=()=>{$('r').value=40;go()};$('b3').onclick=()=>{$('r').value=14;go()};
+$('z7').onclick=()=>{off=7;$('z7').classList.add('on');$('z6').classList.remove('on');go()};$('z6').onclick=()=>{off=6;$('z6').classList.add('on');$('z7').classList.remove('on');go()};
+go();</script></body></html>

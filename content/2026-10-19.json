@@ -1,0 +1,65 @@
+{
+ "date": "2026-10-19",
+ "subject": "math",
+ "theme": "Scotland",
+ "henry": {
+  "title": "Dad's Trip: Distance and Time to Scotland",
+  "intro": "Dad is flying from Las Cruces to Scotland! Real facts: the trip is about <b>7,850 km</b> in a straight line. 1 km is about <b>0.6 miles</b>. A big plane flies about <b>800 km per hour</b>. Scotland's clocks are <b>7 hours ahead</b> of New Mexico this week. Use these facts and the Clock sim. (About 12 minutes.)",
+  "steps": [
+   "FIRST (4 min): open the Clock sim and do the 3-step guide. You'll see two clocks, one for New Mexico and one for Scotland.",
+   "NEXT (7 min): answer worksheet questions 1 to 6. Use the facts above. Round numbers to make them easy (7,850 is about 8,000).",
+   "LAST: you're done when all 6 answers are written. Check: does each answer have a unit (miles, hours, days)?"
+  ],
+  "links": [
+   [
+    "Clock Across the World (built-in sim)",
+    "sims/time-zones.html",
+    "Slide the clock and watch what time it is in Scotland."
+   ]
+  ],
+  "guides": {
+   "0": {
+    "steps": [
+     [
+      "guides/tz1.webp",
+      "<b>1.</b> Look at the two clocks. Tap <b>🏫 After school</b>. Read both times."
+     ],
+     [
+      "guides/tz2.webp",
+      "<b>2.</b> Drag the slider. Watch the ☀️ turn into 🌙 and the words 'Next day!' appear in Scotland."
+     ],
+     [
+      "guides/tz3.webp",
+      "<b>3.</b> Tap <b>Oct 25–31: 6 hours ahead</b>. Scotland's clocks go back that weekend, so the gap gets smaller."
+     ]
+    ],
+    "look": "The sentence at the bottom tells you both times. Scotland time = New Mexico time + hours ahead.",
+    "q": "Use the sim for questions 3, 4 and 5."
+   }
+  },
+  "worksheet": [
+   "Kilometers to miles: 8,000 km × 0.6 = ___ miles (about)",
+   "A plane flies 800 km each hour. How many hours to fly 8,000 km? ___ hours",
+   "It is 3:30 PM after school in New Mexico. What time is it in Scotland? ___",
+   "Dad goes to bed at 10 PM in Scotland. What time is it in New Mexico? ___ Could you video-call him then? YES / NO",
+   "The sim's 'Oct 25–31' button: Scotland is ___ hours ahead.",
+   "Walking 5 km a day, about how many days would it take to walk 8,000 km? ___ days (hint: 8,000 ÷ 5)"
+  ]
+ },
+ "frankie": {
+  "title": "Count Scotland! 🏰🐑",
+  "intro": "Grown-up, read aloud: Dad is going on an airplane to Scotland! Let's count things that Scotland has: castles, sheep and tartan. (About 10 minutes.)",
+  "steps": [
+   "Grown-up: point to each picture on the worksheet and count out loud together.",
+   "Frankie circles or draws the answers.",
+   "Done when all 4 boxes are finished!"
+  ],
+  "links": [],
+  "worksheet": [
+   "Count the castles. Circle the number.<br><span style=\"font-size:44px;letter-spacing:14px\">🏰🏰🏰🏰</span><br><span style='font-size:30px'>3 &nbsp; 4 &nbsp; 5</span>",
+   "Tartan pattern: what comes next? Circle one.<br><span style=\"font-size:44px;letter-spacing:14px\">🟥🟦🟥🟦🟥</span> <span style='font-size:30px'>?</span><br><span style=\"font-size:44px;letter-spacing:14px\">🟥 🟦</span>",
+   "Draw 5 sheep 🐑 in the green field.<br><div style='border:3px solid #16a34a;height:70px'></div>",
+   "Circle the group with MORE:<br><span style=\"font-size:44px;letter-spacing:14px\">🐑🐑🐑🐑</span> &nbsp; <span style=\"font-size:44px;letter-spacing:14px\">🐑🐑</span>"
+  ]
+ }
+}
