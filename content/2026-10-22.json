@@ -4,11 +4,11 @@
  "theme": "Scotland",
  "henry": {
   "title": "Bagpipe Drones, Ukulele and String Detective",
-  "intro": "Bagpipes make a steady hum called a <b>drone</b> while the tune plays on top. Today you'll make your own drone on the ukulele and explore the strings on the guitar and cello. (About 15 minutes.)",
+  "intro": "Bagpipes make a steady hum called a <b>drone</b> while the tune plays on top. Today you'll make your own drone on the ukulele and explore the strings on the guitar and ukulele. (About 15 minutes.)",
   "steps": [
    "FIRST (2 min): watch the 1-minute video (link). Listen for the drone hum and the tune.",
    "NEXT (6 min): open 'Show me how: Drone on your uke'. Do steps 1 to 4.",
-   "THEN (5 min): open 'Show me how: String detective' and do steps 1 to 4 with the guitar and cello (a grown-up helps with the cello).",
+   "THEN (5 min): open 'Show me how: Drone on your uke + String detective' steps 5 to 8 and do them with the guitar and your ukulele (a grown-up helps hold the guitar).",
    "LAST (2 min): answer questions 1 to 5. Done when you can play the drone and sing for 8 beats!"
   ],
   "links": [
@@ -44,19 +44,19 @@
     ],
     [
      "guides/strings-compare.svg",
-     "<b>Guitar and cello:</b> Pluck each open string on the guitar from thickest to thinnest. Listen: which is lowest?"
+     "<b>Guitar:</b> Pluck each open string from thickest to thinnest. Listen: which is lowest?"
     ],
     [
      "guides/strings-compare.svg",
-     "Pluck the cello strings too (grown-up helps). Which is thickest? Does it sound low or high?"
+     "<b>Ukulele:</b> Pluck its 4 strings. Are they thick or thin compared to the guitar's? Does the thickest one sound low or high?"
     ],
     [
      "guides/strings-compare.svg",
-     "Pluck one string. Now press your finger halfway down the neck on that string and pluck again. A shorter string sounds higher or lower?"
+     "<b>Shorten it:</b> Pluck one guitar string. Press your finger halfway down the neck on it and pluck again. Shorter string sounds higher or lower?"
     ],
     [
      "guides/strings-compare.svg",
-     "Write what you heard on the worksheet."
+     "<b>Long vs short:</b> The guitar's strings are long, the ukulele's are short. Pluck one string on each. Which sounds higher? Write what you heard on the worksheet."
     ]
    ],
    "look": "Thick strings make low sounds. Short strings make high sounds. The drone is the steady sound underneath a tune.",
@@ -67,7 +67,7 @@
    "How many beats did your uke drone last without stopping? ___",
    "On the guitar, the thickest string sounds ______ (low / high). The thinnest sounds ______.",
    "When you pressed halfway down a string, the sound got ______ (higher / lower).",
-   "Which instrument is the biggest of the four (piano, ukulele, guitar, cello)? ________ Does it make the lowest sounds? YES / NO"
+   "The guitar's strings are long and the ukulele's are short. Which instrument sounds higher overall? ________ Is a short string higher or lower? ________"
   ]
  },
  "frankie": {
