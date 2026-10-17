@@ -4,36 +4,73 @@
  "theme": "Scotland",
  "henry": {
   "title": "A Postcard to Dad in Scotland",
-  "intro": "Dad will be far away in Scotland. Write him a real postcard! A postcard is short: a greeting, 3 to 4 sentences, and a goodbye. (About 15 minutes.)",
+  "intro": "Write a postcard to Dad in Scotland. (About 15 minutes.)",
   "steps": [
-   "FIRST (3 min): look at the Word bank on your worksheet. Pick 3 Scotland words to use.",
-   "NEXT (8 min): write the postcard on the worksheet. Start with <b>Dear Dad,</b> (capital D, comma). Write 4 sentences: (1) what you did this week, (2) one Scotland fact you learned, (3) one wee question for Dad, (4) 'I miss you.' End with <b>Love,</b> and your name.",
-   "THEN (3 min): draw the front of the postcard. You can look at the Scotland pictures (link) for ideas.",
-   "LAST (1 min): check: capital letters? periods? 3 Scotland words? You're done when you check all three!",
-   "Example sentences: <i>This week I learned a drone on my ukulele. Edinburgh Castle is on a rock. Did you see a wee sheep?</i>"
+   "🔤 <b>Pick</b> 3 words from the word bank.",
+   "✍️ <b>Write</b> 4 short sentences. Use the starters.",
+   "🖼️ <b>Draw</b> the front of the postcard.",
+   "✅ <b>Check</b> capitals and periods."
   ],
   "links": [
    [
-    "VisitScotland: Castles (pictures for the front)",
+    "Bonus: VisitScotland castles (pictures for the front)",
     "https://www.visitscotland.com/see-do/attractions/castles/",
-    "Look at the pictures and pick one to draw on your postcard."
+    "Look at pictures to get drawing ideas."
    ]
   ],
   "worksheet": [
-   "<b>Word bank:</b> loch (lake), glen (valley), wee (small), bonnie (pretty), braw (great), kilt, castle, bagpipes, ceilidh (KAY-lee, a dance party)",
    "My 3 Scotland words: ______ ______ ______",
-   "<div style='border:3px solid #111;padding:6px;line-height:2.1'>Dear Dad,<br>1. _______________________________<br>2. _______________________________<br>3. _______________________________<br>4. I miss you.<br>Love, ____________</div>",
-   "Draw the front of your postcard: 🖼️<div style='border:3px solid #111;height:110px'></div>",
-   "Check: ☐ capital letters  ☐ periods at the end  ☐ 3 Scotland words"
-  ]
+   "<div style='border:3px solid #111;padding:6px;line-height:2.2'>Dear Dad,<br>This week I ____________________.<br>I learned that ____________________.<br>Dad, did you see ____________________?<br>I miss you.<br>Love, ____________</div>",
+   "Draw the front of your postcard:<div style='border:3px solid #111;height:110px'></div>",
+   "Check: ☐ Capital letters  ☐ Periods  ☐ 3 Scotland words"
+  ],
+  "passage": [
+   {
+    "text": "💌 A postcard has a greeting, a few sentences, and a goodbye. Example: <i>Dear Dad, This week I played a drone. Did you see a wee sheep? I miss you. Love, Henry</i>",
+    "q": "What does the greeting say?",
+    "a": "Dear Dad,"
+   }
+  ],
+  "words": [
+   [
+    "loch",
+    "lake"
+   ],
+   [
+    "glen",
+    "valley"
+   ],
+   [
+    "wee",
+    "small"
+   ],
+   [
+    "bonnie",
+    "pretty"
+   ],
+   [
+    "braw",
+    "great"
+   ],
+   [
+    "ceilidh",
+    "KAY-lee, a dance party"
+   ],
+   [
+    "kilt",
+    "a Scottish skirt for men"
+   ]
+  ],
+  "challenge": "Add a 5th sentence with a describing word, like 'bonnie' or 'crunchy'."
  },
  "frankie": {
   "title": "A Postcard for Dad 💌",
-  "intro": "Grown-up, read aloud: Frankie, let's make a postcard to send Dad in Scotland! (About 10 minutes.)",
+  "intro": "Grown-up, read aloud: Let's make a postcard for Dad in Scotland! (About 14 minutes.)",
   "steps": [
-   "Grown-up: read the picture words together: castle, sheep, rain, plane, heart.",
-   "Frankie draws a picture for the front. (Draw something Dad will see in Scotland.)",
-   "Frankie tells the grown-up one sentence for Dad. The grown-up writes it. Frankie traces DAD and writes his name. Done!"
+   "👀 <b>Say</b> the picture words together.",
+   "🖼️ <b>Draw</b> the front of the postcard.",
+   "🗣️ <b>Tell</b> a sentence. Grown-up writes it.",
+   "✏️ <b>Trace</b> DAD and LOVE (stretch!)."
   ],
   "links": [
    [
@@ -46,7 +83,7 @@
    "Picture words:<br><span style=\"font-size:44px;letter-spacing:14px\">🏰 🐑 🌧️ ✈️ ❤️</span>",
    "Draw the front of the postcard 🖼️<div style='border:3px solid #111;height:130px'></div>",
    "Say it, the grown-up writes it: <br><div style='border-bottom:3px solid #111;height:36px'></div><div style='border-bottom:3px solid #111;height:36px'></div>",
-   "Trace:<br><img src=\"guides/ws-trace-dad.svg\" style=\"height:90px;max-width:100%;display:block\">",
+   "Trace:<br><img src=\"guides/ws-trace-dad.svg\" style=\"height:90px;max-width:100%;display:block\"><br><b>Stretch:</b> <span style=\"font-size:64px;letter-spacing:12px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">LOVE</span>",
    "Write your name: ____________"
   ]
  }

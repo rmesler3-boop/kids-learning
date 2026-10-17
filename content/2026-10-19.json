@@ -4,11 +4,12 @@
  "theme": "Scotland",
  "henry": {
   "title": "Dad's Trip: Distance and Time to Scotland",
-  "intro": "Dad is flying from Las Cruces to Scotland! Real facts: the trip is about <b>7,850 km</b> in a straight line. 1 km is about <b>0.6 miles</b>. A big plane flies about <b>800 km per hour</b>. Scotland's clocks are <b>7 hours ahead</b> of New Mexico this week. Use these facts and the Clock sim. (About 12 minutes.)",
+  "intro": "Dad flies to Scotland! Let's do trip math. (About 12 minutes.)",
   "steps": [
-   "FIRST (4 min): open the Clock sim and do the 3-step guide. You'll see two clocks, one for New Mexico and one for Scotland.",
-   "NEXT (7 min): answer worksheet questions 1 to 6. Use the facts above. Round numbers to make them easy (7,850 is about 8,000).",
-   "LAST: you're done when all 6 answers are written. Check: does each answer have a unit (miles, hours, days)?"
+   "🕐 <b>Open</b> the Clock sim below.",
+   "🖱️ <b>Slide</b> the clock. Watch Scotland's time.",
+   "📖 <b>Read</b> each fact. Answer each check.",
+   "✏️ <b>Fill in</b> the worksheet."
   ],
   "links": [
    [
@@ -22,15 +23,15 @@
     "steps": [
      [
       "guides/tz1.webp",
-      "<b>1.</b> Look at the two clocks. Tap <b>🏫 After school</b>. Read both times."
+      "<b>1.</b> Tap <b>🏫 After school</b>. Read both clocks."
      ],
      [
       "guides/tz2.webp",
-      "<b>2.</b> Drag the slider. Watch the ☀️ turn into 🌙 and the words 'Next day!' appear in Scotland."
+      "<b>2.</b> Drag the slider. ☀️ turns to 🌙."
      ],
      [
       "guides/tz3.webp",
-      "<b>3.</b> Tap <b>Oct 25–31: 6 hours ahead</b>. Scotland's clocks go back that weekend, so the gap gets smaller."
+      "<b>3.</b> Tap <b>Oct 25–31</b>. The gap gets smaller."
      ]
     ],
     "look": "The sentence at the bottom tells you both times. Scotland time = New Mexico time + hours ahead.",
@@ -38,28 +39,60 @@
    }
   },
   "worksheet": [
-   "Kilometers to miles: 8,000 km × 0.6 = ___ miles (about)",
-   "A plane flies 800 km each hour. How many hours to fly 8,000 km? ___ hours",
-   "It is 3:30 PM after school in New Mexico. What time is it in Scotland? ___",
-   "Dad goes to bed at 10 PM in Scotland. What time is it in New Mexico? ___ Could you video-call him then? YES / NO",
-   "The sim's 'Oct 25–31' button: Scotland is ___ hours ahead.",
-   "Walking 5 km a day, about how many days would it take to walk 8,000 km? ___ days (hint: 8,000 ÷ 5)"
-  ]
+   "Dad flies 8,000 km. That is about ____ miles. (8,000 × 0.6)",
+   "The plane flies 800 km in 1 hour. 8,000 km takes ____ hours.",
+   "It is 3:30 PM in New Mexico. Scotland time? Circle: 8:30 PM / 10:30 PM / 11:30 PM",
+   "Dad wakes at 7 AM in Scotland. New Mexico time? Circle: midnight / 7 PM / noon. Should you call? YES / NO",
+   "Challenge: Scotland is ____ hours ahead on Oct 25–31."
+  ],
+  "passage": [
+   {
+    "text": "✈️ Dad's trip is about <b>8,000 km</b>. One km is about <b>0.6 miles</b>. So 8,000 × 0.6 = 4,800 miles.",
+    "q": "About how many miles is the trip?",
+    "a": "About 4,800 miles."
+   },
+   {
+    "text": "🛫 A big plane flies <b>800 km</b> in one hour. To fly 8,000 km, ask: how many 800s fit in 8,000?",
+    "q": "How far does the plane fly in 1 hour?",
+    "a": "800 km."
+   },
+   {
+    "text": "🌍 Scotland is <b>7 hours ahead</b> of New Mexico. Add 7 hours to our time to get Scotland's time.",
+    "q": "Do you add or take away 7 hours?",
+    "a": "Add 7 hours."
+   }
+  ],
+  "words": [
+   [
+    "km",
+    "kilometer, a way to measure distance"
+   ],
+   [
+    "ahead",
+    "later in the day than us"
+   ],
+   [
+    "miles",
+    "how we measure distance in the USA"
+   ]
+  ],
+  "challenge": "The 'Oct 25–31' button: Scotland is ___ hours ahead. Walking 5 km a day, about how many days to walk 8,000 km? (8,000 ÷ 5)"
  },
  "frankie": {
   "title": "Count Scotland! 🏰🐑",
-  "intro": "Grown-up, read aloud: Dad is going on an airplane to Scotland! Let's count things that Scotland has: castles, sheep and tartan. (About 10 minutes.)",
+  "intro": "Grown-up, read aloud: Dad is going on an airplane to Scotland! Let's count things Scotland has. (About 13 minutes.)",
   "steps": [
-   "Grown-up: point to each picture on the worksheet and count out loud together.",
-   "Frankie circles or draws the answers.",
-   "Done when all 4 boxes are finished!"
+   "👆 <b>Point</b> and count each picture together.",
+   "✏️ <b>Circle</b> or <b>draw</b> the answers.",
+   "⭐ <b>Count</b> to 20 (stretch!)."
   ],
   "links": [],
   "worksheet": [
    "Count the castles. Circle the number.<br><span style=\"font-size:44px;letter-spacing:14px\">🏰🏰🏰🏰</span><br><span style='font-size:30px'>3 &nbsp; 4 &nbsp; 5</span>",
    "Tartan pattern: what comes next? Circle one.<br><span style=\"font-size:44px;letter-spacing:14px\">🟥🟦🟥🟦🟥</span> <span style='font-size:30px'>?</span><br><span style=\"font-size:44px;letter-spacing:14px\">🟥 🟦</span>",
    "Draw 5 sheep 🐑 in the green field.<br><div style='border:3px solid #16a34a;height:70px'></div>",
-   "Circle the group with MORE:<br><span style=\"font-size:44px;letter-spacing:14px\">🐑🐑🐑🐑</span> &nbsp; <span style=\"font-size:44px;letter-spacing:14px\">🐑🐑</span>"
+   "Circle the group with MORE:<br><span style=\"font-size:44px;letter-spacing:14px\">🐑🐑🐑🐑</span> &nbsp; <span style=\"font-size:44px;letter-spacing:14px\">🐑🐑</span>",
+   "<b>Stretch:</b> Count the stars to 20. Write the number: ____<br><span style=\"font-size:44px;letter-spacing:14px\">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span><br><span style=\"font-size:44px;letter-spacing:14px\">⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐</span>"
   ]
  }
 }

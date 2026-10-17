@@ -27,3 +27,11 @@ details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333
 .frankie details.guide li span{font-size:1.4em}
 .simf{width:100%;height:1150px;border:4px solid #000;border-radius:12px;background:#fff}@media print{.simf{display:none}}
 @media print{html,body{height:10in;overflow:hidden}.henry,.frankie{min-height:0;height:10in;overflow:hidden}.simf{display:none!important}}
+
+.rdb{background:#bae6fd!important}.wd.hl{background:#fde047;color:#000;border-radius:4px}
+.pass{margin:.8rem 0}.chunk{background:#fff;color:#000;border:3px solid #000;border-radius:12px;padding:.5rem .8rem;margin:.6rem 0}.chunk p{font-size:1.15em;line-height:1.5}
+.chk{background:#fef9c3;border:2px solid #ca8a04;border-radius:8px;padding:.3rem .6rem}.chk summary{font-weight:900;cursor:pointer}
+.wb{background:#ecfccb;color:#000;border:3px solid #4d7c0f;border-radius:12px;padding:.4rem .8rem}.wb ul{margin:.2rem 0}
+.chal{background:#f3e8ff;color:#000;border:3px solid #7e22ce;border-radius:12px;padding:.4rem .8rem;margin:.6rem 0}.chal summary{font-weight:900;cursor:pointer}
+.henry .card ol li{margin:.5rem 0;font-size:1.1em}
+@media print{.rdb{display:none!important}}

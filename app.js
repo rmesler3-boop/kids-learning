@@ -16,10 +16,10 @@ async function kid(k,date){const K=KIDS[k];await cal();const d=date||iso(new Dat
  const msg='';
  const L=c[k];app.innerHTML=`<div class="${K.cls}"><div class="wrap"><a href="#">🏠 Home</a>
  <h1>${K.e} ${k=='henry'?"Henry's Engineering Lab":"Super Frankie!"}</h1>${msg?`<div class="card">${msg}</div>`:''}
- <div class="card"><b>${new Date(d+'T12:00').toDateString()} — ${c.subject.toUpperCase()}</b><h2>${L.title}</h2><p>${L.intro}</p><ol>${L.steps.map(s=>`<li>${s}</li>`).join('')}</ol>
+ <div class="card"><b>${new Date(d+'T12:00').toDateString()} — ${c.subject.toUpperCase()}</b><h2>${L.title}</h2><p id="intro">${L.intro}</p><button class="act rdb" onclick="speakEl('stp')">🔊 Read the steps to me</button><ol id="stp">${L.steps.map(s=>`<li>${s}</li>`).join('')}</ol>${chunksHtml(L)}
  ${L.handsOn?`<details class="guide"><summary>👀 Show me how: ${L.handsOn.title}</summary><ol>${L.handsOn.steps.map(([im,tx],j,a)=>`<li>${j&&a[j-1][0]==im?'':`${im?`<img src="${im}" alt="" loading="lazy">`:''}`}<span>${tx}</span></li>`).join('')}</ol><p>🔍 <b>Look for:</b> ${L.handsOn.look}</p><p>✏️ <b>Worksheet:</b> ${L.handsOn.q}</p></details>`:''}<h3>${k=='henry'?'🔬 Tools & Sims':'📺 Watch & Play'}</h3>${L.links.map(([t,u,i],n)=>{const g=(L.guides||{})[n];return `<div class="lnk">${g?`<details class="guide"><summary>👀 Show me how: ${t}</summary><ol>${g.steps.map(([im,tx])=>`<li>${im?`<img src="${im}" alt="" loading="lazy">`:''}<span>${tx}</span></li>`).join('')}</ol><p>🔍 <b>${k=='henry'?'Look for':'Look'}:</b> ${g.look}</p><p>✏️ <b>Worksheet:</b> ${g.q}</p></details>`:''}<p><button class="act" onclick="window.open('${u}','_blank')">${t}</button> ${i||''}</p>${u.startsWith('sims/')?`<iframe class="simf" style="height:${u.includes('time-zones')?'700px':'1150px'}" src="${u}" title="${t}" loading="lazy"></iframe>`:''}</div>`}).join('')}</div>
- <div class="card"><button class="printbig" onclick="window.print()">🖨️ PRINT MY WORKSHEET</button>
- <div id="ws" class="ws"><h2>${K.n}'s Worksheet — ${L.title}</h2><p>Name: ____________ Date: ${d}</p><ol>${L.worksheet.map(q=>`<li>${q}</li>`).join('')}</ol></div></div>
+ <div class="card"><button class="act rdb" onclick="speakEl('wsl')">🔊 Read the worksheet to me</button><button class="printbig" onclick="window.print()">🖨️ PRINT MY WORKSHEET</button>
+ <div id="ws" class="ws"><h2>${K.n}'s Worksheet — ${L.title}</h2><p>Name: ____________ Date: ${d}</p><ol id="wsl">${L.worksheet.map(q=>`<li>${q}</li>`).join('')}</ol></div></div>
  <div class="card">Other days: ${INDEX.map(x=>`<a href="#${k}/${x}">${x.slice(5)}</a>`).join(' · ')}</div>
  <p><a href="#parents">Parents</a></p></div></div>`}
 const DB=()=>JSON.parse(localStorage.kl||'{}'),save=o=>localStorage.kl=JSON.stringify(o);
@@ -47,3 +47,20 @@ function imp(i){i.files[0].text().then(t=>{save(JSON.parse(t));parents()})}
 async function route(){if(!INDEX.length)INDEX=await fetch('content/index.json').then(r=>r.json());const[h,d]=location.hash.slice(1).split('/');
  if(KIDS[h])kid(h,d);else if(h=='parents')parents();else home();scrollTo(0,0)}
 addEventListener('hashchange',route);route();
+
+function chunksHtml(L){let h='';
+ if(L.passage)h+=`<div class="pass"><h3>📖 Read, then stop and think</h3>${L.passage.map((c,i)=>`<div class="chunk"><button class="act rdb" onclick="speakEl('ch${i}')">🔊 Read it to me</button><p id="ch${i}">${c.text}</p><details class="chk"><summary>🛑 Stop and think: what did that say?</summary><p><b>${c.q}</b></p><details><summary>Show answer</summary><p>${c.a}</p></details></details></div>`).join('')}
+ ${L.words?`<div class="wb"><b>🔤 Word bank</b><ul>${L.words.map(([w,m])=>`<li><b>${w}</b>: ${m}</li>`).join('')}</ul></div>`:''}</div>`;
+ if(L.challenge)h+=`<details class="chal"><summary>🏅 Challenge (only if you want more!)</summary><p>${L.challenge}</p></details>`;
+ return h}
+let SPK=null;
+function speakEl(id){const el=document.getElementById(id);if(!el||!('speechSynthesis'in window)){alert('Read-aloud is not available on this device.');return}
+ speechSynthesis.cancel();document.querySelectorAll('.hl').forEach(x=>x.classList.remove('hl'));
+ if(!el.dataset.w){const tw=document.createTreeWalker(el,NodeFilter.SHOW_TEXT);const ns=[];while(tw.nextNode())ns.push(tw.currentNode);
+  ns.forEach(n=>{if(!n.nodeValue.trim())return;const f=document.createDocumentFragment();n.nodeValue.split(/(\s+)/).forEach(p=>{if(/^\s+$/.test(p)||!p)f.appendChild(document.createTextNode(p));else{const sp=document.createElement('span');sp.className='wd';sp.textContent=p;f.appendChild(sp)}});n.parentNode.replaceChild(f,n)});el.dataset.w=1}
+ const spans=[...el.querySelectorAll('.wd')];let txt='',st=[];spans.forEach(sp=>{st.push(txt.length);txt+=sp.textContent+' '});
+ const u=new SpeechSynthesisUtterance(txt);u.rate=.85;u.lang='en-US';
+ const mark=i=>{document.querySelectorAll('.hl').forEach(x=>x.classList.remove('hl'));if(spans[i])spans[i].classList.add('hl')};
+ u.onboundary=e=>{let i=st.length-1;while(i>0&&st[i]>e.charIndex)i--;mark(i)};
+ u.onstart=()=>{window.__speaking=txt};u.onend=u.onerror=()=>{document.querySelectorAll('.hl').forEach(x=>x.classList.remove('hl'));window.__speaking=null};
+ speechSynthesis.speak(u)}

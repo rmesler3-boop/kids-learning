@@ -3,42 +3,87 @@
  "subject": "history",
  "theme": "Scotland",
  "henry": {
-  "title": "Edinburgh Castle: A Fortress That Was Attacked Again and Again",
-  "intro": "Edinburgh Castle sits on a rock in Scotland's capital city. Dad may see it on his trip! You'll read two pages from the castle's own website and be a history detective. (About 15 minutes.)",
+  "title": "Edinburgh Castle: Attacked Again and Again",
+  "intro": "Be a history detective. (About 15 minutes.)",
   "steps": [
-   "FIRST (7 min): open link 1, 'History of the Castle'. Scroll to the parts called <b>Ancient Stronghold</b> and <b>Royal Residence</b>. Find answers to questions 1 to 4.",
-   "NEXT (4 min): open link 2, 'Family Day Out'. Scroll to <b>Mons Meg</b>. Answer question 6. (If a cookie box pops up, click 'Reject all and close'.)",
-   "LAST (4 min): put the years in order (question 5). Done when all 6 answers are written!",
-   "Word help: <b>fortress</b> = a strong castle for defense. <b>siege</b> = surrounding a place to capture it. <b>sceptre</b> = a royal stick. <b>ramparts</b> = castle walls."
+   "📖 <b>Read</b> each chunk below. Tap 🔊 if you want.",
+   "🛑 <b>Stop</b> and answer each check.",
+   "✏️ <b>Circle</b> and fill in the worksheet."
   ],
   "links": [
    [
-    "Edinburgh Castle: History of the Castle",
+    "Bonus: Edinburgh Castle History page",
     "https://www.edinburghcastle.scot/the-castle/history/",
-    "Read 'Ancient Stronghold' and 'Royal Residence' and look for the years."
+    "Only if you want more. Look for the 'Did you know' boxes."
    ],
    [
-    "Edinburgh Castle: Family Day Out",
+    "Bonus: Family Day Out (Mons Meg)",
     "https://www.edinburghcastle.scot/see-and-do/tours-guides-and-itineraries/family-day-out/",
-    "Find 'Mons Meg' to see how far her cannonball could fly."
+    "Click 'Reject all and close' on the cookie box."
    ]
   ],
   "worksheet": [
-   "Who built a hill fort on the castle rock long before the kings? ____________ people",
-   "In 1314 the Scots took back the castle in a night raid. Who led it? ____________",
-   "In 1715 a group tried to climb in. Why did it fail? (Hint: a ladder.) ____________",
-   "The Honours of Scotland are the crown, the ______ and the sword of state. They are the ______ (oldest / newest) crown jewels in Britain.",
-   "Order the events 1 to 4: ___ Honours first used together (1543) ___ Scots retake the castle (1314) ___ James VI is born in the Royal Palace (1566) ___ Mons Meg is given to King James II (1457)",
-   "Mons Meg's team of oxen could haul her 5 km a day. How many days to haul her 15 km? ___ days"
-  ]
+   "Iron Age people built a ______ fort. Circle: hill / sand",
+   "Who led the 1314 raid? Circle: Thomas Randolph / Mons Meg",
+   "The 1715 ladder was too ______. Circle: short / long",
+   "Honours: crown, ______, sword. Circle: sceptre / spoon",
+   "Put in order 1, 2, 3: ___ Mons Meg (1457) ___ Scots retake castle (1314) ___ Honours first used (1543)",
+   "Challenge: ___ days to pull Mons Meg 15 km."
+  ],
+  "passage": [
+   {
+    "text": "🏰 Edinburgh Castle sits on a big rock. Long ago, <b>Iron Age</b> people built a <b>hill fort</b> there.",
+    "q": "What did Iron Age people build?",
+    "a": "A hill fort."
+   },
+   {
+    "text": "⚔️ Armies attacked the castle many times. In <b>1314</b> the Scots took it back in a night raid. <b>Thomas Randolph</b> led it.",
+    "q": "Who led the raid in 1314?",
+    "a": "Thomas Randolph."
+   },
+   {
+    "text": "🪜 In <b>1715</b> some men tried to climb the walls. Their ladder was too <b>short</b>. The attack failed!",
+    "q": "Why did the attack fail?",
+    "a": "The ladder was too short."
+   },
+   {
+    "text": "👑 The <b>Honours of Scotland</b> are the crown, the sceptre and the sword. They are the oldest crown jewels in Britain. They were first used together in <b>1543</b>.",
+    "q": "Name the 3 Honours.",
+    "a": "Crown, sceptre, sword."
+   },
+   {
+    "text": "💥 <b>Mons Meg</b> is a giant cannon from <b>1457</b>. Oxen could pull her only 5 km a day.",
+    "q": "How far could oxen pull her in a day?",
+    "a": "5 km."
+   }
+  ],
+  "words": [
+   [
+    "fortress",
+    "a strong castle"
+   ],
+   [
+    "siege",
+    "surrounding a place to capture it"
+   ],
+   [
+    "sceptre",
+    "a royal stick"
+   ],
+   [
+    "raid",
+    "a quick surprise attack"
+   ]
+  ],
+  "challenge": "Mons Meg is pulled 5 km a day. How many days to pull her 15 km? Then read more on the castle website (bonus link)."
  },
  "frankie": {
   "title": "Let's Build a Castle! 🏰",
-  "intro": "Grown-up, read aloud: A big old castle in Scotland has tall towers, thick walls and a gate. Let's look at pictures, then draw one. (About 10 minutes.)",
+  "intro": "Grown-up, read aloud: A castle has tall towers, thick walls and a gate. (About 13 minutes.)",
   "steps": [
-   "Grown-up: open the link and look at the photos together (tap 'Reject all and close' on the cookie box). Find the big cannon and the tall walls.",
-   "Say: a castle has a ▭ square wall, a △ pointy roof and a ◯ round window. Count the towers or flags you see in the photos.",
-   "Frankie draws his castle and does the worksheet. Done!"
+   "👀 <b>Look</b> at the castle photos together.",
+   "✏️ <b>Draw</b> a castle with shapes.",
+   "🔢 <b>Count</b> to 10 (stretch!)."
   ],
   "links": [
    [
@@ -49,9 +94,10 @@
   ],
   "worksheet": [
    "Circle the castle:<br><span style=\"font-size:44px;letter-spacing:14px\">🏰 🚗 🏠</span>",
-   "Draw a castle using shapes: ▭ for the wall, △ for the roof, ◯ for a window.<br><div style='border:3px solid #111;height:130px'></div>",
+   "Draw a castle using shapes: ▭ for the wall, △ for the roof, ◯ for a window.<br><div style='border:3px solid #111;height:85px'></div>",
    "Count the flags. Circle the number.<br><span style=\"font-size:44px;letter-spacing:14px\">🚩🚩🚩</span><br><span style='font-size:30px'>2 &nbsp; 3 &nbsp; 4</span>",
-   "Draw a tall tower on your castle 🏰"
+   "Draw a tall tower on your castle 🏰",
+   "<b>Stretch:</b> Count the windows. Write the number: ____<br><span style=\"font-size:32px;letter-spacing:6px\">🪟🪟🪟🪟🪟🪟🪟🪟🪟🪟</span><br>Trace C for castle: <span style=\"font-size:64px;letter-spacing:12px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">CCC</span>"
   ]
  }
 }
