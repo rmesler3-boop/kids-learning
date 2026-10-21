@@ -68,23 +68,17 @@
   "intro": "Grown-up, read aloud: Let's make a postcard for Dad in Scotland! (About 14 minutes.)",
   "steps": [
    "👀 <b>Say</b> the picture words together.",
-   "🖼️ <b>Draw</b> the front of the postcard.",
+   "✂️ <b>Cut</b> 2 pictures. <b>Glue</b> them on the postcard front.",
    "🗣️ <b>Tell</b> a sentence. Grown-up writes it.",
    "✏️ <b>Trace</b> DAD and LOVE (stretch!)."
   ],
-  "links": [
-   [
-    "VisitScotland: Castles (pictures)",
-    "https://www.visitscotland.com/see-do/attractions/castles/",
-    "Grown-up: look at the pictures together to get ideas."
-   ]
-  ],
+  "links": [],
   "worksheet": [
-   "Picture words:<br><span style=\"font-size:44px;letter-spacing:14px\">🏰 🐑 🌧️ ✈️ ❤️</span>",
-   "Draw the front of the postcard 🖼️<div style='border:3px solid #111;height:130px'></div>",
-   "Say it, the grown-up writes it: <br><div style='border-bottom:3px solid #111;height:36px'></div><div style='border-bottom:3px solid #111;height:36px'></div>",
-   "Trace:<br><img src=\"guides/ws-trace-dad.svg\" style=\"height:90px;max-width:100%;display:block\"><br><b>Stretch:</b> <span style=\"font-size:64px;letter-spacing:12px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">LOVE</span>",
-   "Write your name: ____________"
+   "✂️ Cut out 2 pictures (grown-up helps):<br><span style=\"display:inline-block;border:3px dashed #555;font-size:46px;padding:4px 10px;margin:3px\">🏰</span><span style=\"display:inline-block;border:3px dashed #555;font-size:46px;padding:4px 10px;margin:3px\">🐑</span><span style=\"display:inline-block;border:3px dashed #555;font-size:46px;padding:4px 10px;margin:3px\">🌧️</span><span style=\"display:inline-block;border:3px dashed #555;font-size:46px;padding:4px 10px;margin:3px\">✈️</span><span style=\"display:inline-block;border:3px dashed #555;font-size:46px;padding:4px 10px;margin:3px\">❤️</span>",
+   "🖼️ Postcard front: glue your 2 pictures here.<div style='border:3px solid #111;height:100px'></div>",
+   "Circle what Dad might see in Scotland:<br><span style=\"font-size:44px;letter-spacing:14px\">🏰 🐑 🌵 🦁</span>",
+   "Say it, the grown-up writes it:<div style='border-bottom:3px solid #111;height:34px'></div>",
+   "Trace: <span style=\"font-size:60px;letter-spacing:10px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">DAD</span><br><b>Stretch:</b> <span style=\"font-size:60px;letter-spacing:10px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">LOVE</span>"
   ]
  }
 }

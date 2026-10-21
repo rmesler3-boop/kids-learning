@@ -96,12 +96,12 @@
  },
  "frankie": {
   "title": "Mary Had a Little Lamb with a Drone 🎹🐑",
-  "intro": "Grown-up, read aloud: Bagpipes hum one steady sound called a drone. We'll do it on the piano! (About 14 minutes.)",
+  "intro": "Grown-up, read aloud: Bagpipes hum one steady sound called a drone. We'll do it on the piano, then make a tartan with socks or LEGO! (About 14 minutes.)",
   "steps": [
    "🏷️ <b>Check</b> the stickers: 🟤1 🟢2 🟡3 🟠4 🔴5.",
    "🤝 <b>Hold</b> the low 1 (drone). Play Mary's tune.",
    "🎶 <b>Play</b> a second tune: Hot Cross Buns!",
-   "🖍️ <b>Color</b> a tartan."
+   "🧦 <b>Lay</b> a tartan with socks, paper strips or LEGO: red, blue, red, blue."
   ],
   "links": [],
   "handsOn": {
@@ -122,14 +122,23 @@
     [
      "guides/song2-numbers.svg",
      "🎶 <b>Tune 2:</b> Hot Cross Buns! Press 3 2 1 · 3 2 1 · 1 1 1 1 2 2 2 2 · 3 2 1"
+    ],
+    [
+     "",
+     "🧦 <b>Tartan game:</b> Lay 4 strips in a row: red, blue, red, blue. Lay 4 more across the top the same way. That's a tartan! (Use socks, paper strips, LEGO bricks or towels.)"
+    ],
+    [
+     "",
+     "👏🦶 <b>Highland beat:</b> Clap, clap, stomp! Do it 4 times while a grown-up hums the drone."
     ]
    ],
    "look": "Grown-up: the tune is 'Mary Had a Little Lamb'. Sing it together.",
-   "q": "Color the dots on your sheet."
+   "q": "Circle the pattern on your sheet."
   },
   "worksheet": [
-   "Color the dots to match your stickers.<br><img src=\"guides/ws-song.svg\" style=\"height:150px;max-width:100%;display:block\">",
-   "Color a tartan: first color every row with stripes (red, blue), then color the columns (green, yellow).<br><img src=\"guides/ws-tartan.svg\" style=\"height:150px;max-width:100%;display:block\">",
+   "Match each number to its color. Draw a line.<br><span style=\"font-size:36px;letter-spacing:14px\">1 &nbsp; 2 &nbsp; 3</span><br><span style=\"font-size:36px;letter-spacing:14px\">🟡 &nbsp; 🟤 &nbsp; 🟢</span>",
+   "What comes next in the tartan? Circle one.<br><span style=\"font-size:34px;letter-spacing:4px;white-space:nowrap\">🟥🟦🟥🟦🟥</span> ?<br><span style=\"font-size:44px;letter-spacing:14px\">🟥 &nbsp; 🟦</span>",
+   "Count the claps and stomps. Circle the number.<br><span style=\"font-size:44px;letter-spacing:14px\">👏👏🦶👏👏🦶</span><br><span style=\"font-size:30px;letter-spacing:14px\">4 &nbsp; 6 &nbsp; 8</span>",
    "Circle the piano:<br><span style=\"font-size:44px;letter-spacing:14px\">🎹 🎸 🥁</span>",
    "<b>Stretch:</b> Which tune did you like more? Circle: MARY 🐑 / BUNS 🍞"
   ]
