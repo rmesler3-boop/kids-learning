@@ -1,0 +1,158 @@
+{
+ "date": "2026-10-29",
+ "subject": "art/music",
+ "theme": "Japan",
+ "henry": {
+  "title": "Koto Sounds: 5-Note Tunes and a New Chord",
+  "intro": "Hear a Japanese koto, play a 5-note tune, then learn chord number 2. (About 15 minutes.)",
+  "steps": [
+   "🎵 <b>Watch</b> the first 2 minutes of the koto video.",
+   "🎹 <b>Play</b> only black keys. Make up a tune.",
+   "🎸 <b>Learn</b> A minor: middle finger, G string, fret 2.",
+   "🔁 <b>Switch</b> C and Am, 4 strums each.",
+   "✏️ <b>Fill in</b> the worksheet."
+  ],
+  "links": [
+   [
+    "Video: The Koto (13 strings)",
+    "https://www.youtube.com/watch?v=3K6KpkFXKdM",
+    "Watch the first 2 minutes. Count the strings and the finger picks."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "🎶 The <b>koto</b> is a long Japanese instrument with <b>13 strings</b>. It came from China about 1,300 years ago.",
+    "q": "How many strings does a koto have?",
+    "a": "13."
+   },
+   {
+    "text": "💅 Players wear <b>picks</b> on 3 fingers. They move little bridges under the strings to tune it.",
+    "q": "How many fingers wear picks?",
+    "a": "3: thumb, pointer and middle."
+   },
+   {
+    "text": "🎹 A lot of Japanese music uses just <b>5 notes</b>. The piano's black keys come in groups of 2 and 3. That's 5 notes too!",
+    "q": "How many black keys in one set of 2 + 3?",
+    "a": "5."
+   },
+   {
+    "text": "🎸 <b>A minor</b> (Am) is a new chord. Minor chords sound a bit <b>sad</b> or dreamy. C sounds bright.",
+    "q": "Which chord sounds sadder?",
+    "a": "A minor."
+   }
+  ],
+  "words": [
+   [
+    "koto",
+    "a long Japanese string instrument"
+   ],
+   [
+    "pick",
+    "a hard tip for plucking strings"
+   ],
+   [
+    "scale",
+    "a set of notes in order"
+   ],
+   [
+    "minor",
+    "a chord that sounds sad or dreamy"
+   ],
+   [
+    "chord",
+    "notes played together"
+   ]
+  ],
+  "handsOn": {
+   "title": "🎹 Black-key tune + 🎸 A minor chord",
+   "steps": [
+    [
+     "guides/piano-black5.svg",
+     "Find a group of 2 and a group of 3 black keys. Number them 1 to 5."
+    ],
+    [
+     "guides/piano-black5.svg",
+     "Play 1 2 3 5 3 2 1. Slow. Does it sound like Japan?"
+    ],
+    [
+     "guides/piano-black5.svg",
+     "Make up your own 8-note tune on black keys only. End on 1."
+    ],
+    [
+     "guides/uke-am-chord.svg",
+     "Uke: press the G string, fret 2, with your middle finger. Strum. That's Am!"
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "Strum C 4 times (ring finger, A string, fret 3)."
+    ],
+    [
+     "guides/uke-am-chord.svg",
+     "Switch: Am 4 strums, C 4 strums. Count your switches with no stop."
+    ],
+    [
+     "guides/strings-compare.svg",
+     "<b>Bonus:</b> Guitar: pluck one string and slide your finger up. Hear it bend, like a koto!"
+    ]
+   ],
+   "look": "Black keys always sound good together. Am uses the G string; C uses the A string.",
+   "q": "Questions 3 to 7 come from the piano and uke."
+  },
+  "worksheet": [
+   "A koto has ____ strings. Circle: 4 / 13 / 20",
+   "Koto players wear picks on ____ fingers. Circle: 3 / 10",
+   "Black keys: 2 + 3 = ____ notes. Circle: 5 / 7",
+   "For Am I press the ____ string with finger ____ in fret ____. Circle: G / A · 2 / 3 · 2 / 3",
+   "Am sounds: Circle: bright / sad or dreamy. C sounds: bright / sad",
+   "I switched C → Am ____ times without stopping.",
+   "<b>Challenge:</b> My black-key tune (write the numbers): ___ ___ ___ ___ ___ ___ ___ 1"
+  ],
+  "challenge": "Play your black-key tune on the piano while someone strums Am on the uke. Do they fit? Then try it with C."
+ },
+ "frankie": {
+  "title": "Black-Key Tune + Paper Dog 🎹🐶",
+  "intro": "Grown-up, read aloud: In Japan, people fold paper into animals. This is called origami. First we play a tune on the black keys, then fold a paper dog! (About 14 minutes.)",
+  "steps": [
+   "🎹 <b>Find</b> the 3 black keys together. Number them 1 2 3.",
+   "🎶 <b>Play</b> Hot Cross Buns on the black keys!",
+   "🐶 <b>Fold</b> a paper dog: triangle, then ears.",
+   "🔤 <b>Sound out</b> d-o-g. Trace, then write it (stretch!)."
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "🎹 Black keys + 🐶 Paper dog",
+   "steps": [
+    [
+     "guides/piano-black3.svg",
+     "👀 Find the group of 3 black keys. Point: 1, 2, 3."
+    ],
+    [
+     "guides/piano-black3.svg",
+     "🎶 Play Hot Cross Buns: 3 2 1 · 3 2 1 · 1 1 1 1 2 2 2 2 · 3 2 1"
+    ],
+    [
+     "guides/origami-dog.svg",
+     "📄 Grown-up gives a square paper. Fold it in half to make a triangle. Point down."
+    ],
+    [
+     "guides/origami-dog.svg",
+     "👂 Fold the 2 top corners down. Those are the ears!"
+    ],
+    [
+     "guides/origami-dog.svg",
+     "🔵 Put on 2 sticker eyes and a nose (or grown-up adds dots)."
+    ]
+   ],
+   "look": "Grown-up: it's the same tune as last week, now on black keys. Say the numbers as he plays.",
+   "q": "Count the black keys on your sheet."
+  },
+  "worksheet": [
+   "Circle the 3 black keys that sit together.<br><img src=\"guides/ws-keys.svg\" style=\"height:95px;display:block\">",
+   "Count the black keys. Circle the number.<br><span style=\"font-size:30px;letter-spacing:4px\">⬛⬛ + ⬛⬛⬛ =</span> <span style=\"font-size:26px;letter-spacing:6px\">4 &nbsp; 5 &nbsp; 6</span>",
+   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">dog &nbsp; cat &nbsp; sun</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐱 &nbsp; ☀️ &nbsp; 🐶</span>",
+   "Circle the word <b>dog</b>: <span style=\"font-size:26px;letter-spacing:3px\">dig &nbsp; dog &nbsp; dot &nbsp; dog</span>",
+   "How many folds for your dog? Circle: <span style=\"font-size:26px;letter-spacing:6px\">1 &nbsp; 2 &nbsp; 3</span>",
+   "Trace: <span style=\"font-size:44px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">my dog</span><br><b>Stretch:</b> Write <b>dog</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ]
+ }
+}

@@ -1,0 +1,128 @@
+{
+ "date": "2026-10-30",
+ "subject": "language arts",
+ "theme": "Japan",
+ "henry": {
+  "title": "Haiku: A Poem in 17 Claps",
+  "intro": "Japan gave the world a tiny poem called a haiku. You'll write one about autumn. (About 15 minutes.)",
+  "steps": [
+   "👏 <b>Clap</b> the syllables in your name.",
+   "📖 <b>Read</b> Basho's frog haiku. Count the lines.",
+   "🍂 <b>Pick</b> autumn words from the word bank.",
+   "✍️ <b>Write</b> a 5-7-5 haiku. Clap to check."
+  ],
+  "links": [
+   [
+    "Poets.org: What is a haiku?",
+    "https://poets.org/glossary/haiku",
+    "Read the first sentence, then find Basho's frog poem."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "📜 A <b>haiku</b> is a short poem from Japan. It has <b>3 lines</b>.",
+    "q": "How many lines does a haiku have?",
+    "a": "3."
+   },
+   {
+    "text": "👏 Each clap in a word is a <b>syllable</b>. A haiku has <b>5</b>, then <b>7</b>, then <b>5</b> syllables.",
+    "q": "How many claps in the middle line?",
+    "a": "7."
+   },
+   {
+    "text": "🐸 <b>Basho</b> lived in Japan over 300 years ago. His famous haiku is about a frog jumping into an old pond.",
+    "q": "What jumps into the pond?",
+    "a": "A frog."
+   },
+   {
+    "text": "🍂 Many haiku have a <b>season word</b>, like leaves for autumn. Here's one: <i>Red leaves drifting down / crunching under my two feet / autumn says hello</i>",
+    "q": "What is the season word?",
+    "a": "Leaves (or autumn)."
+   }
+  ],
+  "words": [
+   [
+    "leaves",
+    "1 clap"
+   ],
+   [
+    "crunch",
+    "1 clap"
+   ],
+   [
+    "pumpkin",
+    "2 claps: pump-kin"
+   ],
+   [
+    "maple",
+    "2 claps: ma-ple"
+   ],
+   [
+    "golden",
+    "2 claps: gol-den"
+   ],
+   [
+    "chilly",
+    "2 claps: chil-ly"
+   ],
+   [
+    "October",
+    "3 claps: Oc-to-ber"
+   ],
+   [
+    "syllable",
+    "one clap in a word"
+   ]
+  ],
+  "worksheet": [
+   "A haiku has ____ lines. Circle: 3 / 5",
+   "Syllables: 5 – ____ – 5. Circle: 7 / 9",
+   "Clap it, circle the claps: leaf 1 / 2 / 3 &nbsp;·&nbsp; pumpkin 1 / 2 / 3 &nbsp;·&nbsp; October 1 / 2 / 3",
+   "Basho's haiku is about a ____. Circle: frog / fish",
+   "My autumn haiku (clap each line):<div style='border:3px solid #111;padding:4px 8px;line-height:2.1'>Line 1 (5): ________________________________<br>Line 2 (7): ________________________________<br>Line 3 (5): ________________________________</div>",
+   "Check: ☐ 5 ☐ 7 ☐ 5 ☐ a season word"
+  ],
+  "challenge": "Write a second haiku about Halloween (it's tomorrow!). Read it out loud in one breath."
+ },
+ "frankie": {
+  "title": "Lucky Cat Words 🐱☀️",
+  "intro": "Grown-up, read aloud: In Japan, a lucky cat statue waves hello. Japan's flag is a red sun! Let's read and write cat, sun and cup. (About 14 minutes.)",
+  "steps": [
+   "👀 <b>Say</b> the picture words together: cat, sun, cup.",
+   "🔤 <b>Sound out</b> c-a-t. Tap one finger for each sound.",
+   "🃏 <b>Match</b> word cards to things at home.",
+   "✏️ <b>Trace</b>, then write: I can see a cat. (stretch!)"
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "🃏 Word-card hunt",
+   "steps": [
+    [
+     "",
+     "✍️ Grown-up writes <b>cat</b>, <b>sun</b>, <b>cup</b> on 3 cards, big letters."
+    ],
+    [
+     "",
+     "👆 Frankie taps each letter and says the sound: c… a… t… cat!"
+    ],
+    [
+     "",
+     "🏠 Put each card next to a match: a cup, a toy cat or picture, a sunny window."
+    ],
+    [
+     "",
+     "🔁 Mix the cards. Can he read them without help?"
+    ]
+   ],
+   "look": "Grown-up: say each sound slowly, then blend fast. Point under each letter as he reads.",
+   "q": "Match the words to pictures on the sheet."
+  },
+  "worksheet": [
+   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">cat &nbsp; sun &nbsp; cup</span><br><span style=\"font-size:36px;letter-spacing:14px\">☀️ &nbsp; ☕ &nbsp; 🐱</span>",
+   "Circle the missing letter.<br>🐱 <span style=\"font-size:28px;letter-spacing:4px\">c _ t</span><span style=\"font-size:26px;letter-spacing:4px\"> → a / o</span> &nbsp;&nbsp; ☀️ <span style=\"font-size:28px;letter-spacing:4px\">s _ n</span><span style=\"font-size:26px;letter-spacing:4px\"> → u / i</span>",
+   "Circle every <b>can</b>: <span style=\"font-size:22px;letter-spacing:2px\">I can see a sun. I can see a cat.</span>",
+   "4 cats. 1 runs away. How many are left? Circle.<br><span style=\"font-size:32px;letter-spacing:4px\">🐱🐱🐱🐱 − 🐱 =</span> <span style=\"font-size:26px;letter-spacing:6px\">2 &nbsp; 3 &nbsp; 4</span>",
+   "Trace: <span style=\"font-size:34px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I can see a cat.</span><br><b>Stretch:</b> Write <b>sun</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ]
+ }
+}
