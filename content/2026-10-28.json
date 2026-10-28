@@ -1,0 +1,106 @@
+{
+ "date": "2026-10-28",
+ "subject": "history",
+ "theme": "Japan",
+ "henry": {
+  "title": "The Tokaido: Japan's Great Old Road",
+  "intro": "Travel back 200 years in Japan. (About 15 minutes.)",
+  "steps": [
+   "📖 <b>Read</b> each chunk below. Tap 🔊 if you want.",
+   "🛑 <b>Stop</b> and answer each check.",
+   "🖼️ <b>Scroll</b> the old prints. Find walkers and boats.",
+   "✏️ <b>Circle</b> and fill in the worksheet."
+  ],
+  "links": [
+   [
+    "Hiroshige's 55 Tokaido prints",
+    "https://jart.jtrip-portal.com/en/series/tokaido53/",
+    "Scroll down. Look for people walking, horses, boats, rain and Mount Fuji."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "🛤️ Long ago, Japan had a famous road called the <b>Tokaido</b>. It joined <b>Edo</b> (now Tokyo) and <b>Kyoto</b>.",
+    "q": "Which two cities did it join?",
+    "a": "Edo (Tokyo) and Kyoto."
+   },
+   {
+    "text": "🏮 Along the road were <b>53 stations</b>. These were towns with inns, food and fresh horses.",
+    "q": "What could travelers find at a station?",
+    "a": "Inns, food and fresh horses."
+   },
+   {
+    "text": "🚶 Most people walked. The trip was about <b>500 km</b>. It took about <b>2 weeks</b>.",
+    "q": "How long did the walk take?",
+    "a": "About 2 weeks."
+   },
+   {
+    "text": "🎨 In the 1830s, an artist named <b>Hiroshige</b> made a picture of every station. He carved each picture in wood, inked it and pressed paper on it. That is a <b>woodblock print</b>.",
+    "q": "How did Hiroshige make his pictures?",
+    "a": "Woodblock prints: carve wood, ink it, press paper."
+   },
+   {
+    "text": "🚄 Today a bullet train goes from Tokyo to Kyoto in about <b>2 hours</b>.",
+    "q": "Which is faster, walking or the train?",
+    "a": "The train: 2 hours instead of 2 weeks."
+   }
+  ],
+  "words": [
+   [
+    "Edo",
+    "the old name for Tokyo"
+   ],
+   [
+    "station",
+    "a stop on a road, with inns and food"
+   ],
+   [
+    "inn",
+    "a small hotel"
+   ],
+   [
+    "woodblock print",
+    "a picture pressed from carved wood"
+   ],
+   [
+    "traveler",
+    "a person on a trip"
+   ]
+  ],
+  "worksheet": [
+   "The Tokaido joined Edo and ______. Circle: Kyoto / London",
+   "Edo is now called ______. Circle: Tokyo / Osaka",
+   "There were ____ stations on the road. Circle: 5 / 53 / 500",
+   "Hiroshige made ______ prints. Circle: woodblock / photo",
+   "In the prints I saw (circle all you found): people walking · cars · boats · Mount Fuji · airplanes",
+   "Walking took 2 ______. The train takes 2 ______. Circle: weeks / hours",
+   "<b>Challenge:</b> A traveler walks 35 km a day. How many days for 490 km? ____ days"
+  ],
+  "challenge": "A traveler walks 35 km a day. How many days to walk 490 km? (Hint: 35 × 10 = 350. Keep adding 35.) Then find the print 'Tora's Rain at Oiso'. What is the weather?"
+ },
+ "frankie": {
+  "title": "Long Ago in Japan: Walk or Train? 🚶🚄",
+  "intro": "Grown-up, read aloud: Long ago in Japan, people walked a long road for 2 weeks. Now a fast train does it in 2 hours! (About 14 minutes.)",
+  "steps": [
+   "👀 <b>Look</b> at the old pictures. Find people walking.",
+   "🚶 <b>Walk</b> 10 big steps like a traveler. Count!",
+   "🔤 <b>Sound out</b> hat, map, run. Match to pictures.",
+   "✏️ <b>Trace</b>, then write: I see a map. (stretch!)"
+  ],
+  "links": [
+   [
+    "Old pictures of the long road",
+    "https://jart.jtrip-portal.com/en/series/tokaido53/",
+    "Grown-up: scroll with Frankie. Point to people walking and boats."
+   ]
+  ],
+  "worksheet": [
+   "Long ago or now? Draw a line.<br><span style=\"font-size:40px;letter-spacing:14px\">🚶 &nbsp; 🚄</span><br><span style=\"font-size:24px;letter-spacing:6px\">NOW &nbsp; LONG AGO</span>",
+   "Circle what you saw in the old pictures:<br><span style=\"font-size:40px;letter-spacing:14px\">🚶 ⛵ 🚗 ✈️</span>",
+   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">hat &nbsp; map &nbsp; run</span><br><span style=\"font-size:36px;letter-spacing:14px\">🗺️ &nbsp; 🏃 &nbsp; 👒</span>",
+   "Circle every <b>see</b>: <span style=\"font-size:24px;letter-spacing:2px\">I see a hat. I see a map.</span>",
+   "Count the lanterns. Circle the number.<br><span style=\"font-size:32px;letter-spacing:4px\">🏮🏮🏮 + 🏮🏮 =</span> <span style=\"font-size:26px;letter-spacing:6px\">4 &nbsp; 5 &nbsp; 6</span>",
+   "Trace: <span style=\"font-size:40px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see a map.</span><br><b>Stretch:</b> Write <b>map</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ]
+ }
+}
