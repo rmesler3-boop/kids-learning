@@ -1,0 +1,146 @@
+{
+ "date": "2026-11-05",
+ "subject": "art/music",
+ "theme": "Space & the Moon",
+ "henry": {
+  "title": "Twinkle, Twinkle: Mozart's Star Tune + the F Chord",
+  "intro": "One star song, played 12 ways by Mozart. You'll play it on piano and learn chord 3. (About 15 minutes.)",
+  "steps": [
+   "🎵 <b>Listen</b> to the first minute of Mozart's variations.",
+   "🎹 <b>Play</b> Twinkle on piano: C C G G A A G.",
+   "🎸 <b>Learn</b> F: two fingers, like the picture.",
+   "🔁 <b>Strum</b> C, F, C while you sing line 1.",
+   "✏️ <b>Fill in</b> the worksheet."
+  ],
+  "links": [
+   [
+    "Video: Mozart's 12 Variations on Twinkle",
+    "https://www.youtube.com/watch?v=NO-ecxHEPqI",
+    "Listen to the first minute. Hear the plain tune, then the fast notes."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "⭐ The words of <b>Twinkle, Twinkle, Little Star</b> are from a poem by Jane Taylor, from 1806. The tune is even older. It's a <b>French</b> song.",
+    "q": "What country is the tune from?",
+    "a": "France."
+   },
+   {
+    "text": "🎹 The composer <b>Mozart</b> wrote <b>12 variations</b> on the tune. A variation is the same tune, changed. It can be faster, fancier or sadder.",
+    "q": "What is a variation?",
+    "a": "The same tune, changed."
+   },
+   {
+    "text": "🔤 The <b>ABC song</b> uses the same tune! So does Baa, Baa, Black Sheep.",
+    "q": "Name a song with the same tune.",
+    "a": "The ABC song (or Baa, Baa, Black Sheep)."
+   },
+   {
+    "text": "🎸 Line 1 uses 2 chords. <b>C</b> on 'Twinkle, twinkle', <b>F</b> on 'little', <b>C</b> on 'star'.",
+    "q": "Which chord goes on 'little'?",
+    "a": "F."
+   }
+  ],
+  "words": [
+   [
+    "variation",
+    "the same tune, changed"
+   ],
+   [
+    "composer",
+    "a person who writes music"
+   ],
+   [
+    "melody",
+    "the tune you can sing"
+   ],
+   [
+    "chord",
+    "notes played together"
+   ]
+  ],
+  "handsOn": {
+   "title": "🎹 Twinkle on piano + 🎸 F chord",
+   "steps": [
+    [
+     "guides/piano-c-to-a.svg",
+     "Find C: the white key just left of the 2 black keys."
+    ],
+    [
+     "guides/piano-c-to-a.svg",
+     "Play C C G G A A G. Then F F E E D D C. That's line 1!"
+    ],
+    [
+     "guides/piano-c-to-a.svg",
+     "Make a variation: play each note twice as fast, or very soft."
+    ],
+    [
+     "guides/uke-f-chord.svg",
+     "Uke: pointer on the E string, fret 1. Middle on the G string, fret 2."
+    ],
+    [
+     "guides/uke-c-chord.svg",
+     "Switch: C 4 strums, F 4 strums. Count switches with no stop."
+    ],
+    [
+     "guides/uke-f-chord.svg",
+     "Sing: 'Twinkle, twinkle' (C), 'little' (F), 'star' (C)."
+    ]
+   ],
+   "look": "F needs 2 fingers, so press with fingertips and keep your thumb behind the neck. The rest of the song needs a G7 chord, coming soon.",
+   "q": "Questions 5 to 7 come from the piano and uke."
+  },
+  "worksheet": [
+   "The Twinkle tune is a ______ song. Circle: French / Japanese",
+   "Mozart wrote ____ variations. Circle: 3 / 12",
+   "A variation is: Circle: the same tune, changed / a brand new song",
+   "Same tune: Circle: ABC song / Happy Birthday",
+   "Piano: C C G G A A ___. Circle: G / F",
+   "For F: pointer on the ____ string, middle on the ____ string. Circle: E / A · G / C",
+   "I switched C → F ____ times. <b>Challenge:</b> My variation was: faster / softer / higher"
+  ],
+  "challenge": "Make your own variation of line 1 on the piano: change the speed, the loudness or play it higher. Play it for someone and ask them to guess the song."
+ },
+ "frankie": {
+  "title": "Twinkle, Twinkle + Star Stickers ⭐🎹",
+  "intro": "Grown-up, read aloud: At night we see stars. Some stars make shapes. Today we play a star song and make the Big Dipper with stickers! (About 14 minutes.)",
+  "steps": [
+   "🏷️ <b>Add</b> a new purple 6 sticker after the red 5.",
+   "🎶 <b>Play</b> Twinkle, Twinkle with the dots.",
+   "⭐ <b>Stick</b> 7 star stickers like the Big Dipper.",
+   "🔤 <b>Sound out</b> d-o-t. Trace, then write it (stretch!)."
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "🎹 Twinkle + ⭐ Big Dipper",
+   "steps": [
+    [
+     "guides/piano-c-to-a.svg",
+     "🏷️ Grown-up: put a purple 6 sticker on the white key right after red 5."
+    ],
+    [
+     "guides/twinkle-numbers.svg",
+     "🎶 Press: 1 1 5 5 6 6 5 · 4 4 3 3 2 2 1. Sing along!"
+    ],
+    [
+     "guides/big-dipper.svg",
+     "⭐ Put 7 star stickers on dark paper, like the picture. (Or use 7 coins or LEGO.)"
+    ],
+    [
+     "guides/big-dipper.svg",
+     "🔢 Count them: 3 in the handle, 4 in the cup."
+    ]
+   ],
+   "look": "Grown-up: the jump from 1 up to 5 is the hard part. Point to the red 5 first.",
+   "q": "Count the stars on your sheet."
+  },
+  "worksheet": [
+   "Which key is new? Circle the purple 6.<br><span style=\"font-size:30px;letter-spacing:4px\">🟤1 🟢2 🟡3 🟠4 🔴5 🟣6</span>",
+   "Count the Big Dipper stars. Circle the number.<br><span style=\"font-size:30px;letter-spacing:4px\">⭐⭐⭐ + ⭐⭐⭐⭐ =</span> <span style=\"font-size:26px;letter-spacing:6px\">6 &nbsp; 7 &nbsp; 8</span>",
+   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">dot &nbsp; pig &nbsp; cup</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐷 &nbsp; ☕ &nbsp; 🔵</span>",
+   "Circle every <b>is</b>: <span style=\"font-size:24px;letter-spacing:2px\">It is a star. It is big.</span>",
+   "Circle the star: <span style=\"font-size:40px;letter-spacing:14px\">🌕 ⭐ 🚀</span>",
+   "Trace: <span style=\"font-size:42px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">a big star</span><br><b>Stretch:</b> Write <b>dot</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ]
+ }
+}
