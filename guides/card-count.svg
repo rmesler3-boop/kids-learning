@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Arial, Helvetica, sans-serif">
+  <rect width="640" height="360" fill="#fffbeb"/>
+  <rect x="8" y="8" width="624" height="44" rx="8" fill="#9a3412"/>
+  <text x="320" y="36" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">CONCEPTUAL DRAWING  count only what YOU see</text>
+  <text x="320" y="84" text-anchor="middle" fill="#111" font-size="22" font-weight="700">Pick up to 3 things. Any number 03 can be right.</text>
+  <g font-size="40" font-weight="700" text-anchor="middle">
+    <rect x="70" y="120" width="140" height="120" rx="16" fill="#fff" stroke="#111" stroke-width="5"/>
+    <text x="140" y="195">1</text>
+    <rect x="250" y="120" width="140" height="120" rx="16" fill="#fff" stroke="#111" stroke-width="5"/>
+    <text x="320" y="195">2</text>
+    <rect x="430" y="120" width="140" height="120" rx="16" fill="#fff" stroke="#111" stroke-width="5"/>
+    <text x="500" y="195">3</text>
+  </g>
+  <text x="320" y="286" text-anchor="middle" fill="#111" font-size="18">Point first. Then count your points. Do not hunt for a secret number.</text>
+  <text x="320" y="322" text-anchor="middle" fill="#111" font-size="16">Copy a word only if it matches what you see. Other is allowed.</text>
+</svg>

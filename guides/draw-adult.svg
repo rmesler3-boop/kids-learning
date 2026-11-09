@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 460" font-family="Arial, Helvetica, sans-serif">
+  <rect width="640" height="460" fill="#fff7ed"/>
+  <rect x="8" y="8" width="624" height="46" rx="8" fill="#9a3412"/>
+  <text x="320" y="38" text-anchor="middle" fill="#fff" font-size="17" font-weight="700">CONCEPTUAL DRAWING  not a screenshot of Regolith</text>
+  <text x="320" y="78" text-anchor="middle" fill="#111" font-size="20" font-weight="700">Grown-up setup. Confirm every key in H Help.</text>
+  <g font-size="16" fill="#111">
+    <rect x="30" y="96" width="580" height="48" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="48" y="126" font-weight="700">1. Save a career you want to keep. Do not overwrite it.</text>
+    <rect x="30" y="154" width="580" height="48" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="48" y="184" font-weight="700">2. Open the Windows game yourself. Press H. Read Help.</text>
+    <rect x="30" y="212" width="580" height="64" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="48" y="238" font-weight="700">3. Load or new career, then garage / drive, until a world shows.</text>
+    <text x="48" y="260">Trust H if it disagrees with this card. This build was not drive-tested.</text>
+    <rect x="30" y="286" width="580" height="64" rx="8" fill="#fff" stroke="#111" stroke-width="3"/>
+    <text x="48" y="312" font-weight="700">4. You handle menus. The child uses W A S D to look.</text>
+    <text x="48" y="334">Esc menu · map button or Shift+M · Tab garage · Backspace may cost.</text>
+    <rect x="30" y="360" width="580" height="80" rx="8" fill="#fee2e2" stroke="#111" stroke-width="3"/>
+    <text x="48" y="386" font-weight="700">Do not use driving speed, jumps, or the little globe as science.</text>
+    <text x="48" y="410">Skip Titan, Io, and Europa. Skip a site with no readable name.</text>
+    <text x="48" y="430">Pause the 15-minute timer while you switch worlds.</text>
+  </g>
+</svg>
