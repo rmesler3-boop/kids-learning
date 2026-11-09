@@ -3,89 +3,131 @@
  "subject": "math",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "Moon Math: Distance, Days and Fractions",
-  "intro": "Use numbers from the real Moon trip. (About 15 minutes.)",
+  "title": "Rover Rules: Fractions, Division, and an Unknown",
+  "intro": "A 15-minute math lab. The story is a rover mission, but every number is a <b>pretend model</b> made up for practice. These are not Regolith readings and not NASA measurements. Your score is problems 1–3 on the worksheet.",
   "steps": [
-   "📖 <b>Read</b> each chunk. Tap 🔊 if you want.",
-   "🛑 <b>Stop</b> and answer each check.",
-   "🧮 <b>Solve</b> the worksheet. Show your work.",
-   "✅ <b>Check</b> the Challenge if you have time."
+   "📖 <b>Read</b> the three short chunks. Tap 🔊 if you want. Answer each check.",
+   "👀 <b>Study</b> the worked example on the worksheet. It is already solved.",
+   "🧮 <b>Solve</b> problems 1, 2, and 3. Show your work. This is the assignment.",
+   "🏅 <b>Challenge</b> only if you finish and want more. It is not required."
   ],
-  "links": [
-   [
-    "NASA Space Place: All About the Moon",
-    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
-    "Find the Quick Facts. How far is the Moon on average?"
-   ]
-  ],
+  "links": [],
   "passage": [
    {
-    "text": "🌕 The Moon is about <b>240,000 miles</b> from Earth. That is a long drive: about <b>10 times</b> around Earth at the equator.",
-    "q": "About how far is the Moon?",
-    "a": "About 240,000 miles."
+    "text": "🔢 Every number today is a <b>pretend model</b>. It was made up for math. It is not a distance, fuel, or speed from the game, and it is not a NASA fact.",
+    "q": "Are today’s numbers game readings?",
+    "a": "No. They are pretend model numbers."
    },
    {
-    "text": "🚀 Apollo 11 launched on July <b>16</b> and splashed down on July <b>24</b>. The whole trip was <b>8 days</b>.",
-    "q": "How many days was the trip?",
-    "a": "8 days."
+    "text": "🍕 A <b>fraction</b> names part of one whole. To add 1/2 and 1/3, use sixths: 1/2 = 3/6 and 1/3 = 2/6, so 3/6 + 2/6 = <b>5/6</b>.",
+    "q": "What is 1/2 + 1/3?",
+    "a": "5/6."
    },
    {
-    "text": "👣 Armstrong and Aldrin walked on the Moon for about <b>2 hours</b>. That is <b>1/4</b> of an 8-hour school day.",
-    "q": "What fraction of an 8-hour day is 2 hours?",
-    "a": "1/4."
-   },
-   {
-    "text": "📡 Radio signals travel at the speed of light. A message to the Moon takes about <b>1.3 seconds</b> each way. Round trip talk: about <b>3 seconds</b>.",
-    "q": "About how long for a round-trip radio chat?",
-    "a": "About 3 seconds."
+    "text": "⚖️ An <b>equation</b> says both sides are equal. The letter is an <b>unknown</b>. <b>Inverse</b> operations undo each other: division undoes multiplication, and subtraction undoes addition. Example: 20 = 4 × t, so t = 20 ÷ 4 = 5. Check: 4 × 5 = 20.",
+    "q": "What undoes multiplication?",
+    "a": "Division."
    }
   ],
   "words": [
    [
-    "distance",
-    "how far apart two places are"
+    "pretend model",
+    "numbers made up for this math, not a measurement"
    ],
    [
     "fraction",
-    "a part of a whole, like 1/4"
+    "a part of one whole, such as 3/4"
    ],
    [
-    "average",
-    "a usual or middle amount"
+    "quotient",
+    "the result of a division, not counting the leftover"
    ],
    [
-    "round trip",
-    "there and back"
+    "remainder",
+    "the leftover after making equal groups"
+   ],
+   [
+    "equation",
+    "a statement that two sides are equal"
+   ],
+   [
+    "unknown",
+    "the number a letter stands for"
+   ],
+   [
+    "inverse",
+    "the operation that undoes another"
    ]
   ],
+  "fitPrint": true,
+  "example": "<b>Worked example — already done. Not scored.</b> PRETEND model. Not the game. Not NASA.<br>Rule: distance = 4 × minutes. Needed distance: 20.<br>Equation: 20 = 4 × t. Inverse of ×4 is ÷4, so t = 20 ÷ 4 = <b>5</b>.<br>Check: 4 × 5 = 20. Both sides match.",
   "worksheet": [
-   "The Moon is about ______ miles away. Circle: 24,000 / 240,000 / 2,400,000",
-   "Apollo 11: July 16 to July 24. Days: ____. (24 − 16 = ____)",
-   "Moon walk ≈ 2 hours. Fraction of an 8-hour day: ____. Circle: 1/2 / 1/4 / 1/8",
-   "Half of 240,000 miles is ______. Circle: 120,000 / 24,000",
-   "A one-way radio delay is about 1.3 s. Round trip ≈ ____ s. Circle: 1 / 3 / 10",
-   "If a rocket goes 1,000 miles each hour, hours to go 8,000 miles: ____",
-   "<b>Challenge:</b> 240,000 ÷ 10 = ____ (\"10 times around Earth\" check)"
+   "<b>Fractions.</b> PRETEND model. One sample tray is the whole. Rocks fill 3/4. Dust fills 1/6. Hint: 3/4 = 9/12 and 1/6 = 2/12.<br>a) Fraction filled: ______<br>b) Fraction still empty: ______<br>c) Which is smaller, the empty part or 1/8? ______ &nbsp; Show the comparison.",
+   "<b>Long division.</b> PRETEND model. 2,354 bolts go into boxes that hold 27 bolts.<br>Full boxes: ______ &nbsp; Bolts left over: ______<br>Show the division in the box.<div style=\"border:2px solid #111;height:1.15in;margin-top:4px\"></div>",
+   "<b>Algebra bridge.</b> PRETEND model rule: distance = 15 × minutes + 12. The team needs distance 132. Let m stand for minutes.<br>a) Equation: 132 = 15 × m + 12<br>b) Undo +12, then undo ×15. m = ______<br>c) Check: 15 × ____ + 12 = ______"
   ],
-  "challenge": "The Moon's diameter is about 2,000 miles. Earth's is about 8,000. What fraction of Earth's diameter is the Moon? (2,000 ÷ 8,000 = ?)"
+  "challenge": "Stretch, not required. Two pretend rovers work the same number of hours, h. Rover A collects 4 × h samples. Rover B collects 4 × h + 5 samples. Together they collect 45 samples. Find h, then check both rules. These are still pretend model numbers.",
+  "parentKey": {
+   "assess": "Score problems 1–3 only. The example is teaching. Reading checks are a warm-up, not the math score. The challenge is optional. Full credit needs the work, not only a final number. 5 = all three correct with work. 4 = one slip with the method mostly right. 3 = about half. 2 = a real try. 1 = needs another pass.",
+   "items": [
+    {
+     "q": "1. Fractions",
+     "a": "a) 3/4 + 1/6 = 9/12 + 2/12 = <b>11/12</b> filled.<br>b) 1 − 11/12 = <b>1/12</b> empty.<br>c) The empty part, 1/12, is smaller than 1/8. Common denominator 24: 1/12 = 2/24 and 1/8 = 3/24. 2/24 &lt; 3/24. (One twelfth is a smaller piece than one eighth.)"
+    },
+    {
+     "q": "2. 2,354 ÷ 27",
+     "a": "<b>87 full boxes, remainder 5 bolts.</b><br>27 into 235 is 8, because 27 × 8 = 216. 235 − 216 = 19. Bring down 4 to make 194. 27 × 7 = 189. 194 − 189 = 5.<br>Check: 27 × 87 = 2,349, and 2,349 + 5 = 2,354."
+    },
+    {
+     "q": "3. 132 = 15m + 12",
+     "a": "Subtract 12: 120 = 15 × m. Divide by 15: <b>m = 8</b> minutes.<br>Check: 15 × 8 + 12 = 120 + 12 = 132. Both sides equal."
+    },
+    {
+     "q": "Challenge",
+     "a": "4h + (4h + 5) = 45 → 8h + 5 = 45 → 8h = 40 → <b>h = 5</b>.<br>Check: A = 4 × 5 = 20. B = 20 + 5 = 25. 20 + 25 = 45."
+    }
+   ]
+  }
  },
  "frankie": {
-  "title": "Rocket Countdown Math 🚀",
-  "intro": "Grown-up, read aloud: Rockets count down before they blast off. Let's count, add and read space words! (About 14 minutes.)",
+  "title": "Rocket Count-On 🚀",
+  "intro": "Grown-up, read aloud. Rockets count, and one number is hiding. About 14 minutes. No game today.",
   "steps": [
-   "🔢 <b>Count</b> down 10 to 1 out loud. Blast off!",
-   "🧮 <b>Add</b> the rockets on your sheet.",
-   "🔤 <b>Sound out</b> t-e-n and r-e-d.",
-   "✏️ <b>Trace</b>, then write: I see 10. (stretch!)"
+   "🔢 <b>Count on</b> from 6. Three more.",
+   "❓ <b>Find</b> the hiding number.",
+   "🔤 <b>Sound out</b> sun, red, and hop.",
+   "✏️ <b>Trace</b>, then write sun."
   ],
   "links": [],
+  "fitPrint": true,
   "worksheet": [
-   "Fill the missing numbers. Circle them.<br><span style=\"font-size:28px;letter-spacing:4px\">10 &nbsp; 9 &nbsp; _ &nbsp; 7 &nbsp; _ &nbsp; 5</span><br>Circle: <span style=\"font-size:28px;letter-spacing:8px\">8 &nbsp; 6</span>",
-   "Count the rockets. Circle the number.<br><span style=\"font-size:32px;letter-spacing:4px\">🚀🚀🚀 + 🚀🚀 =</span> <span style=\"font-size:26px;letter-spacing:6px\">4 &nbsp; 5 &nbsp; 6</span>",
-   "3 stars. 2 more. How many? Circle.<br><span style=\"font-size:32px;letter-spacing:4px\">⭐⭐⭐ + ⭐⭐ =</span> <span style=\"font-size:26px;letter-spacing:6px\">4 &nbsp; 5 &nbsp; 6</span>",
-   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">ten &nbsp; red &nbsp; hop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🔴 &nbsp; 🐇 &nbsp; 🔟</span>",
-   "Circle every <b>ten</b>: <span style=\"font-size:22px;letter-spacing:2px\">I see ten stars. Ten rockets go!</span>",
-   "Trace: <span style=\"font-size:42px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see 10.</span><br><b>Stretch:</b> Write <b>ten</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
-  ]
+   "Count on. Circle the sum.<br><span style=\"font-size:28px\">6 + 3 =</span> <span style=\"font-size:26px;letter-spacing:8px\">8 &nbsp; 9 &nbsp; 10</span>",
+   "The unknown hides. Circle it.<br><span style=\"font-size:28px\">5 + ____ = 9</span><br><span style=\"font-size:26px;letter-spacing:8px\">3 &nbsp; 4 &nbsp; 6</span>",
+   "Which is more? Circle it. <span style=\"font-size:32px;letter-spacing:10px\">7 &nbsp; 4</span>",
+   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">sun &nbsp; red &nbsp; hop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; 🔴 &nbsp; ☀️</span>",
+   "Circle every <b>see</b>: <span style=\"font-size:22px\">I see the sun. I see a hop.</span>",
+   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see the sun.</span><br><b>Stretch:</b> Write <b>sun</b> by yourself: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
+  ],
+  "parentKey": {
+   "assess": "Score the worksheet. 5 = count-on, the missing addend, the comparison, and the word match are right, and he traced. Writing sun alone is the stretch, not required for a 5. Reading is supported by you.",
+   "items": [
+    {
+     "q": "6 + 3",
+     "a": "9."
+    },
+    {
+     "q": "5 + ____ = 9",
+     "a": "4. Check: 5 + 4 = 9."
+    },
+    {
+     "q": "Which is more?",
+     "a": "7."
+    },
+    {
+     "q": "Words",
+     "a": "sun → ☀️, red → 🔴, hop → 🐇. He should circle both <b>see</b> words. Stretch spelling: sun."
+    }
+   ]
+  }
  }
 }

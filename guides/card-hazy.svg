@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="720" height="400" fill="#fff"/>
+  <rect x="8" y="8" width="704" height="52" rx="8" fill="#9a3412"/>
+  <text x="360" y="30" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">CONCEPTUAL DRAWING - not a Venus or Enceladus screenshot</text>
+  <text x="360" y="50" text-anchor="middle" fill="#fff" font-size="13">Ideas for words. Today's view may not look like this. Do not require a jet or ice.</text>
+  <g>
+    <rect x="24" y="78" width="320" height="200" fill="#c2410c" stroke="#111" stroke-width="3"/>
+    <rect x="24" y="170" width="320" height="108" fill="#7c2d12"/>
+    <text x="184" y="130" text-anchor="middle" fill="#ffedd5" font-size="20" font-weight="700">hard to see far?</text>
+    <text x="184" y="310" text-anchor="middle" fill="#111" font-size="18" font-weight="700">VENUS idea card</text>
+    <text x="184" y="334" text-anchor="middle" fill="#111" font-size="14">Older visits looked gloomy. Write what YOU see.</text>
+  </g>
+  <g>
+    <rect x="376" y="78" width="320" height="200" fill="#e0f2fe" stroke="#111" stroke-width="3"/>
+    <rect x="376" y="180" width="320" height="98" fill="#f8fafc"/>
+    <path d="M420 200 L470 150 L520 200" fill="none" stroke="#64748b" stroke-width="6"/>
+    <text x="536" y="140" text-anchor="middle" fill="#0f172a" font-size="20" font-weight="700">bright ground?</text>
+    <text x="536" y="310" text-anchor="middle" fill="#111" font-size="18" font-weight="700">ENCELADUS idea card</text>
+    <text x="536" y="334" text-anchor="middle" fill="#111" font-size="14">A bright look is not proof of ice. No jet is required.</text>
+  </g>
+  <text x="360" y="372" text-anchor="middle" fill="#111" font-size="15">No real rover has landed on Enceladus. This is a model view. NASA facts get the label NASA.</text>
+</svg>

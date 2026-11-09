@@ -33,5 +33,8 @@ details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333
 .chk{background:#fef9c3;border:2px solid #ca8a04;border-radius:8px;padding:.3rem .6rem}.chk summary{font-weight:900;cursor:pointer}
 .wb{background:#ecfccb;color:#000;border:3px solid #4d7c0f;border-radius:12px;padding:.4rem .8rem}.wb ul{margin:.2rem 0}
 .chal{background:#f3e8ff;color:#000;border:3px solid #7e22ce;border-radius:12px;padding:.4rem .8rem;margin:.6rem 0}.chal summary{font-weight:900;cursor:pointer}
+.setup{background:#fff7ed;color:#111;border:3px solid #c2410c;border-radius:12px;padding:.6rem .8rem;margin:.6rem 0}.setup ol{margin:.3rem 0 .2rem 1.2rem}
+.key{background:#fff7ed;color:#111;border:3px dashed #9a3412;border-radius:12px;padding:.5rem .8rem;margin:.6rem 0}.key summary{font-weight:900;cursor:pointer}
+#ws.fit{font-size:12.5pt}#ws.fit h2{font-size:16pt;margin:0 0 .12in}#ws.fit li{margin-bottom:.28in}#ws .ex{border:2px solid #111;padding:.06in .1in;margin:0 0 .12in}
 .henry .card ol li{margin:.5rem 0;font-size:1.1em}
 @media print{.rdb{display:none!important}}

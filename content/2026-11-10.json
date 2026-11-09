@@ -3,149 +3,217 @@
  "subject": "science",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "Gravity and Weight on Other Worlds",
-  "intro": "Mass stays the same. Weight changes with gravity. (About 15 minutes.)",
+  "title": "Moon and Mars: Predict the Sky, Then Look",
+  "intro": "About 15 minutes after the grown-up says go. You will predict, look, and separate a NASA fact from a game picture. Write question 1 before you open Show me how. The picture can spoil the prediction.",
+  "setup": [
+   "This page cannot start Regolith. On the Windows PC, open moonsim.exe yourself. There is no launch button on purpose.",
+   "This candidate is b1505a7. It had a short window check only. It was not drive-tested, and this lesson was not tested on your PC. Later fixes may not be in the file. Press H and follow Help if it disagrees with this page.",
+   "Keep any career you want. Do not overwrite it. Backspace recovery may cost something. Do not hand Backspace to Henry.",
+   "Confirm in H, then use Load or a new career and garage/drive until a world is showing. Henry’s keys are W A S D. You handle menus (Esc, the map button or Shift+M, Tab). Trust H.",
+   "Two landings today: a readable <b>Moon</b> name first (Moon menu titles were not verified — write the name you actually see), then <b>Mars</b>. Prefer Gale crater (Curiosity / Mount Sharp) if it is readable. Other readable Mars names: Jezero crater, Meridiani Planum, Olympus Mons, Valles Marineris, Chasma Boreale. The map click was not retested. Pause the 15 minutes while you switch.",
+   "Do not use Titan, Io, or Europa. Skip a site with no readable name. Ignore a little globe if it flickers or disagrees with the ground. Do not rank worlds by speed or jumps. There is no verified gravity or air gauge.",
+   "If a world will not appear, Henry uses the older-build photos on this page plus the NASA pages and writes BACKUP. Those photos are not today’s screen. The game is still the plan when it runs."
+  ],
   "steps": [
-   "📖 <b>Read</b> each chunk. Tap 🔊 if you want.",
-   "🛑 <b>Stop</b> and answer each check.",
-   "🧮 <b>Find</b> your weight on the Moon and Mars.",
-   "✏️ <b>Fill in</b> the worksheet. Try the rover bonus if you want."
-  ],
-  "links": [
-   [
-    "NASA Space Place: What Is Gravity?",
-    "https://spaceplace.nasa.gov/what-is-gravity/en/",
-    "Read the first few paragraphs. Find why you would weigh less on a smaller world."
-   ],
-   [
-    "NASA: gravity compared to Earth (table)",
-    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html",
-    "Scroll to the row 'Surface gravity'. Moon ≈ 0.17, Mars ≈ 0.38, Earth = 1."
-   ]
-  ],
-  "passage": [
-   {
-    "text": "🧲 <b>Gravity</b> is a pull between things that have mass. Earth's gravity pulls you down. That pull is your <b>weight</b>.",
-    "q": "What is weight?",
-    "a": "The pull of gravity on you."
-   },
-   {
-    "text": "⚖️ Your <b>mass</b> (how much stuff you are made of) stays the same everywhere. Your <b>weight</b> changes if gravity changes.",
-    "q": "What stays the same on every world?",
-    "a": "Your mass."
-   },
-   {
-    "text": "🌕 The Moon's gravity is about <b>1/6</b> of Earth's. A 60 lb kid weighs about <b>10 lb</b> on the Moon (60 ÷ 6).",
-    "q": "How do you find Moon weight?",
-    "a": "Divide Earth weight by 6."
-   },
-   {
-    "text": "🔴 Mars has weaker gravity than Earth, about <b>0.4</b> times (a bit under half). A 60 lb kid weighs about <b>24 lb</b> there (60 × 0.4).",
-    "q": "Is Mars gravity stronger or weaker than Earth's?",
-    "a": "Weaker."
-   },
-   {
-    "text": "🏠 Home tip: jumping high does <b>not</b> change Earth's gravity. Games and videos can only help you <b>notice</b> how different worlds feel.",
-    "q": "Can a home experiment change gravity?",
-    "a": "No. It can only help you notice differences."
-   }
-  ],
-  "words": [
-   [
-    "gravity",
-    "a pull between things with mass"
-   ],
-   [
-    "weight",
-    "how hard gravity pulls on you"
-   ],
-   [
-    "mass",
-    "how much stuff something is made of"
-   ],
-   [
-    "surface",
-    "the outside of a world"
-   ]
-  ],
-  "handsOn": {
-   "title": "🧮 Weight on other worlds (+ optional rover)",
-   "steps": [
-    [
-     "guides/weight-worlds.svg",
-     "Pick a weight close to yours, or use 60 lb from the chart."
-    ],
-    [
-     "guides/weight-worlds.svg",
-     "Moon: divide by 6. Write it on the worksheet."
-    ],
-    [
-     "guides/weight-worlds.svg",
-     "Mars: multiply by 0.4 (or take a bit under half). Write it."
-    ],
-    [
-     "",
-     "🎮 Optional: Drive a rover (see bonus below). Predict which world feels floatier, then try the Moon and one other body."
-    ]
-   ],
-   "look": "Mass does not change. Weight = mass × gravity. Weaker gravity → smaller weight → floatier jumps.",
-   "q": "Questions 3–6 use the chart and your math."
-  },
-  "worksheet": [
-   "Weight is: Circle: how hard gravity pulls / how tall you are",
-   "Mass on the Moon: Circle: stays the same / goes to zero",
-   "60 lb on Earth → Moon (÷ 6) ≈ ____ lb. Circle: 10 / 30 / 60",
-   "60 lb on Earth → Mars (× 0.4) ≈ ____ lb. Circle: 10 / 24 / 60",
-   "Weaker gravity feels: Circle: floatier / heavier",
-   "Can a jump at home change Earth's gravity? Circle: yes / no",
-   "Optional rover: I predicted ______ felt floatier. After driving I think ______ did, because ______."
-  ],
-  "challenge": "Use your real weight. Find Moon weight (÷ 6) and Mars weight (× 0.4). Which is closer to your Earth weight?",
-  "bonus": "OPTIONAL bonus (5–10 min), only if Regolith works on the grown-up's Windows PC: <b>Drive a rover</b>. Grown-up starts Regolith and sets up free play on a Moon site. Core lesson works fine without the game — skip it if it isn't working.\n\n<b>Henry:</b> Predict first: which world will feel floatier, the Moon or another body? Grown-up boards you in the rover. Hold <b>W</b> to drive a short way (WASD steers; Shift boosts). Press <b>E</b> to get out, then <b>Space</b> to jump while walking (Space does not jump while driving). Grown-up then loads another body (Mercury or Enceladus are fine; Mars is okay but has known issues). Drive a little and jump again. Say which world felt floatier and why (link it to gravity). Observation only — no measuring speeds. <b>H</b> hides help. Backspace or Home recovers the rover from a pit. Bodies that load: Moon, Mars, Mercury, Venus, Enceladus.\n\n<b>Frankie:</b> Grown-up sets up on the Moon and boards. Frankie holds <b>W</b> briefly, then stops. Count a few craters. Point to what is light and what is dark. Skip if the game isn't working."
- },
- "frankie": {
-  "title": "Floaty Jumps and Moon Looks 🌕",
-  "intro": "Grown-up, read aloud: On the Moon, jumps feel floaty because gravity is weaker. Mass stays the same — you don't shrink! (About 14 minutes.)",
-  "steps": [
-   "🐇 <b>Hop</b> 5 times on Earth. Feel the landing.",
-   "👀 <b>Look</b> at light and dark on the Moon picture.",
-   "🔤 <b>Sound out</b> b-i-g and h-o-p.",
-   "✏️ <b>Trace</b>, then write: I can hop. (stretch!)"
+   "📖 <b>Read</b> three short chunks. Answer the checks.",
+   "✏️ <b>Write question 1</b> before anyone opens the game view or Show me how.",
+   "👀 <b>Look</b> at the Moon, then Mars. W moves, A and D turn, S backs up. Stop and write.",
+   "🧠 <b>Finish</b> the worksheet: prediction, what you saw, and the NASA numbers."
   ],
   "links": [
    [
     "NASA Space Place: All About the Moon",
     "https://spaceplace.nasa.gov/all-about-the-moon/en/",
-    "Grown-up: scroll the Moon page. Point to light and dark parts."
+    "Grown-up check only. The reading already has the sentence. You do not read the whole page."
+   ],
+   [
+    "NASA Space Place: All About Mars",
+    "https://spaceplace.nasa.gov/all-about-mars/en/",
+    "Find the idea: Mars has a very thin atmosphere, mostly carbon dioxide, and rusty ground."
+   ],
+   [
+    "NASA Moon fact sheet (grown-up)",
+    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
+    "Surface gravity 1.62 m/s². The atmosphere is only a trace."
+   ],
+   [
+    "NASA Mars fact sheet (grown-up)",
+    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
+    "Surface gravity 3.73 m/s². Surface pressure about 6.36 millibars. Mostly carbon dioxide."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "🌕 An older game view of the Moon showed <b>grey craters, a black sky, and sharp shadows</b>. An older Gale view of Mars showed <b>rusty ground and a tan horizon</b>. Those are reminders, not orders. You will write what <b>today’s</b> screen shows.",
+    "q": "What do you record?",
+    "a": "What I see today, not a promise from an old picture."
+   },
+   {
+    "text": "📖 NASA lists the Moon’s pull as <b>1.62 m/s²</b> and Mars as <b>3.73 m/s²</b>. Mars has thin carbon-dioxide air. The Moon’s air is only a trace. The game model is close to those pulls, but this screen has <b>no gauge</b>. You do not measure them.",
+    "q": "Are 1.62 and 3.73 numbers you measure with the rover today?",
+    "a": "No. They are NASA fact-sheet numbers. The game model is close, but it is not a gauge reading."
+   },
+   {
+    "text": "🌫️ Thin air can color a sky. Almost no air can leave a sky looking black. <b>Predict before you look.</b> Brightness and color in the game are approximations. A dark picture can be the lighting, not a proof about air. Do not compare driving speeds. Little rocks are model scenery, not a lab sample.",
+    "q": "What can fool your eyes besides the real air?",
+    "a": "Brightness or exposure — how light or dark the picture is made."
+   }
+  ],
+  "words": [
+   [
+    "atmosphere",
+    "the layer of gases around a world"
+   ],
+   [
+    "horizon",
+    "the line where ground meets sky"
+   ],
+   [
+    "model",
+    "a number or picture built to stand in for the real thing"
+   ],
+   [
+    "evidence",
+    "what you actually observed"
+   ],
+   [
+    "exposure",
+    "how bright or dark the picture is"
+   ],
+   [
+    "crater",
+    "a round pit; on a real world, often from an impact"
    ]
   ],
   "handsOn": {
-   "title": "🐇 Hops + optional rover",
+   "title": "After question 1 is written: Moon, then Mars",
    "steps": [
     [
-     "guides/moon-light-dark.svg",
-     "👀 Light parts are high ground. Dark parts are flat low land."
+     "guides/draw-adult.svg",
+     "<b>Grown-up.</b> Confirm H. Open a readable Moon name. Write that name on the sheet. Henry does not open Windows."
     ],
     [
-     "",
-     "🐇 Frankie hops 5 times. Grown-up: 'On the Moon, the same hop would feel floatier!'"
+     "guides/draw-wasd.svg",
+     "<b>Henry.</b> Roll a short way with W. Turn with A and D. Stop. Write the sky and the ground. Do not use speed as science."
     ],
     [
-     "",
-     "🎮 Optional: Grown-up starts Regolith on the Moon and boards. Frankie holds W a little, stops, counts craters, and points to light and dark. Skip if it isn't working."
+     "guides/draw-adult.svg",
+     "<b>Grown-up.</b> Pause the timer. Switch to a readable Mars place, Gale if you can read it. Henry looks again and writes."
+    ],
+    [
+     "guides/moon-old-example.png",
+     "<b>After both looks.</b> This is a real older-build Moon photo: grey craters, black sky, sharp shadow. It is not today’s screen and not the controls."
+    ],
+    [
+     "guides/mars-old-example.png",
+     "This is a real older-build Gale photo: rusty ground, tan horizon. Say what matches today and what does not. Small rocks are model scenery."
     ]
    ],
-   "look": "Grown-up: say 'floaty' and 'heavy' as he hops. Don't claim we changed gravity.",
-   "q": "Circle light and dark on your sheet."
+   "look": "A black or colored sky, rusty or grey ground, round pits, shadows. Sky color does not prove the air. Missing a famous landmark is allowed.",
+   "q": "Questions 1–4. Label GAME or BACKUP."
   },
+  "fitPrint": true,
   "worksheet": [
-   "Circle what feels floatier: <span style=\"font-size:26px;letter-spacing:4px\">Earth hop &nbsp; Moon hop</span>",
-   "Count the craters. Circle the number.<br><span style=\"font-size:30px;letter-spacing:4px\">🌑🌑🌑 + 🌑🌑 =</span> <span style=\"font-size:26px;letter-spacing:6px\">4 &nbsp; 5 &nbsp; 6</span>",
-   "Light or dark? Draw a line.<br><span style=\"font-size:22px;letter-spacing:2px\">high ground &nbsp; flat low land</span><br><span style=\"font-size:26px;letter-spacing:6px\">LIGHT &nbsp; DARK</span>",
-   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">big &nbsp; hop &nbsp; sun</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; ☀️ &nbsp; 🐘</span>",
-   "Circle every <b>can</b>: <span style=\"font-size:24px;letter-spacing:2px\">I can hop. I can see.</span>",
-   "Trace: <span style=\"font-size:40px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I can hop.</span><br><b>Stretch:</b> Write <b>big</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+   "<b>Before you look.</b> I predict the more colored or hazy sky is: Moon / Mars.<br>Because: ________________________________",
+   "<b>What I saw.</b> Moon name: ________ Sky: ________ Ground: ________<br>Mars name: ________ Sky: ________ Ground: ________<br>Source: GAME or BACKUP",
+   "<b>Compare.</b> My prediction matched / did not match.<br>One thing besides air that can change the picture: ________________",
+   "<b>NASA, not a gauge.</b> Moon ________ m/s² &nbsp; Mars ________ m/s²<br>I did not measure these. Little rocks in the game are model scenery. Circle: true / false"
   ],
-  "bonus": "OPTIONAL: Drive a rover in Regolith (grown-up sets it up). Frankie holds W briefly, stops, counts craters, and says what is light and dark. Skip if the game isn't working."
+  "challenge": "Optional. If H and the HUD show a speed, copy the number and the unit and label it SCREEN. Do not use it to answer 1–4. A changing speed means a distance guess is not a measured trip. Do not compare top speed on two worlds.",
+  "parentKey": {
+   "assess": "Score the worksheet only. Reading checks are support. 5 = a prediction with a reason about air, real look-notes for both worlds (or a labeled BACKUP), a confound that is brightness/exposure/color approximation, and the NASA gravities labeled as not measured. Do not require the old picture’s exact colors if the live view differs. Do not require a speed.",
+   "limits": "No drive validation of b1505a7. No verified E, M, Home, Shift-boost, or Space-jump. No jump test and no cross-world speed test. Globe is not evidence. Gravity and pressure are references, not instruments. Moon model about 1.62 m/s² and no air; Mars model about 3.7 m/s² and about 610 Pa of thin CO2. NASA fact sheet is the real-world source: Moon 1.62 m/s²; Mars 3.73 m/s² and about 6.36 millibars, mostly CO2. The lesson photos are older-build appearance examples only (grey cratered Moon, black sky, sharp shadow; rusty Gale ground, tan horizon), not the current screen and not control evidence. Scarps, rays, jets, and ice are not required. Titan, Io, and Europa are out.",
+   "items": [
+    {
+     "q": "1. Prediction",
+     "a": "The strongest prediction is <b>Mars</b>, because NASA says it has a thin atmosphere and the Moon has only a trace of air. Credit a clear reason tied to air. A Moon prediction can still earn credit if the reason is thoughtful and question 3 deals honestly with the result."
+    },
+    {
+     "q": "2. Observations",
+     "a": "Any specific sky and ground notes, with the names actually opened. Older-build reminders, not required words: Moon black sky, grey craters, sharp shadows; Mars rusty ground, tan horizon. Live view may differ. BACKUP is valid if the game failed: the older-build photos plus Space Place, labeled BACKUP."
+    },
+    {
+     "q": "3. Confound",
+     "a": "Must name something like brightness, exposure, or that game color is an approximation. Not speed, not jump height, not “the globe said so.”"
+    },
+    {
+     "q": "4. Numbers",
+     "a": "Moon <b>1.62</b> m/s² and Mars <b>3.73</b> m/s² from the NASA fact sheets. Circle <b>true</b>: little rocks are model scenery. The game model’s 3.7 m/s² and about 610 Pa are close references, not what he measures and not a substitute for 3.73 and 6.36 millibars."
+    }
+   ]
+  }
+ },
+ "frankie": {
+  "title": "Two Worlds to Look At 🌕🔴",
+  "intro": "Grown-up, read aloud. We look at the Moon, then Mars. Frankie picks what he sees. About 14 minutes after you say go. Setup time is yours, not his.",
+  "setup": [
+   "Open Regolith yourself. This page cannot launch it. Press H and confirm keys before he drives. His keys are W A S D only.",
+   "Candidate b1505a7 was not drive-tested. Follow H if it disagrees with this page. Do not overwrite a save you want. Do not give him Backspace.",
+   "Land a readable Moon name, then a readable Mars name (Gale crater if you can read it). Pause his minutes while you switch. Skip Titan, Io, Europa, and any nameless site.",
+   "If the game will not show a world, let him point at the older-build photos on this page. He writes BACKUP. Those photos are not today’s screen. The game is still the plan when it runs."
+  ],
+  "steps": [
+   "👀 <b>Look</b> at the Moon. Point to 1, 2, or 3 things.",
+   "🔤 <b>Copy</b> a word that matches. Other is allowed.",
+   "👀 <b>Look</b> at Mars. Point again. Same or different?",
+   "✏️ <b>Trace</b> I see it. Write your word if you can."
+  ],
+  "links": [
+   [
+    "NASA Space Place: All About the Moon",
+    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+    "Grown-up: show a Moon picture if the game is down."
+   ]
+  ],
+  "handsOn": {
+   "title": "Look, point, count your own points",
+   "steps": [
+    [
+     "guides/draw-wasd.svg",
+     "Hold W a little. Stop. A and D turn. S backs up. Grown-up already opened the Moon."
+    ],
+    [
+     "guides/card-count.svg",
+     "Point to things YOU see. Count only your points. 0, 1, 2, or 3 can be right."
+    ],
+    [
+     "guides/moon-old-example.png",
+     "Older-build Moon photo. Not today’s screen and not the buttons. Point only if it matches what you see."
+    ],
+    [
+     "guides/mars-old-example.png",
+     "Older-build Mars photo. Rusty ground, tan horizon. After Mars is open, say same or different."
+    ],
+    [
+     "guides/draw-adult.svg",
+     "<b>Grown-up.</b> You switch worlds. He does not use the menus."
+    ]
+   ],
+   "look": "A light place, a dark place, a round mark, or the sky. His count does not have to match yours.",
+   "q": "Count, copy a word, and say same or different."
+  },
+  "fitPrint": true,
+  "worksheet": [
+   "Moon. I pointed to this many things (0, 1, 2, or 3): ______<br>Word that matches what I saw: <b>gray</b> &nbsp; <b>dark</b> &nbsp; <b>other</b> ______",
+   "Mars. I pointed to this many things: ______<br>Word that matches: <b>red</b> &nbsp; <b>tan</b> &nbsp; <b>other</b> ______",
+   "The two grounds look: <b>same</b> &nbsp; <b>different</b>",
+   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">red &nbsp; sun &nbsp; hop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; ☀️ &nbsp; 🔴</span>",
+   "Circle every <b>see</b>: <span style=\"font-size:22px\">I see the sky. I see it.</span>",
+   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see it.</span><br><b>Stretch:</b> Write the word you copied: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
+  ],
+  "parentKey": {
+   "assess": "Score the looking, not a secret crater total. Any count 0–3 is right if it matches what he pointed to. The copied word must match his choice, including other. Same/different should match his two looks. Word match: red-circle, sun-sun, hop-rabbit. Both see words circled. Stretch spelling is extra.",
+   "limits": "Same build limits as Henry. Do not require three features. Do not require the word red. No drawing. No jump test.",
+   "items": [
+    {
+     "q": "Counts and words",
+     "a": "Accept his count. Gray or dark fits a typical Moon view; red or tan fits a typical Mars view; other is correct when the screen disagrees. Same/different is his comparison."
+    },
+    {
+     "q": "Reading",
+     "a": "red → 🔴, sun → ☀️, hop → 🐇. Circle both see. Trace “I see it.”"
+    }
+   ]
+  }
  }
 }

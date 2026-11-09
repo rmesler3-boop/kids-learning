@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 400" font-family="Arial, Helvetica, sans-serif">
+  <rect width="720" height="400" fill="#fff"/>
+  <rect x="8" y="8" width="704" height="44" rx="8" fill="#9a3412"/>
+  <text x="360" y="36" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">CONCEPTUAL DRAWING - shapes to notice, not a photo and not a promise</text>
+  <g>
+    <rect x="24" y="70" width="210" height="180" rx="8" fill="#e2e8f0" stroke="#111" stroke-width="3"/>
+    <ellipse cx="129" cy="160" rx="50" ry="22" fill="#94a3b8" stroke="#334155" stroke-width="3"/>
+    <text x="129" y="280" text-anchor="middle" font-size="16" font-weight="700">round pit</text>
+    <text x="129" y="302" text-anchor="middle" font-size="13">could be a crater</text>
+  </g>
+  <g>
+    <rect x="254" y="70" width="210" height="180" rx="8" fill="#e2e8f0" stroke="#111" stroke-width="3"/>
+    <path d="M284 190 L360 110 L430 190" fill="none" stroke="#334155" stroke-width="8"/>
+    <text x="359" y="280" text-anchor="middle" font-size="16" font-weight="700">long cliff</text>
+    <text x="359" y="302" text-anchor="middle" font-size="13">could be a scarp</text>
+  </g>
+  <g>
+    <rect x="484" y="70" width="210" height="180" rx="8" fill="#f8fafc" stroke="#111" stroke-width="3"/>
+    <text x="589" y="165" text-anchor="middle" font-size="18" font-weight="700">not seen</text>
+    <text x="589" y="280" text-anchor="middle" font-size="16" font-weight="700">absence is a result</text>
+    <text x="589" y="302" text-anchor="middle" font-size="13">write NOT SEEN</text>
+  </g>
+  <text x="360" y="348" text-anchor="middle" font-size="15">You do not have to see rays, a cliff, or ice. Little scattered rocks are model scenery.</text>
+  <text x="360" y="374" text-anchor="middle" font-size="15">A shape in the game is not proof of what the real rocks are made of. Check a NASA photo.</text>
+</svg>
