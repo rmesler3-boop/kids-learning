@@ -3,215 +3,126 @@
  "subject": "science",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "Moon and Mars: Predict the Sky, Then Look",
-  "intro": "About 15 minutes after the grown-up says go. You will predict, look, and separate a NASA fact from a game picture. Write question 1 before you open Show me how. The picture can spoil the prediction.",
-  "setup": [
-   "This page cannot start Regolith. On the Windows PC, open moonsim.exe yourself. There is no launch button on purpose.",
-   "This candidate is b1505a7. It had a short window check only. It was not drive-tested, and this lesson was not tested on your PC. Later fixes may not be in the file. Press H and follow Help if it disagrees with this page.",
-   "Keep any career you want. Do not overwrite it. Backspace recovery may cost something. Do not hand Backspace to Henry.",
-   "Confirm in H, then use Load or a new career and garage/drive until a world is showing. Henry’s keys are W A S D. You handle menus (Esc, the map button or Shift+M, Tab). Trust H.",
-   "Two landings today: a readable <b>Moon</b> name first (Moon menu titles were not verified — write the name you actually see), then <b>Mars</b>. Prefer Gale crater (Curiosity / Mount Sharp) if it is readable. Other readable Mars names: Jezero crater, Meridiani Planum, Olympus Mons, Valles Marineris, Chasma Boreale. The map click was not retested. Pause the 15 minutes while you switch.",
-   "Do not use Titan, Io, or Europa. Skip a site with no readable name. Ignore a little globe if it flickers or disagrees with the ground. Do not rank worlds by speed or jumps. There is no verified gravity or air gauge.",
-   "If a world will not appear, Henry uses the older-build photos on this page plus the NASA pages and writes BACKUP. Those photos are not today’s screen. The game is still the plan when it runs."
-  ],
-  "steps": [
-   "📖 <b>Read</b> three short chunks. Answer the checks.",
-   "✏️ <b>Write question 1</b> before anyone opens the game view or Show me how.",
-   "👀 <b>Look</b> at the Moon, then Mars. W moves, A and D turn, S backs up. Stop and write.",
-   "🧠 <b>Finish</b> the worksheet: prediction, what you saw, and the NASA numbers."
-  ],
-  "links": [
-   [
-    "NASA Space Place: All About the Moon",
-    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
-    "Grown-up check only. The reading already has the sentence. You do not read the whole page."
-   ],
-   [
-    "NASA Space Place: All About Mars",
-    "https://spaceplace.nasa.gov/all-about-mars/en/",
-    "Find the idea: Mars has a very thin atmosphere, mostly carbon dioxide, and rusty ground."
-   ],
-   [
-    "NASA Moon fact sheet (grown-up)",
-    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/moonfact.html",
-    "Surface gravity 1.62 m/s². The atmosphere is only a trace."
-   ],
-   [
-    "NASA Mars fact sheet (grown-up)",
-    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/marsfact.html",
-    "Surface gravity 3.73 m/s². Surface pressure about 6.36 millibars. Mostly carbon dioxide."
-   ]
-  ],
-  "passage": [
-   {
-    "text": "🌕 An older game view of the Moon showed <b>grey craters, a black sky, and sharp shadows</b>. An older Gale view of Mars showed <b>rusty ground and a tan horizon</b>. Those are reminders, not orders. You will write what <b>today’s</b> screen shows.",
-    "q": "What do you record?",
-    "a": "What I see today, not a promise from an old picture."
-   },
-   {
-    "text": "📖 NASA lists the Moon’s pull as <b>1.62 m/s²</b> and Mars as <b>3.73 m/s²</b>. Mars has thin carbon-dioxide air. The Moon’s air is only a trace. The game model is close to those pulls, but this screen has <b>no gauge</b>. You do not measure them.",
-    "q": "Are 1.62 and 3.73 numbers you measure with the rover today?",
-    "a": "No. They are NASA fact-sheet numbers. The game model is close, but it is not a gauge reading."
-   },
-   {
-    "text": "🌫️ Thin air can color a sky. Almost no air can leave a sky looking black. <b>Predict before you look.</b> Brightness and color in the game are approximations. A dark picture can be the lighting, not a proof about air. Do not compare driving speeds. Little rocks are model scenery, not a lab sample.",
-    "q": "What can fool your eyes besides the real air?",
-    "a": "Brightness or exposure — how light or dark the picture is made."
-   }
-  ],
+  "title": "Moon and Mars Field Notes",
+  "mission": "Drive on the Moon and on Mars, write what each place looks like, and use the reading to name one difference in their air.",
+  "done": "Both rows of the table are filled, and problems 2 and 3 are answered.",
   "words": [
    [
-    "atmosphere",
-    "the layer of gases around a world"
+    "air",
+    "the gases around a world"
    ],
    [
     "horizon",
-    "the line where ground meets sky"
-   ],
-   [
-    "model",
-    "a number or picture built to stand in for the real thing"
-   ],
-   [
-    "evidence",
-    "what you actually observed"
-   ],
-   [
-    "exposure",
-    "how bright or dark the picture is"
-   ],
-   [
-    "crater",
-    "a round pit; on a real world, often from an impact"
+    "where the ground meets the sky"
    ]
   ],
-  "handsOn": {
-   "title": "After question 1 is written: Moon, then Mars",
-   "steps": [
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> Confirm H. Open a readable Moon name. Write that name on the sheet. Henry does not open Windows."
+  "flow": [
+   {
+    "title": "Read, then look at both worlds",
+    "teach": "<p>NASA Space Place says the Moon has almost no atmosphere. It also says Mars has a very thin atmosphere made mostly of carbon dioxide, and people could not breathe it.</p><p>Air can change how a sky looks. Write the colors and shapes you see today.</p><p>Drive with W, A, S, and D. Stop and look. A grown-up switches from the Moon to Mars.</p>",
+    "pics": [
+     [
+      "guides/draw-wasd.svg",
+      "W forward, A left, D right, S back. Stop often."
+     ]
     ],
-    [
-     "guides/draw-wasd.svg",
-     "<b>Henry.</b> Roll a short way with W. Turn with A and D. Stop. Write the sky and the ground. Do not use speed as science."
-    ],
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> Pause the timer. Switch to a readable Mars place, Gale if you can read it. Henry looks again and writes."
-    ],
-    [
-     "guides/moon-old-example.png",
-     "<b>After both looks.</b> This is a real older-build Moon photo: grey craters, black sky, sharp shadow. It is not today’s screen and not the controls."
-    ],
-    [
-     "guides/mars-old-example.png",
-     "This is a real older-build Gale photo: rusty ground, tan horizon. Say what matches today and what does not. Small rocks are model scenery."
-    ]
-   ],
-   "look": "A black or colored sky, rusty or grey ground, round pits, shadows. Sky color does not prove the air. Missing a famous landmark is allowed.",
-   "q": "Questions 1–4. Label GAME or BACKUP."
-  },
-  "fitPrint": true,
-  "worksheet": [
-   "<b>Before you look.</b> I predict the more colored or hazy sky is: Moon / Mars.<br>Because: ________________________________",
-   "<b>What I saw.</b> Moon name: ________ Sky: ________ Ground: ________<br>Mars name: ________ Sky: ________ Ground: ________<br>Source: GAME or BACKUP",
-   "<b>Compare.</b> My prediction matched / did not match.<br>One thing besides air that can change the picture: ________________",
-   "<b>NASA, not a gauge.</b> Moon ________ m/s² &nbsp; Mars ________ m/s²<br>I did not measure these. Little rocks in the game are model scenery. Circle: true / false"
+    "sheet": "<b>Field notes.</b><table><tr><th></th><th>Moon</th><th>Mars</th></tr><tr><td>Name on the screen</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr><tr><td>Sky looks</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr><tr><td>Ground looks</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr><tr><td>One thing I noticed</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr></table>"
+   },
+   {
+    "title": "One difference you saw",
+    "teach": "<p>Look back at your two rows. Name one thing that was different. If they looked the same, write what was the same.</p>",
+    "sheet": "One difference I saw, or what was the same:<div class=\"line\"></div><div class=\"line\"></div>"
+   },
+   {
+    "title": "Use the reading",
+    "teach": "<p>Use the reading. The Moon has almost no air. Mars has thin air. Say that difference in your own words.</p>",
+    "sheet": "In your own words, what is one difference in the air of the Moon and Mars?<div class=\"line\"></div><div class=\"line\"></div>"
+   }
   ],
-  "challenge": "Optional. If H and the HUD show a speed, copy the number and the unit and label it SCREEN. Do not use it to answer 1–4. A changing speed means a distance guess is not a measured trip. Do not compare top speed on two worlds.",
+  "challenge": "<p>Optional. NASA lists the Moon's pull as 1.62 and Mars's pull as 3.73. Round each to a whole number. About how many times as strong is the Mars number?</p><p>Space Place also says the Moon has about one-sixth of Earth's gravity. A 60-pound rock on Earth would weigh about 60 divided by 6 pounds on the Moon. What is that?</p>",
+  "adult": "<p><b>Your setup time is not part of his 15 minutes.</b> Open Regolith yourself. This page cannot start it. Press H and follow H if it disagrees with this page. Do not overwrite a save you want. Land on a readable Moon name, then a readable Mars name. Gale crater is a good Mars choice if you can read it. Other readable Mars names include Jezero crater and Meridiani Planum. He uses only W A S D. Pause his timer while you switch. Both boys can take a short turn on the same landing.</p><p>If a world will not appear, use the Space Place pages below and write photo by that row.</p><p>NASA Space Place, Moon: the Moon has almost no atmosphere and about one-sixth of Earth's gravity. NASA Space Place, Mars: a very thin atmosphere made mostly of carbon dioxide. NASA fact sheets: Moon surface gravity 1.62 m/s², Mars 3.73 m/s². The game's model pulls are about 1.62 and about 3.7. Those are not the same printed figures, and the screen has no gravity meter. Do not grade colors. Do not count craters as a fact about the whole world. Do not use jumps or top speed. Skip Titan, Io, and Europa.</p><p>Older pictures for you only:</p><p><img src=\"guides/moon-old-example.png\" alt=\"Older Moon view\"></p><p><img src=\"guides/mars-old-example.png\" alt=\"Older Mars Gale view\"></p><p><a href=\"https://spaceplace.nasa.gov/all-about-the-moon/en/\">Space Place: Moon</a> · <a href=\"https://spaceplace.nasa.gov/all-about-mars/en/\">Space Place: Mars</a></p>",
   "parentKey": {
-   "assess": "Score the worksheet only. Reading checks are support. 5 = a prediction with a reason about air, real look-notes for both worlds (or a labeled BACKUP), a confound that is brightness/exposure/color approximation, and the NASA gravities labeled as not measured. Do not require the old picture’s exact colors if the live view differs. Do not require a speed.",
-   "limits": "No drive validation of b1505a7. No verified E, M, Home, Shift-boost, or Space-jump. No jump test and no cross-world speed test. Globe is not evidence. Gravity and pressure are references, not instruments. Moon model about 1.62 m/s² and no air; Mars model about 3.7 m/s² and about 610 Pa of thin CO2. NASA fact sheet is the real-world source: Moon 1.62 m/s²; Mars 3.73 m/s² and about 6.36 millibars, mostly CO2. The lesson photos are older-build appearance examples only (grey cratered Moon, black sky, sharp shadow; rusty Gale ground, tan horizon), not the current screen and not control evidence. Scarps, rays, jets, and ice are not required. Titan, Io, and Europa are out.",
+   "assess": "Score the table, a difference taken from his own rows, and a sentence that the Moon has almost no air while Mars has thin air. Do not grade the colors or what he noticed. The challenge is not scored.",
    "items": [
     {
-     "q": "1. Prediction",
-     "a": "The strongest prediction is <b>Mars</b>, because NASA says it has a thin atmosphere and the Moon has only a trace of air. Credit a clear reason tied to air. A Moon prediction can still earn credit if the reason is thoughtful and question 3 deals honestly with the result."
+     "q": "1",
+     "a": "Both rows filled with the names you actually opened and what he saw. Any honest notes. Photo is fine if the game did not load."
     },
     {
-     "q": "2. Observations",
-     "a": "Any specific sky and ground notes, with the names actually opened. Older-build reminders, not required words: Moon black sky, grey craters, sharp shadows; Mars rusty ground, tan horizon. Live view may differ. BACKUP is valid if the game failed: the older-build photos plus Space Place, labeled BACKUP."
+     "q": "2",
+     "a": "A difference, or a sameness, that matches his table."
     },
     {
-     "q": "3. Confound",
-     "a": "Must name something like brightness, exposure, or that game color is an approximation. Not speed, not jump height, not “the globe said so.”"
+     "q": "3",
+     "a": "The Moon has almost no air. Mars has a thin atmosphere, mostly carbon dioxide. His own words are fine."
     },
     {
-     "q": "4. Numbers",
-     "a": "Moon <b>1.62</b> m/s² and Mars <b>3.73</b> m/s² from the NASA fact sheets. Circle <b>true</b>: little rocks are model scenery. The game model’s 3.7 m/s² and about 610 Pa are close references, not what he measures and not a substitute for 3.73 and 6.36 millibars."
+     "q": "Challenge",
+     "a": "1.62 rounds to 2. 3.73 rounds to 4. 4 is about 2 times 2. Accept about 2 or a little more than 2. The 60-pound rock is about 10 pounds on the Moon (60 ÷ 6)."
     }
    ]
   }
  },
  "frankie": {
-  "title": "Two Worlds to Look At 🌕🔴",
-  "intro": "Grown-up, read aloud. We look at the Moon, then Mars. Frankie picks what he sees. About 14 minutes after you say go. Setup time is yours, not his.",
-  "setup": [
-   "Open Regolith yourself. This page cannot launch it. Press H and confirm keys before he drives. His keys are W A S D only.",
-   "Candidate b1505a7 was not drive-tested. Follow H if it disagrees with this page. Do not overwrite a save you want. Do not give him Backspace.",
-   "Land a readable Moon name, then a readable Mars name (Gale crater if you can read it). Pause his minutes while you switch. Skip Titan, Io, Europa, and any nameless site.",
-   "If the game will not show a world, let him point at the older-build photos on this page. He writes BACKUP. Those photos are not today’s screen. The game is still the plan when it runs."
-  ],
-  "steps": [
-   "👀 <b>Look</b> at the Moon. Point to 1, 2, or 3 things.",
-   "🔤 <b>Copy</b> a word that matches. Other is allowed.",
-   "👀 <b>Look</b> at Mars. Point again. Same or different?",
-   "✏️ <b>Trace</b> I see it. Write your word if you can."
-  ],
-  "links": [
-   [
-    "NASA Space Place: All About the Moon",
-    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
-    "Grown-up: show a Moon picture if the game is down."
-   ]
-  ],
-  "handsOn": {
-   "title": "Look, point, count your own points",
-   "steps": [
-    [
-     "guides/draw-wasd.svg",
-     "Hold W a little. Stop. A and D turn. S backs up. Grown-up already opened the Moon."
+  "title": "Moon and Mars: Point and Count",
+  "mission": "Drive on the Moon and on Mars, count things you point to, and write the word red.",
+  "done": "Both counts are written, you circled which had more or same, you matched the three words, and you wrote red.",
+  "flow": [
+   {
+    "title": "Moon, then Mars",
+    "teach": "<p>Grown-up, read aloud. He drives with W. He stops and points at things he chooses, such as rocks or holes. Make one mark for each thing he points to.</p>",
+    "pics": [
+     [
+      "guides/draw-wasd.svg",
+      "W forward. A and D turn. S backs up."
+     ],
+     [
+      "guides/card-count.svg",
+      "Point, then make one mark."
+     ]
     ],
-    [
-     "guides/card-count.svg",
-     "Point to things YOU see. Count only your points. 0, 1, 2, or 3 can be right."
-    ],
-    [
-     "guides/moon-old-example.png",
-     "Older-build Moon photo. Not today’s screen and not the buttons. Point only if it matches what you see."
-    ],
-    [
-     "guides/mars-old-example.png",
-     "Older-build Mars photo. Rusty ground, tan horizon. After Mars is open, say same or different."
-    ],
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> You switch worlds. He does not use the menus."
+    "sheets": [
+     "Moon. Marks: <span class=\"tally\"></span> Number: <span class=\"countbox\"></span><br>The ground looks: <span class=\"writebox\"></span>",
+     "Mars. Marks: <span class=\"tally\"></span> Number: <span class=\"countbox\"></span><br>The ground looks: <span class=\"writebox\"></span>"
     ]
-   ],
-   "look": "A light place, a dark place, a round mark, or the sky. His count does not have to match yours.",
-   "q": "Count, copy a word, and say same or different."
-  },
-  "fitPrint": true,
-  "worksheet": [
-   "Moon. I pointed to this many things (0, 1, 2, or 3): ______<br>Word that matches what I saw: <b>gray</b> &nbsp; <b>dark</b> &nbsp; <b>other</b> ______",
-   "Mars. I pointed to this many things: ______<br>Word that matches: <b>red</b> &nbsp; <b>tan</b> &nbsp; <b>other</b> ______",
-   "The two grounds look: <b>same</b> &nbsp; <b>different</b>",
-   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">red &nbsp; sun &nbsp; hop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; ☀️ &nbsp; 🔴</span>",
-   "Circle every <b>see</b>: <span style=\"font-size:22px\">I see the sky. I see it.</span>",
-   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see it.</span><br><b>Stretch:</b> Write the word you copied: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
+   },
+   {
+    "title": "Which had more?",
+    "teach": "<p>Compare his two numbers. Same is a fine answer.</p>",
+    "sheet": "Which had more things? Circle: Moon / Mars / same.<br>Stretch, only if you want it: How many more? <span class=\"countbox\"></span>"
+   },
+   {
+    "title": "Read and write red",
+    "teach": "<p>Grown-up, name the pictures first: a bus, a pin, a red circle.</p>",
+    "sheets": [
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">bus</div><div class=\"mword\">pin</div><div class=\"mword\">red</div></div><div class=\"mcol\"><div class=\"mpic\">🔴</div><div class=\"mpic\">🚌</div><div class=\"mpic\">📌</div></div></div>",
+     "Circle every <b>look</b>: I look at the Moon. I look at Mars.<br>Trace:<div class=\"trace\">I look at Mars.</div>Write <b>red</b>: <span class=\"writebox\"></span>"
+    ]
+   }
   ],
+  "adult": "<p>Same landing as Henry. You open the Moon, then Mars. He only drives with W A S D. If the game will not load, he can point at the older Moon and Mars pictures in Henry's grown-up notes, or at the Space Place pages, and write photo.</p><p>When he circles <b>look</b>, a capital or a small letter both count.</p>",
   "parentKey": {
-   "assess": "Score the looking, not a secret crater total. Any count 0–3 is right if it matches what he pointed to. The copied word must match his choice, including other. Same/different should match his two looks. Word match: red-circle, sun-sun, hop-rabbit. Both see words circled. Stretch spelling is extra.",
-   "limits": "Same build limits as Henry. Do not require three features. Do not require the word red. No drawing. No jump test.",
+   "assess": "Score both counts, the more/same circle, the word match, and writing red. The how-many-more line is optional. Do not grade the color words. Same is correct when his numbers match.",
    "items": [
     {
-     "q": "Counts and words",
-     "a": "Accept his count. Gray or dark fits a typical Moon view; red or tan fits a typical Mars view; other is correct when the screen disagrees. Same/different is his comparison."
+     "q": "1",
+     "a": "His Moon marks match his number. Any ground word, including other."
     },
     {
-     "q": "Reading",
-     "a": "red → 🔴, sun → ☀️, hop → 🐇. Circle both see. Trace “I see it.”"
+     "q": "2",
+     "a": "His Mars marks match his number. Any ground word, including other."
+    },
+    {
+     "q": "3",
+     "a": "Moon, Mars, or same, matching his two numbers. The stretch is the difference."
+    },
+    {
+     "q": "4",
+     "a": "bus to the bus, pin to the pin, red to the red circle."
+    },
+    {
+     "q": "5",
+     "a": "Both <b>look</b> words circled. He traces the sentence and writes <b>red</b>."
     }
    ]
   }

@@ -3,62 +3,13 @@
  "subject": "history",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "People on the Moon, Robots at Mercury",
-  "intro": "About 15 minutes after the grown-up says go. Short reading, then one Mercury look. A missing cliff is a real observation. Your score is the worksheet.",
-  "setup": [
-   "Open Regolith yourself. This page has no launch button. Press H before Henry drives. Follow H if it disagrees with this card. Candidate b1505a7 was not drive-tested.",
-   "Do not overwrite a save you want. Backspace may cost something. Henry uses W A S D only. You use the menus.",
-   "One landing: <b>Mercury</b>. Prefer a readable <b>Discovery Rupes</b> (lobate scarp) or <b>Caloris Planitia</b> (basin floor). Also readable if those are missing: Kuiper crater, Intercrater plains, Prokofiev. Do not require a cliff, bright rays, or ice. Polar frost in the sim is incomplete.",
-   "Pause the 15 minutes while you set up. Skip Titan, Io, Europa, and nameless sites. Ignore a flickering globe. If Mercury will not appear, he uses the NASA pages and writes BACKUP."
-  ],
-  "steps": [
-   "📖 <b>Read</b> the three short chunks. Answer the checks.",
-   "🗓️ <b>Fill</b> the Apollo blanks from the reading. You can tap 🔊.",
-   "👀 <b>Look</b> at one Mercury place. Write what you expected and what you see.",
-   "🖼️ <b>Compare</b> one NASA picture or sentence. Label it NASA."
-  ],
-  "links": [
-   [
-    "NASA: Apollo 11",
-    "https://www.nasa.gov/mission/apollo-11/",
-    "Crew and July 1969. You already have the dates in the reading."
-   ],
-   [
-    "NASA photo: a bootprint on the Moon",
-    "https://images.nasa.gov/details/as11-40-5878",
-    "People really walked there in 1969. This is a photo, not the game."
-   ],
-   [
-    "NASA: MESSENGER",
-    "https://science.nasa.gov/mission/messenger/",
-    "A spacecraft orbited Mercury. It was the first Mercury mission after Mariner 10."
-   ]
-  ],
-  "passage": [
-   {
-    "text": "🚀 NASA’s Apollo 11 crew was Neil <b>Armstrong</b>, Buzz <b>Aldrin</b>, and Michael <b>Collins</b>. The Eagle landed on <b>July 20, 1969</b>. Armstrong stepped out first. Collins stayed in orbit.",
-    "q": "Who stepped on the Moon first?",
-    "a": "Neil Armstrong."
-   },
-   {
-    "text": "🛰️ Mercury is a different story. NASA’s <b>MESSENGER</b> spacecraft orbited Mercury for more than four years. <b>Mariner 10</b> flew past earlier. People have not walked on Mercury.",
-    "q": "Have people walked on Mercury?",
-    "a": "No. Spacecraft have studied it."
-   },
-   {
-    "text": "🪨 A round pit <b>can</b> be a crater from an impact. A long cliff <b>can</b> be a scarp. Discovery Rupes is a famous long cliff. Caloris Planitia is a wide basin. You might not see that shape. Write <b>NOT SEEN</b>. That counts. Little rocks in the game are model scenery, not a piece of Mercury.",
-    "q": "What do you write if the cliff is missing?",
-    "a": "NOT SEEN."
-   }
-  ],
+  "title": "Explorers on the Moon and at Mercury",
+  "mission": "Put three real exploration events in order, then write a game log of what you see on Mercury today.",
+  "done": "The timeline is in order, both year problems are done, and your game log is written.",
   "words": [
    [
-    "astronaut",
-    "a person who travels in space"
-   ],
-   [
     "spacecraft",
-    "a machine that can go without a person walking there"
+    "a machine sent to study space"
    ],
    [
     "orbit",
@@ -66,131 +17,120 @@
    ],
    [
     "crater",
-    "a round pit, often from an impact"
+    "a round pit"
    ],
    [
-    "scarp",
-    "a long cliff; on Mercury, a kind called a lobate scarp"
-   ],
-   [
-    "evidence",
-    "the shape you can actually see"
+    "log",
+    "a first-hand record of the date, the place, and what you saw"
    ]
   ],
-  "handsOn": {
-   "title": "One Mercury place, then a NASA picture",
-   "steps": [
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> Confirm H. Open one readable Mercury name. Tell Henry the name you see, not a name that is missing."
+  "flow": [
+   {
+    "title": "Three dates, in order",
+    "teach": "<p>NASA Space Place: on July 20, 1969, Neil Armstrong and Buzz Aldrin were the first people to set foot on the Moon. The Apollo 11 crew also included Michael Collins, who stayed in orbit.</p><p>NASA: Mariner 10 was the first spacecraft sent to Mercury. It flew past Mercury in 1974. MESSENGER orbited Mercury from 2011 to 2015.</p><p>People have walked on the Moon. People have not walked on Mercury. Spacecraft studied Mercury.</p><p><b>Example of years between, using different years:</b> 2015 - 2011 = 4. That is the length of MESSENGER's orbit mission. Your problems use other years.</p>",
+    "sheet": "Put these in order, earliest first:<br>A. Mariner 10 flew past Mercury (1974)<br>B. MESSENGER orbited Mercury (2011)<br>C. Apollo 11 lands on the Moon (1969)<br>1st ______ 2nd ______ 3rd ______<br>Years between. Show the subtraction.<br>a) From Apollo 11 to Mariner 10:<span class=\"work sub\"></span>b) From Apollo 11 to MESSENGER:<span class=\"work sub\"></span>Have people walked on Mercury? ______ Name one spacecraft that studied it: ______"
+   },
+   {
+    "title": "A game log from today",
+    "teach": "<p>A log is a first-hand record: the date, the place, and what you saw. Armstrong's Moon landing is a record from 1969. Your log is a record of the game today. It is not a record of the real Mercury from the past.</p><p>Look for a crater (a round pit), a cliff (a long steep edge), or a plain (wide flat land). You might see something else. That is fine.</p>",
+    "pics": [
+     [
+      "guides/card-shapes.svg",
+      "Crater, cliff, and plain."
+     ],
+     [
+      "guides/draw-wasd.svg",
+      "Drive with W A S D. A grown-up reads the place name."
+     ]
     ],
-    [
-     "guides/draw-wasd.svg",
-     "<b>Henry.</b> Roll a short way. Stop. Look for a round pit, a long cliff, both, or neither."
-    ],
-    [
-     "guides/card-shapes.svg",
-     "This is a drawing of ideas, not a photo of the game. If you do not see the shape, circle NOT SEEN."
-    ],
-    [
-     "guides/card-shapes.svg",
-     "Open the MESSENGER page or the bootprint photo. Write one match or one difference. Label it NASA."
-    ]
-   ],
-   "look": "Round pits, a long edge, or neither. Rays and ice are not required. Pebbles are not a lab sample.",
-   "q": "History blanks, your Mercury notes, and one NASA comparison."
-  },
-  "fitPrint": true,
-  "worksheet": [
-   "Apollo 11 landed on July ______, 1969. First person out: ________.<br>People have walked on Mercury: yes / no. One robot mission: ________.",
-   "Mercury name the grown-up opened: ________________<br>I thought I might see: ________________<br>I actually saw: ________________<br>If the cliff or basin was missing, write NOT SEEN.",
-   "NASA picture or page. One match or one difference: ________________<br>Game pebbles are model scenery. Circle: true / false",
-   "Only if the game failed: write BACKUP and use the NASA pages for questions 2 and 3."
+    "sheet": "<b>My game log for today</b><br>Date: __________<br>Place name from the screen:<div class=\"line\"></div>I saw (circle any): crater / cliff / plain / other __________<br>One sentence about the most interesting thing I saw:<div class=\"line\"></div><div class=\"line\"></div>"
+   }
   ],
-  "challenge": "Why can a bootprint last on the Moon? NASA’s Moon fact sheet lists only a trace of air, not wind like Earth’s. Mercury’s air is also only a trace. Say that in one sentence, and label it NASA, not a game measurement.",
+  "challenge": "<p>Optional. Space Place says the Moon has almost no atmosphere. On a windy day on Earth, what can the air do that the Moon's air cannot?</p>",
+  "adult": "<p><b>Your setup time is not part of his 15 minutes.</b> Open Regolith yourself. Press H and follow H if it disagrees. Do not overwrite a save. Land once on Mercury. He uses only W A S D. A readable name is enough. Discovery Rupes or Caloris Planitia are useful if you can read them. A cliff or bright rays may not show. Do not require them.</p><p>Sources checked on the NASA pages: Space Place Moon (July 20, 1969; Armstrong and Aldrin; almost no atmosphere). NASA Mariner 10 page: closest flyby March 29, 1974. The lesson says only that it flew past in 1974. NASA MESSENGER page: the story says orbit began at 00:45 UT on March 18, 2011, while a key-dates line on the same page says Mar. 11, 2011. The mission end on that page is April 30, 2015. The lesson uses only the years 2011 and 2015.</p><p>The bootprint photo is a real Apollo picture, not the game: <a href=\"https://images.nasa.gov/details/as11-40-5878\">NASA bootprint photo</a>.</p><p>This build was not driven for these lessons. Skip Titan, Io, and Europa. Do not use jumps or speed as science.</p>",
   "parentKey": {
-   "assess": "Score the worksheet. 5 = Apollo date and Armstrong, no people on Mercury plus Mariner 10 or MESSENGER, an honest Mercury note (NOT SEEN is full credit), and a NASA comparison that does not treat game pebbles as a real sample. Reading checks are not the score.",
-   "limits": "Mercury model gravity 3.70 m/s² and essentially no air. Those are model inputs, not a gauge. Source place names are declared; seeing a scarp or rays was not tested. Do not require them. No ice promise. No E/M/Home/Shift-boost/Space as verified keys. Build not drive-tested.",
+   "assess": "Score the order, both subtractions, the spacecraft answer, and a complete game log. Do not grade which shapes he saw. The challenge is not scored.",
    "items": [
     {
-     "q": "History",
-     "a": "Landed <b>July 20</b>, 1969. First out: <b>Neil Armstrong</b> (Buzz Aldrin also walked; Collins did not). People on Mercury: <b>no</b>. Mission: <b>MESSENGER</b> or <b>Mariner 10</b>. The NASA Apollo 11 page also shows launch July 16 and splashdown July 24. Those are not required on the sheet."
+     "q": "1",
+     "a": "Order: C 1969, then A 1974, then B 2011.<br>a) 1974 - 1969 = <b>5</b>.<br>b) 2011 - 1969 = <b>42</b>.<br>People have <b>not</b> walked on Mercury. Spacecraft: <b>Mariner 10</b> or <b>MESSENGER</b>."
     },
     {
-     "q": "Observation",
-     "a": "Credit the place name you actually opened. A proposal (crater from an impact, or scarp from squeezed crust) must be tied to a shape he saw, or he writes NOT SEEN. Absence is correct. Circle <b>true</b> for model scenery."
+     "q": "2",
+     "a": "Today's date, the place name you opened, at least one circle or the word other, and one complete sentence. It is a log of the game, not a historical record of Mercury."
     },
     {
      "q": "Challenge",
-     "a": "A bootprint can last because the Moon has no Earth-like wind. That is from the thin lunar atmosphere on the NASA Moon fact sheet (surface pressure at night is tiny). Do not accept “I saw no wind in the game” as the proof."
+     "a": "Earth's air can blow things. The Moon has almost no atmosphere, so it does not have wind like Earth."
     }
    ]
   }
  },
  "frankie": {
-  "title": "A Moon Print and a New World 👣",
-  "intro": "Grown-up, read aloud. People left a bootprint on the Moon. Today we also look at Mercury in the game. About 14 minutes after you say go.",
-  "setup": [
-   "Show the NASA bootprint photo first. Then open Regolith yourself. Press H. Frankie uses W A S D only.",
-   "One Mercury landing. Pick a readable name. You may say “Rupes” or “Caloris” only if that is the name on screen. Do not promise a cliff or ice.",
-   "If the game fails, stay with the bootprint photo and the counting you can do on that page. Write BACKUP."
-  ],
-  "steps": [
-   "👀 <b>Look</b> at the real bootprint photo.",
-   "🚗 <b>Roll and stop</b> up to 3 times. Make one mark each time.",
-   "🔢 <b>Count</b> round shapes you really see, up to 3.",
-   "✏️ <b>Trace</b> I see a pit. Write pit."
-  ],
-  "links": [
-   [
-    "Real Moon bootprint photo",
-    "https://images.nasa.gov/details/as11-40-5878",
-    "Grown-up: this photo is from 1969. It is not the game."
-   ]
-  ],
-  "handsOn": {
-   "title": "Photo, then a short Mercury look",
-   "steps": [
-    [
-     "guides/card-count.svg",
-     "On the photo, point to the boot mark. Say: a person made this long ago."
+  "title": "Bootprint and Round Pits",
+  "mission": "Look at the real Moon bootprint photo, count round pits you see in the game, and write pit.",
+  "done": "You circled the real photo, wrote a count for each stop, matched the words, and wrote pit.",
+  "flow": [
+   {
+    "title": "The real photo",
+    "teach": "<p>Grown-up, open the photo and say: a real astronaut made this bootprint in 1969. It is not the game.</p>",
+    "link": [
+     "Real Moon bootprint photo",
+     "https://images.nasa.gov/details/as11-40-5878",
+     "A grown-up opens this."
     ],
-    [
-     "guides/draw-wasd.svg",
-     "In the game, roll and stop. One mark each stop. Stop by 3."
+    "sheet": "Circle one: the real 1969 bootprint photo / the rover game today."
+   },
+   {
+    "title": "Three short looks",
+    "teach": "<p>Grown-up, you already landed on Mercury for Henry, or you land now. Frankie drives a little with W and stops three times. At each stop he counts round pits he can see. Zero is allowed.</p>",
+    "pics": [
+     [
+      "guides/draw-wasd.svg",
+      "W to roll. Then stop."
+     ],
+     [
+      "guides/card-shapes.svg",
+      "A crater is a round pit."
+     ]
     ],
-    [
-     "guides/card-shapes.svg",
-     "Point to round pits if you see them. The drawing is not the game. Zero pits is allowed."
-    ],
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> You opened Mercury. Read the place name. He copies what you point to."
+    "sheets": [
+     "Round pits I see. Stop 1 <span class=\"countbox\"></span> Stop 2 <span class=\"countbox\"></span> Stop 3 <span class=\"countbox\"></span>",
+     "Stretch, only if you want it: add the three numbers. <span class=\"countbox\"></span>"
     ]
-   ],
-   "look": "A boot mark in the photo. In the game, his own tally and his own pits.",
-   "q": "Copy a name, count your marks, trace pit."
-  },
-  "fitPrint": true,
-  "worksheet": [
-   "The bootprint photo is: a real NASA photo / the game. Circle one.",
-   "Place word I copied: ____________________",
-   "Roll-and-stop marks (0 to 3): ______ &nbsp; Round shapes I saw (0 to 3): ______",
-   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">pit &nbsp; sun &nbsp; map</span><br><span style=\"font-size:36px;letter-spacing:14px\">🗺️ &nbsp; 🕳️ &nbsp; ☀️</span>",
-   "Circle every <b>on</b>: <span style=\"font-size:22px\">A pit is on the map. I am on it.</span>",
-   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see a pit.</span><br><b>Stretch:</b> Write <b>pit</b>: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
+   },
+   {
+    "title": "Read and write pit",
+    "teach": "<p>Grown-up, name the pictures first: a hole for pit, a map, a cap.</p>",
+    "sheets": [
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">pit</div><div class=\"mword\">map</div><div class=\"mword\">cap</div></div><div class=\"mcol\"><div class=\"mpic\">🧢</div><div class=\"mpic\">🕳️</div><div class=\"mpic\">🗺️</div></div></div>",
+     "Circle every <b>on</b>: A pit is on the map. I am on it.<br>Trace:<div class=\"trace\">I see a pit.</div>Write <b>pit</b>: <span class=\"writebox\"></span>"
+    ]
+   }
   ],
+  "adult": "<p>Use the same Mercury landing as Henry. He does not need a cliff. The photo link is the NASA bootprint, not the game.</p>",
   "parentKey": {
-   "assess": "Score the sheet. The photo is NASA, not the game. His tallies are right if they match what he did. There is no required pit total. pit → hole, sun → sun, map → map. Both on words. Stretch: pit.",
-   "limits": "Do not require a scarp, rays, or a fixed count. No drawing beyond tracing letters.",
+   "assess": "Score the photo circle, the three counts, the word match, and writing pit. Adding the counts is optional.",
    "items": [
     {
-     "q": "Photo and counts",
-     "a": "Circle <b>a real NASA photo</b>. Place word is whatever you pointed to on screen, or BACKUP if you skipped the game. Marks and pits: any 0–3 that matches him."
+     "q": "1",
+     "a": "He circles the real 1969 bootprint photo."
     },
     {
-     "q": "Words",
-     "a": "pit → 🕳️, sun → ☀️, map → 🗺️. Circle both <b>on</b>."
+     "q": "2",
+     "a": "Three counts that match what he pointed at, including zero."
+    },
+    {
+     "q": "3",
+     "a": "Optional. The sum of his three counts."
+    },
+    {
+     "q": "4",
+     "a": "pit to the hole, map to the map, cap to the cap."
+    },
+    {
+     "q": "5",
+     "a": "Both <b>on</b> words circled. He traces the sentence and writes <b>pit</b>."
     }
    ]
   }

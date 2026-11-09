@@ -3,193 +3,126 @@
  "subject": "language arts",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "Looks Like: Venus and Enceladus",
-  "intro": "About 15 minutes after the grown-up says go. You will write what you see, then copy two NASA sentences and label them NASA. Sky color does not prove the air. A bright view does not prove ice.",
-  "setup": [
-   "Open Regolith yourself. No launch button on this page. Press H first. Candidate b1505a7 was not drive-tested. Follow Help if it disagrees.",
-   "Do not overwrite a wanted save. Henry uses W A S D. You switch worlds and pause his 15 minutes during the switch.",
-   "First a readable <b>Venus</b> name. Full current labels were not verified. Older observations included Venera 13 and Alpha regions, but do not require those words. Then a readable <b>Enceladus</b> name: Saturn-facing cratered plains, Tiger stripes (Baghdad Sulcus), or the circumpolar ridge belt. Do not require a jet. Do not promise ice.",
-   "Skip Titan, Io, Europa, and nameless sites. Ignore a flickering globe. No speed contest. If a world will not appear, he writes from the NASA pages and labels BACKUP. The game is still the plan when it runs."
-  ],
-  "steps": [
-   "📖 <b>Read</b> three short chunks. Use the word bank.",
-   "👀 <b>Look</b> at Venus. Write two “looks like” notes.",
-   "👀 <b>Look</b> at Enceladus. Write two more. One difference.",
-   "📋 <b>Copy</b> the NASA lines. Label them NASA, not game."
-  ],
-  "links": [
-   [
-    "NASA: Venus",
-    "https://science.nasa.gov/venus/",
-    "Grown-up page. The NASA sentence is already on the worksheet."
-   ],
-   [
-    "NASA Venus fact sheet",
-    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
-    "About 92 bars, about 737 K, mostly carbon dioxide. Surface gravity 8.87 m/s²."
-   ],
-   [
-    "NASA: Enceladus",
-    "https://science.nasa.gov/saturn/moons/enceladus/",
-    "Icy moon of Saturn. Cassini saw water-vapor plumes. No landed rover."
-   ]
-  ],
-  "passage": [
-   {
-    "text": "📝 A describing word tells how something looks. Your own notes must say <b>looks like</b>. Copy a NASA fact only on the NASA lines.",
-    "q": "What kind of sentence is your own note?",
-    "a": "A looks-like sentence."
-   },
-   {
-    "text": "🟠 NASA says Venus has <b>thick carbon-dioxide air</b>. It is about 92 times the squeeze of Earth’s air, and very hot. The game’s color is not a light meter. You do not measure the air.",
-    "q": "Does the color of the sky prove how thick the air is?",
-    "a": "No."
-   },
-   {
-    "text": "🌕 NASA: Enceladus is an <b>icy moon of Saturn</b>. Cassini saw water plumes. <b>No rover has landed there.</b> You do not have to see a jet. A bright picture is not proof of ice.",
-    "q": "Has a rover landed on the real Enceladus?",
-    "a": "No."
-   }
-  ],
+  "title": "Two Worlds in Three Sentences",
+  "mission": "Collect two describing words for Venus and two for Enceladus, then write 3 sentences that compare them, including one simile.",
+  "done": "Both word pairs are filled, and your 3 sentences are written.",
   "words": [
    [
-    "hazy",
-    "hard to see far"
+    "adjective",
+    "a word that tells how something looks"
    ],
    [
-    "bright",
-    "full of light"
-   ],
-   [
-    "dark",
-    "with little light"
-   ],
-   [
-    "rough",
-    "bumpy"
-   ],
-   [
-    "smooth",
-    "flat, without big bumps"
+    "simile",
+    "a comparison that uses like or as"
    ],
    [
     "pale",
     "light in color"
    ],
    [
-    "model",
-    "a stand-in picture, not the real place"
+    "hazy",
+    "hard to see far"
    ]
   ],
-  "handsOn": {
-   "title": "Two looks, then NASA words",
-   "steps": [
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> Confirm H. Open a readable Venus name. Write the name you see."
+  "flow": [
+   {
+    "title": "Describing words on Venus",
+    "teach": "<p>A describing word tells how something looks. <b>Example, about a playground, not about space:</b> The playground was noisy and bright.</p><p>Drive on Venus. Pick two words that match what you see. You may use the bank or your own words: hazy, bright, pale, rough, smooth, dark, rocky, cracked.</p>",
+    "pics": [
+     [
+      "guides/draw-wasd.svg",
+      "W A S D. Stop and look close, then far."
+     ]
     ],
-    [
-     "guides/draw-wasd.svg",
-     "<b>Henry.</b> Roll a short way. Stop. Write looks-like words only if you see them."
-    ],
-    [
-     "guides/card-hazy.svg",
-     "This card is a drawing, not a screenshot. Venus might be hard to see far. Enceladus might look bright. Neither is a promise. No jet hunt."
-    ],
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> Pause the timer. Open Enceladus. Henry writes again, then copies the NASA lines."
-    ]
-   ],
-   "look": "How far you can see, and whether the ground looks light or dark. Do not call the ground ice unless you are on the NASA line.",
-   "q": "Two looks-like pairs, one difference, and the copied NASA lines."
-  },
-  "fitPrint": true,
-  "worksheet": [
-   "Venus name: ________. It looks like ________ and ________.<br>Sky color does not prove the air.",
-   "Enceladus name: ________. It looks like ________ and ________.<br>I did not need to see a jet.",
-   "One difference I saw: ________________________________",
-   "Copy these lines and label them <b>NASA</b>, not the game:<br>Venus has thick carbon-dioxide air.<br>Enceladus is an icy moon of Saturn. Cassini saw plumes. No rover has landed there.<br>☐ labeled NASA &nbsp; ☐ my own lines say looks like"
+    "sheet": "Venus place name:<div class=\"line\"></div>Two words for how it looks: <span class=\"blank\"></span> and <span class=\"blank\"></span>"
+   },
+   {
+    "title": "Describing words on Enceladus",
+    "teach": "<p>Do the same on the second world. A pale or bright look tells how it looks. It does not tell you what the ground is made of.</p>",
+    "sheet": "Enceladus place name:<div class=\"line\"></div>Two words for how it looks: <span class=\"blank\"></span> and <span class=\"blank\"></span>"
+   },
+   {
+    "title": "Three sentences and one simile",
+    "teach": "<p>A simile compares two different things with <b>like</b> or <b>as</b>.</p><p><b>Example, still about a playground:</b> The slide was as shiny as a spoon.</p><p>Write only 3 sentences. Use your words from Tasks 1 and 2.</p>",
+    "sheet": "On Venus, it looked <span class=\"blank\"></span> and <span class=\"blank\"></span>.<div class=\"line\"></div>But on Enceladus, it looked <span class=\"blank\"></span> and <span class=\"blank\"></span>.<div class=\"line\"></div>One place looked as <span class=\"blank\"></span> as <span class=\"blank\"></span>.<div class=\"line\"></div>"
+   }
   ],
-  "challenge": "One simile, only if you want it: “Venus looks as _____ as _____.” Use a look you wrote, not a fact you copied.",
+  "challenge": "<p>Optional fourth sentence. NASA's Venus fact sheet lists thick carbon-dioxide air and an average temperature of 737 K (464 C). NASA's Enceladus page says it is an icy moon and the most reflective body in the solar system. Add one of those facts and write NASA next to it. Your three sentences stay about what you saw.</p>",
+  "adult": "<p><b>Your setup time is not part of his 15 minutes.</b> Open Regolith yourself. Press H and follow H. Do not overwrite a save. Land on a readable Venus name, then a readable Enceladus name. He uses only W A S D. Pause the timer while you switch. Both boys can share the landing.</p><p>Venus menu names from older visits included Venera 13 and Alpha regions, but use whatever readable name you see. Enceladus choices include Tiger stripes (Baghdad Sulcus), the circumpolar ridge belt, or Saturn-facing cratered plains. Do not require a jet, frost, or ice. A pale look is not proof of ice.</p><p>If a world will not load, he can use a NASA photo and write photo by that row. Sources for the optional fact: NASA Venus fact sheet (92 bars, about 96.5 percent carbon dioxide, 737 K) and the NASA Enceladus page (icy, most reflective body). Do not grade colors. No jump test. Skip Titan, Io, and Europa.</p>",
   "parentKey": {
-   "assess": "Score the four worksheet parts. 5 = both worlds have looks-like notes (or a labeled BACKUP from the NASA pages), a difference from those notes, and the NASA sentences copied and labeled. Do not require the words hazy, ice, or jet in his own notes. Reading checks are not the score.",
-   "limits": "Venus model: gravity 8.87 m/s², about 92 bar, about 737 K, dense CO2. Haze, color, and glow are approximations, not calibrated brightness. Enceladus model: 0.113 m/s², no substantial global atmosphere. Jets and new Saturn geometry are source-declared but not required and were not visually verified for this lesson. Do not imply a real landed rover. Polar frost incomplete. No speed comparison. Build not drive-tested. No verified menu screenshot. The hazy/bright card is a conceptual drawing.",
+   "assess": "Score two look-words for each world and 3 sentences that follow the starters, with like or as in sentence 3. Words should match what he says he saw. Do not require the word ice. The NASA sentence is not scored.",
    "items": [
     {
-     "q": "Own notes",
-     "a": "Accept any specific looks-like words tied to what he saw, including “I could not see far” or “NOT bright.” A difference must come from his two notes. BACKUP from the NASA pages is valid if the game failed, and it must be labeled BACKUP so it is not pretended to be the game."
+     "q": "1",
+     "a": "A readable place name and two describing words tied to what he saw."
     },
     {
-     "q": "NASA copy",
-     "a": "The two sentences on the sheet, labeled NASA. Venus fact-sheet extras if he adds them: about 92 bars, about 737 K, surface gravity 8.87 m/s², mostly CO2. Enceladus: icy moon, Cassini plumes, no landed rover. Game-model 0.113 m/s² stays labeled model, not NASA copy and not a measurement."
+     "q": "2",
+     "a": "A readable place name and two describing words tied to what he saw."
+    },
+    {
+     "q": "3",
+     "a": "Three sentences on their own lines. Example shape: On Venus, it looked dark and rough. But on Enceladus, it looked pale and smooth. One place looked as pale as a sheet of paper. Sentence 3 needs like or as."
     }
    ]
   }
  },
  "frankie": {
-  "title": "Look and Copy a Word 🦸",
-  "intro": "Grown-up, read aloud. Two short looks: Venus, then Enceladus. He points, counts up to 3, and copies one word. About 14 minutes after you say go. No drawing.",
-  "setup": [
-   "You open the game and press H. He only uses W A S D. Pause his minutes when you switch from Venus to Enceladus.",
-   "Pick readable names. Do not promise a color, a jet, or ice. If the game fails, point at the idea card and write BACKUP."
-  ],
-  "steps": [
-   "👀 <b>Point</b> at the Venus ground. Light or dark?",
-   "🔢 <b>Count</b> up to 3 things you choose.",
-   "🔤 <b>Copy</b> one word that matches.",
-   "👀 <b>Enceladus:</b> same or different? Then trace and write see."
-  ],
-  "links": [
-   [
-    "NASA: Venus",
-    "https://science.nasa.gov/venus/",
-    "Grown-up backup page if the game will not open."
-   ]
-  ],
-  "handsOn": {
-   "title": "Point, count, copy",
-   "steps": [
-    [
-     "guides/draw-wasd.svg",
-     "W to roll a little. Stop. Look at the ground."
+  "title": "Light, Dark, or Other",
+  "mission": "Look at Venus and Enceladus, mark light, dark, or other, count what you point to, and write fog.",
+  "done": "Both worlds are marked and counted, the words are matched, and you wrote fog.",
+  "flow": [
+   {
+    "title": "Two worlds",
+    "teach": "<p>Grown-up, read aloud. He drives a little with W and points at things he chooses. Light, dark, or other are all fine.</p>",
+    "pics": [
+     [
+      "guides/draw-wasd.svg",
+      "W to roll a little, then stop."
+     ],
+     [
+      "guides/card-count.svg",
+      "Point, then count your points."
+     ]
     ],
-    [
-     "guides/card-count.svg",
-     "Pick up to 3 things. Count your picks. Zero is allowed."
-    ],
-    [
-     "guides/card-hazy.svg",
-     "The card is a drawing, not the game. After the second world, say same or different."
-    ],
-    [
-     "guides/draw-adult.svg",
-     "<b>Grown-up.</b> You do the switch. Ask: light or dark?"
+    "sheets": [
+     "Venus. Circle: light / dark / other. I counted: <span class=\"countbox\"></span>",
+     "Enceladus. Circle: light / dark / other. I counted: <span class=\"countbox\"></span>",
+     "Stretch, only if you want it: add the two counts <span class=\"countbox\"></span>. Which had more? Venus / Enceladus / same"
     ]
-   ],
-   "look": "Light or dark ground, and whether the second world matches. His word must match his eyes.",
-   "q": "Light or dark, a count, a copied word, and the trace."
-  },
-  "fitPrint": true,
-  "worksheet": [
-   "Venus ground looks: <b>light</b> &nbsp; <b>dark</b><br>I counted (0 to 3): ______",
-   "Look word for what I see, or <b>none</b>: <b>red</b> &nbsp; <b>dark</b> &nbsp; <b>ice-like</b> &nbsp; <b>other</b> &nbsp; <b>none</b><br>ice-like means it looks pale. It is not a temperature and not proof of ice.",
-   "Enceladus ground looks: <b>same</b> &nbsp; <b>different</b>",
-   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">red &nbsp; sun &nbsp; hop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; ☀️ &nbsp; 🔴</span>",
-   "Circle every <b>see</b>: <span style=\"font-size:22px\">I see it. I see the sun.</span>",
-   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see it.</span><br><b>Stretch:</b> Write <b>see</b>: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
+   },
+   {
+    "title": "Read and write fog",
+    "teach": "<p>Grown-up, name the pictures first. The cloud is fog. The drop is wet. The fire is hot. Hot matches the fire picture. It is not a word for how the world looks.</p>",
+    "sheets": [
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">fog</div><div class=\"mword\">wet</div><div class=\"mword\">hot</div></div><div class=\"mcol\"><div class=\"mpic\">🔥</div><div class=\"mpic\">🌫️</div><div class=\"mpic\">💧</div></div></div>",
+     "Circle every <b>it</b>: I see it. I like it.<br>Trace:<div class=\"trace\">I see it.</div>Write <b>fog</b>: <span class=\"writebox\"></span>"
+    ]
+   }
   ],
+  "adult": "<p>Same Venus and Enceladus landings as Henry. Hot is only the phonics picture of a fire. Do not ask him to say the planet looks hot.</p><p>When he circles <b>it</b>, a capital or a small letter both count.</p>",
   "parentKey": {
-   "assess": "Score his looking and the word work. Light/dark and same/different must match what he pointed at. Any count 0–3 is fine. The look word must match his eyes: red, dark, ice-like, other, or none. none is a full answer. Do not treat color as a temperature. NASA’s statement that Venus is very hot stays on the grown-up science page, not on this line. Both see words. Writing see is the stretch.",
-   "limits": "No fixed feature count. No required drawing. Do not mark him wrong for not seeing ice or a jet. ice-like is a look word only.",
+   "assess": "Score both look circles, both counts, the word match, and writing fog. The add-and-compare line is optional. Other and same are acceptable answers.",
    "items": [
     {
-     "q": "Looking",
-     "a": "Accept his light/dark, count, look word, and same/different when they match the session. none is correct when none of the words fit. BACKUP on the idea card is allowed if the game failed."
+     "q": "1",
+     "a": "Light, dark, or other, plus his count."
     },
     {
-     "q": "Words",
-     "a": "Reading match only: red → 🔴, sun → ☀️, hop → 🐇. Circle both see. Stretch spelling: see. Do not expect the word hot."
+     "q": "2",
+     "a": "Light, dark, or other, plus his count."
+    },
+    {
+     "q": "3",
+     "a": "Optional. The sum of his counts, and Venus, Enceladus, or same to match those counts."
+    },
+    {
+     "q": "4",
+     "a": "fog to the cloud, wet to the drop, hot to the fire picture."
+    },
+    {
+     "q": "5",
+     "a": "Both <b>it</b> words circled. He traces and writes <b>fog</b>."
     }
    ]
   }
