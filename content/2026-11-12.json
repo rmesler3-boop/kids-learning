@@ -26,9 +26,9 @@
    },
    {
     "title": "Ukulele C, then F",
-    "teach": "<p>Look at the pictures. C is one finger: the ring finger on the A string.</p><p>F is two fingers. Pointer finger on the E string, fret 1. Middle finger on the G string, fret 2.</p><p>Strum C four times, then F four times. Sing \"Twinkle, twinkle\" on C and \"little\" on F.</p>",
+    "teach": "<p>Look at the pictures. C uses one finger: the ring finger on the A string, fret 3.</p><p>F uses two fingers. Pointer finger on the E string, fret 1. Middle finger on the G string, fret 2.</p><p>Strum C four times, then F four times. Sing \"Twinkle, twinkle\" on C and \"little\" on F.</p>",
     "pics": [
-     ["guides/uke-c-chord.svg", "C: one finger, the ring finger, on the A string."],
+     ["guides/uke-c-chord.svg", "C: ring finger on the A string, fret 3."],
      ["guides/uke-f-chord.svg", "F: pointer on E at fret 1, middle finger on G at fret 2."]
     ],
     "sheets": [
@@ -80,7 +80,7 @@
     "title": "Read and write dot",
     "teach": "<p>Grown-up, name the pictures first: a blue dot, a pig, a cup (the mug).</p>",
     "sheets": [
-     "Draw a line. dot, pig, cup. Pictures: blue dot 🔵 &nbsp; pig 🐷 &nbsp; cup ☕.",
+     "Draw a line. Words: dot, pig, cup. Pictures: cup ☕ &nbsp; blue dot 🔵 &nbsp; pig 🐷.",
      "Circle every <b>is</b>: It is a star. It is big.<br>Trace: a big star.<br>Write <b>dot</b>: __________"
     ]
    }

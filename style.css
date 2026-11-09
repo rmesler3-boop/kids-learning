@@ -46,9 +46,24 @@ details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333
 .gfig figcaption{font-weight:700;margin-top:.2rem}
 .turn{background:#fffbeb;border:3px dashed #111;border-radius:10px;padding:.45rem .6rem;margin-top:.45rem}
 .donebox{background:#dcfce7;color:#111;border:3px solid #166534;border-radius:12px;padding:.45rem .7rem}
-.work{display:block;border:2px solid #111;min-height:.95in;margin:.15rem 0}
-#ws table{border-collapse:collapse;width:100%;margin:.1in 0}
-#ws td,#ws th{border:1px solid #111;padding:3px 6px;vertical-align:top}#ws .cell{min-height:.38in}
-#ws.plain li{margin-bottom:.22in}
+.work{display:block;border:2px solid #111;min-height:1in;margin:.12rem 0}
+.work.mid{min-height:1in}
+.work.tall{min-height:2.5in}
+#ws table{border-collapse:collapse;width:100%;margin:.1in 0;table-layout:fixed}
+#ws td,#ws th{border:1px solid #111;padding:3px 6px;vertical-align:top}
+#ws td:first-child,#ws th:first-child{width:1.35in}
+#ws .cell{min-height:.65in}
+#ws .line{display:block;border-bottom:2px solid #111;height:.36in;margin:.06in 0 .08in}
+#ws .blank{display:inline-block;border-bottom:2px solid #111;min-width:1.5in;height:.32in;vertical-align:bottom}
+#ws.plain li{margin-bottom:.16in;break-inside:avoid;page-break-inside:avoid}
 @media screen{#ws.offscreen{position:absolute;left:-14000px;width:7.5in}}
-@media print{#ws.offscreen{left:0!important;height:auto}#ws.plain{font-size:13.5pt}#ws.plain h2{font-size:16pt;margin:0 0 .1in}#ws.plain li{margin-bottom:.18in}#ws .work{min-height:.7in}}
+@media print{
+ html,body,.henry,.frankie,.wrap,.card{height:auto!important;max-height:none!important;overflow:visible!important;min-height:0!important}
+ .wrap>*:not(.card),.card>*:not(#ws){display:none!important}
+ #ws.plain{display:block!important;position:static!important;left:auto!important;top:auto!important;max-height:none!important;overflow:visible!important;width:7.5in;font-size:14pt}
+ #ws.plain h2{font-size:16pt;margin:0 0 .08in}
+ #ws.plain li{margin-bottom:.12in;break-inside:avoid;page-break-inside:avoid}
+ #ws .work.mid{min-height:1in}
+ #ws .work.tall{min-height:2.5in}
+ #ws .cell{min-height:.65in}
+}

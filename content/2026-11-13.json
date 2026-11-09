@@ -19,17 +19,17 @@
     "pics": [
      ["guides/draw-wasd.svg", "W A S D. Stop and look close, then far."]
     ],
-    "sheet": "Venus. Place name: __________<br>Two words for how it looks: __________ and __________"
+    "sheet": "Venus place name:<div class=\"line\"></div>Two words for how it looks: <span class=\"blank\"></span> and <span class=\"blank\"></span>"
    },
    {
     "title": "Describing words on Enceladus",
     "teach": "<p>Do the same on the second world. A pale or bright look tells how it looks. It does not tell you what the ground is made of.</p>",
-    "sheet": "Enceladus. Place name: __________<br>Two words for how it looks: __________ and __________"
+    "sheet": "Enceladus place name:<div class=\"line\"></div>Two words for how it looks: <span class=\"blank\"></span> and <span class=\"blank\"></span>"
    },
    {
     "title": "Three sentences and one simile",
     "teach": "<p>A simile compares two different things with <b>like</b> or <b>as</b>.</p><p><b>Example, still about a playground:</b> The slide was as shiny as a spoon.</p><p>Write only 3 sentences. Use your words from Tasks 1 and 2.</p>",
-    "sheet": "Sentence 1: On Venus, the ground looked ______ and ______.<br>Sentence 2: But on Enceladus, the ground looked ______ and ______.<br>Sentence 3: One place looked as ______ as ______."
+    "sheet": "On Venus, it looked <span class=\"blank\"></span> and <span class=\"blank\"></span>.<div class=\"line\"></div>But on Enceladus, it looked <span class=\"blank\"></span> and <span class=\"blank\"></span>.<div class=\"line\"></div>One place looked as <span class=\"blank\"></span> as <span class=\"blank\"></span>.<div class=\"line\"></div>"
    }
   ],
   "challenge": "<p>Optional fourth sentence. NASA's Venus fact sheet lists thick carbon-dioxide air and an average temperature of 737 K (464 C). NASA's Enceladus page says it is an icy moon and the most reflective body in the solar system. Add one of those facts and write NASA next to it. Your three sentences stay about what you saw.</p>",
@@ -39,7 +39,7 @@
    "items": [
     {"q": "1", "a": "A readable place name and two describing words tied to what he saw."},
     {"q": "2", "a": "A readable place name and two describing words tied to what he saw."},
-    {"q": "3", "a": "Three sentences. Sentences 1 and 2 use his words and the starters. Sentence 3 is a simile with like or as. Example shape: On Venus, the ground looked dark and rough. But on Enceladus, the ground looked pale and smooth. One place looked as pale as a sheet of paper."}
+    {"q": "3", "a": "Three sentences on their own lines. Example shape: On Venus, it looked dark and rough. But on Enceladus, it looked pale and smooth. One place looked as pale as a sheet of paper. Sentence 3 needs like or as."}
    ]
   }
  },
@@ -65,12 +65,12 @@
     "title": "Read and write fog",
     "teach": "<p>Grown-up, name the pictures first. The cloud is fog. The drop is wet. The fire is hot. Hot matches the fire picture. It is not a word for how the world looks.</p>",
     "sheets": [
-     "Draw a line. fog, wet, hot. Pictures: fog 🌫️ &nbsp; wet drop 💧 &nbsp; fire 🔥.",
-     "Circle every <b>it</b>: It is dim. It is big.<br>Trace: It is big.<br>Write <b>fog</b>: __________"
+     "Draw a line. Words: fog, wet, hot. Pictures: fire 🔥 &nbsp; fog 🌫️ &nbsp; wet drop 💧.",
+     "Circle every <b>it</b>: I see it. I like it.<br>Trace: I see it.<br>Write <b>fog</b>: __________"
     ]
    }
   ],
-  "adult": "<p>Same Venus and Enceladus landings as Henry. Hot is only the phonics picture of a fire. Do not ask him to say the planet looks hot.</p>",
+  "adult": "<p>Same Venus and Enceladus landings as Henry. Hot is only the phonics picture of a fire. Do not ask him to say the planet looks hot.</p><p>When he circles <b>it</b>, a capital or a small letter both count.</p>",
   "parentKey": {
    "assess": "Score both look circles, both counts, the word match, and writing fog. The add-and-compare line is optional. Other and same are acceptable answers.",
    "items": [

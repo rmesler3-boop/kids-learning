@@ -22,12 +22,12 @@
    {
     "title": "One difference you saw",
     "teach": "<p>Look back at your two rows. Name one thing that was different. If they looked the same, write what was the same.</p>",
-    "sheet": "One difference I saw, or what was the same: ________________________________"
+    "sheet": "One difference I saw, or what was the same:<div class=\"line\"></div><div class=\"line\"></div>"
    },
    {
     "title": "Use the reading",
     "teach": "<p>Use the reading. The Moon has almost no air. Mars has thin air. Say that difference in your own words.</p>",
-    "sheet": "In your own words, what is one difference in the air of the Moon and Mars? ________________________________"
+    "sheet": "In your own words, what is one difference in the air of the Moon and Mars?<div class=\"line\"></div><div class=\"line\"></div>"
    }
   ],
   "challenge": "<p>Optional. NASA lists the Moon's pull as 1.62 and Mars's pull as 3.73. Round each to a whole number. About how many times as strong is the Mars number?</p><p>Space Place also says the Moon has about one-sixth of Earth's gravity. A 60-pound rock on Earth would weigh about 60 divided by 6 pounds on the Moon. What is that?</p>",
@@ -68,12 +68,12 @@
     "title": "Read and write red",
     "teach": "<p>Grown-up, name the pictures first: a bus, a pin, a red circle.</p>",
     "sheets": [
-     "Draw a line. bus, pin, red. Pictures: bus 🚌 &nbsp; pin 📌 &nbsp; red circle 🔴.",
-     "Circle every <b>look</b>: Look at the Moon. Look at Mars.<br>Trace: I look at Mars.<br>Write <b>red</b>: __________"
+     "Draw a line. Words: bus, pin, red. Pictures: red circle 🔴 &nbsp; bus 🚌 &nbsp; pin 📌.",
+     "Circle every <b>look</b>: I look at the Moon. I look at Mars.<br>Trace: I look at Mars.<br>Write <b>red</b>: __________"
     ]
    }
   ],
-  "adult": "<p>Same landing as Henry. You open the Moon, then Mars. He only drives with W A S D. If the game will not load, he can point at the older Moon and Mars pictures in Henry's grown-up notes, or at the Space Place pages, and write photo.</p>",
+  "adult": "<p>Same landing as Henry. You open the Moon, then Mars. He only drives with W A S D. If the game will not load, he can point at the older Moon and Mars pictures in Henry's grown-up notes, or at the Space Place pages, and write photo.</p><p>When he circles <b>look</b>, a capital or a small letter both count.</p>",
   "parentKey": {
    "assess": "Score both counts, the more/same circle, the word match, and writing red. The how-many-more line is optional. Do not grade the color words. Same is correct when his numbers match.",
    "items": [

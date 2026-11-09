@@ -17,17 +17,17 @@
    {
     "title": "Add fractions",
     "teach": "<p>To add fractions, first cut them into same-size pieces.</p><p><b>Example (different numbers from your problem):</b> 1/2 + 1/3. The bottoms 2 and 3 both fit into 6. 1/2 = 3/6 and 1/3 = 2/6, so 3/6 + 2/6 = <b>5/6</b>. A whole is 6/6, so the empty part is 6/6 - 5/6 = <b>1/6</b>. When both fractions have 1 on top, the bigger bottom means smaller pieces: 1/6 is smaller than 1/4.</p>",
-    "sheet": "<b>Fractions.</b> A sample tray is one whole. Rocks fill 3/4. Dust fills 1/6. The bottoms 4 and 6 both fit into 12.<br>a) 3/4 = ___/12 and 1/6 = ___/12. Together the tray is ______ full.<br>b) The empty part is ______.<br>c) Is the empty part bigger or smaller than 1/8? ______<br>How I know: ________________"
+    "sheet": "<b>Fractions.</b> A sample tray is one whole. Rocks fill 3/4. Dust fills 1/6. The bottoms 4 and 6 both fit into 12.<br>a) 3/4 = ___/12 and 1/6 = ___/12. Together the tray is ______ full.<br>b) The empty part is ______.<br>c) Is the empty part bigger or smaller than 1/8? ______<br>How I know:<span class=\"work mid\"></span>"
    },
    {
     "title": "Divide by a two-digit number",
     "teach": "<p>Make a list of multiples first, then divide.</p><p><b>Example:</b> 989 ÷ 23. List: 23, 46, 69, 92 (that is 23 × 1, 2, 3, 4).</p><pre>      43\n23)989\n    92\n     69\n     69\n      0</pre><p>23 fits into 98 four times (92). 98 - 92 = 6. Bring down 9 to make 69. 23 fits into 69 three times exactly. Answer: 43, remainder 0. Check: 23 × 43 = 989.</p>",
-    "sheet": "<b>Long division.</b> The crew has 2,354 bolts. Each box holds 27 bolts.<br>My 27 list (×1 through ×9): 27, 54, ___, ___, ___, ___, ___, ___, ___<br><span class=\"work\"></span>Full boxes: ______ &nbsp; Bolts left over: ______<br>Check: 27 × ____ + ____ = 2,354"
+    "sheet": "<b>Long division.</b> The crew has 2,354 bolts. Each box holds 27 bolts.<br>My 27 list (×1 through ×9): 27, 54, ___, ___, ___, ___, ___, ___, ___<br><span class=\"work tall\"></span>Full boxes: ______ &nbsp; Bolts left over: ______<br>Check: 27 × ____ + ____ = 2,354"
    },
    {
     "title": "Find the mystery number",
     "teach": "<p>A letter can stand for a mystery number. Undo the last step first.</p><p><b>Example:</b> 5 × m + 6 = 41. Undo + 6: 41 - 6 = 35. Undo × 5: 35 ÷ 5 = 7. So m = 7. Check: 5 × 7 + 6 = 41.</p>",
-    "sheet": "<b>Mystery number.</b> A rover drives 15 meters each minute. It had already driven 12 meters. The total distance is now 132 meters. Let m be the minutes on the timer.<br>Equation: ____ × m + ____ = ____<br>m = ______<br>Check: ________________"
+    "sheet": "<b>Mystery number.</b> A rover drives 15 meters each minute. Before the timer started, it had already driven 12 meters. The total distance is now 132 meters. Let m be the minutes on the timer.<br>Equation: ____ × m + ____ = ____<br>Show the undo steps:<span class=\"work mid\"></span>m = ______<br>Check: ________________"
    }
   ],
   "challenge": "<p><b>Extra practice, not required.</b> Solve 7 × k + 3 = 45. Then try this: two rovers work the same number of hours, h. Rover A collects 4 × h samples. Rover B collects 4 × h + 5 samples. Together they collect 45. Find h.</p>",
@@ -65,7 +65,7 @@
     "title": "Read and write sun",
     "teach": "<p>Grown-up, point to each picture and say its name before he matches: the sun, a red circle, a rabbit.</p><p>Then he finds the word <b>see</b>, traces the sentence, and writes <b>sun</b>.</p>",
     "sheets": [
-     "Draw a line from each word to its picture. sun, red, hop. Pictures: sun ☀️ &nbsp; red circle 🔴 &nbsp; rabbit 🐇.<br>Circle every <b>see</b>: I see the sun. I see a hop.",
+     "Draw a line from each word to its picture. Words: sun, red, hop. Pictures: rabbit 🐇 &nbsp; sun ☀️ &nbsp; red circle 🔴.<br>Circle every <b>see</b>: I see the sun. I see a hop.",
      "Trace: I see the sun.<br>Write <b>sun</b>: __________"
     ]
    }
