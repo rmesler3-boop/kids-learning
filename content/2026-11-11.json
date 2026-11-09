@@ -1,0 +1,111 @@
+{
+ "date": "2026-11-11",
+ "subject": "history",
+ "theme": "Space & the Moon",
+ "henry": {
+  "title": "Apollo 11: The First Steps on the Moon",
+  "intro": "Be a history detective about July 1969. (Redo of last week's unfinished lesson. About 15 minutes.)",
+  "steps": [
+   "📖 <b>Read</b> each chunk below. Tap 🔊 if you want.",
+   "🛑 <b>Stop</b> and answer each check.",
+   "🗓️ <b>Find</b> launch and splashdown dates on the NASA page.",
+   "✏️ <b>Circle</b> and fill in the worksheet."
+  ],
+  "links": [
+   [
+    "NASA: Apollo 11",
+    "https://www.nasa.gov/mission/apollo-11/",
+    "Look at the top box: find the 3 astronauts and the launch and splashdown dates."
+   ],
+   [
+    "NASA photo: a bootprint on the Moon",
+    "https://images.nasa.gov/details/as11-40-5878",
+    "Look at the photo. Why is it still there?"
+   ]
+  ],
+  "passage": [
+   {
+    "text": "🎯 In 1961, President <b>Kennedy</b> set a big goal. Land people on the Moon and bring them home safely.",
+    "q": "What was the goal?",
+    "a": "Land people on the Moon and bring them home."
+   },
+   {
+    "text": "👨‍🚀 <b>Apollo 11</b> had 3 astronauts: Neil <b>Armstrong</b>, Buzz <b>Aldrin</b> and Michael <b>Collins</b>. It launched on <b>July 16, 1969</b>.",
+    "q": "How many astronauts flew?",
+    "a": "3."
+   },
+   {
+    "text": "🌕 On <b>July 20</b>, Armstrong and Aldrin landed in a small craft called the <b>Eagle</b>. Collins stayed behind, circling the Moon.",
+    "q": "Who stayed circling the Moon?",
+    "a": "Michael Collins."
+   },
+   {
+    "text": "👣 Armstrong stepped out first. He said: <i>\"That's one small step for man, one giant leap for mankind.\"</i>",
+    "q": "Who stepped on the Moon first?",
+    "a": "Neil Armstrong."
+   },
+   {
+    "text": "🌊 They splashed down in the ocean on <b>July 24</b>. Their footprints are still on the Moon. The Moon has no wind to blow them away!",
+    "q": "Why are the footprints still there?",
+    "a": "There is no wind on the Moon."
+   }
+  ],
+  "words": [
+   [
+    "astronaut",
+    "a person who travels in space"
+   ],
+   [
+    "launch",
+    "when a rocket takes off"
+   ],
+   [
+    "orbit",
+    "to circle around something"
+   ],
+   [
+    "splashdown",
+    "landing a spacecraft in the ocean"
+   ],
+   [
+    "mission",
+    "a big job with a goal"
+   ]
+  ],
+  "worksheet": [
+   "The goal was set by President ______. Circle: Kennedy / Lincoln",
+   "Apollo 11 had ____ astronauts. Circle: 2 / 3 / 4",
+   "First on the Moon: Circle: Armstrong / Aldrin / Collins",
+   "Collins stayed ______ the Moon. Circle: on / circling",
+   "The landing craft was called the ______. Circle: Eagle / Falcon",
+   "Footprints stay because the Moon has no ______. Circle: wind / rocks",
+   "Launch July 16, splashdown July 24. The trip took ____ days.<br><b>Challenge:</b> On the Moon you weigh 1/6 as much. 72 lb on Earth = ____ lb"
+  ],
+  "challenge": "On the Moon you weigh only 1/6 of your Earth weight. A 72 lb kid weighs how much there? (72 ÷ 6). Try your own weight too!"
+ },
+ "frankie": {
+  "title": "Footprints on the Moon 👣🌕",
+  "intro": "Grown-up, read aloud: Long ago, astronauts flew a rocket to the Moon. They walked and hopped there. Their footprints are still on the Moon! (Redo of last week's unfinished lesson. About 14 minutes.)",
+  "steps": [
+   "👀 <b>Look</b> at the real Moon footprint photo.",
+   "🔢 <b>Count</b> down 10 to 1. Blast off!",
+   "🐇 <b>Hop</b> like an astronaut. 5 slow hops.",
+   "🔤 <b>Sound out</b> h-o-p. Trace, then write it (stretch!)."
+  ],
+  "links": [
+   [
+    "Real Moon footprint photo",
+    "https://images.nasa.gov/details/as11-40-5878",
+    "Grown-up: show the bootprint. Say: this was made in 1969!"
+   ]
+  ],
+  "worksheet": [
+   "Fill the missing number. Circle it.<br><span style=\"font-size:30px;letter-spacing:4px\">5 &nbsp; 4 &nbsp; _ &nbsp; 2 &nbsp; 1 &nbsp; 🚀</span><br>Circle: <span style=\"font-size:28px;letter-spacing:8px\">3 &nbsp; 6</span>",
+   "Count the moons. Circle the number.<br><span style=\"font-size:30px;letter-spacing:4px\">🌕🌕🌕 + 🌕🌕🌕 =</span> <span style=\"font-size:26px;letter-spacing:6px\">5 &nbsp; 6 &nbsp; 7</span>",
+   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">hop &nbsp; bug &nbsp; bed</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐛 &nbsp; 🛏️ &nbsp; 🐇</span>",
+   "Circle every <b>on</b>: <span style=\"font-size:22px;letter-spacing:2px\">I hop on the Moon. I am on the Moon.</span>",
+   "Circle the Moon: <span style=\"font-size:40px;letter-spacing:14px\">🌍 🌕 ⭐</span>",
+   "Trace: <span style=\"font-size:44px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I hop.</span><br><b>Stretch:</b> Write <b>hop</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ]
+ }
+}

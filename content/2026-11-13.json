@@ -1,0 +1,122 @@
+{
+ "date": "2026-11-13",
+ "subject": "language arts",
+ "theme": "Space & the Moon",
+ "henry": {
+  "title": "Moon Words: Describing Words + a MOON Poem",
+  "intro": "Find strong describing words, then write a MOON acrostic poem. (Redo of last week's unfinished lesson. About 15 minutes.)",
+  "steps": [
+   "🔍 <b>Read</b> the chunks. Spot the describing words.",
+   "🌕 <b>Pick</b> 4 describing words from the word bank.",
+   "✍️ <b>Write</b> a MOON poem: one line per letter.",
+   "🔊 <b>Read</b> it aloud. Check your spelling."
+  ],
+  "links": [
+   [
+    "NASA Space Place: All About the Moon",
+    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+    "Read the Quick Facts box. Find a describing word for the Moon."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "🌕 A <b>describing word</b> is called an <b>adjective</b>. It tells how something looks, feels or sounds. Example: the <b>bright</b> Moon.",
+    "q": "In 'the bright Moon', which word describes?",
+    "a": "Bright."
+   },
+   {
+    "text": "👀 Use your senses. The Moon is <b>gray</b>, <b>dusty</b> and <b>silent</b>. There is no air, so there is no sound.",
+    "q": "Name one describing word for the Moon.",
+    "a": "Gray, dusty or silent."
+   },
+   {
+    "text": "📝 In an <b>acrostic</b> poem, the first letters spell a word down the side. <i>M: Moon dust on my boots. O: Only quiet all around. O: Orbiting Earth. N: Night lamp in the sky.</i>",
+    "q": "What word do the first letters spell?",
+    "a": "MOON."
+   }
+  ],
+  "words": [
+   [
+    "bright",
+    "full of light"
+   ],
+   [
+    "silver",
+    "shiny gray"
+   ],
+   [
+    "dusty",
+    "covered in fine dirt"
+   ],
+   [
+    "silent",
+    "with no sound"
+   ],
+   [
+    "rocky",
+    "full of rocks"
+   ],
+   [
+    "round",
+    "shaped like a ball"
+   ],
+   [
+    "glowing",
+    "giving off soft light"
+   ],
+   [
+    "huge",
+    "very big"
+   ]
+  ],
+  "worksheet": [
+   "Circle the describing words: The dusty Moon (dusty / Moon) · A bright star (bright / star)",
+   "Space Place says the Moon is a ______, cratered place. Circle: rocky / wet",
+   "The Moon is silent because there is no ______. Circle: air / light",
+   "My MOON acrostic poem:<div style='border:3px solid #111;padding:4px 8px;line-height:2.1'><b>M</b> ________________________________<br><b>O</b> ________________________________<br><b>O</b> ________________________________<br><b>N</b> ________________________________</div>",
+   "Check: ☐ 4 lines ☐ 2 or more describing words ☐ capital letters"
+  ],
+  "challenge": "Write a STAR acrostic too. Or finish a simile: 'The Moon is as ______ as ______.'"
+ },
+ "frankie": {
+  "title": "Build a Rocket! 🚀",
+  "intro": "Grown-up, read aloud: Rockets carry astronauts up, up, up to space. Today we build a rocket from paper shapes, then read rocket words! (Redo of last week's unfinished lesson. About 14 minutes.)",
+  "steps": [
+   "✂️ <b>Glue</b> paper shapes into a rocket.",
+   "🔢 <b>Count</b> the triangles and circles.",
+   "🔤 <b>Read</b> hop, top, mop. They rhyme!",
+   "✏️ <b>Trace</b>, then write: The top. (stretch!)"
+  ],
+  "links": [],
+  "handsOn": {
+   "title": "🚀 Shape rocket",
+   "steps": [
+    [
+     "guides/rocket-shapes.svg",
+     "✂️ Grown-up cuts: 1 big triangle, 1 rectangle, 2 circles, 2 small triangles."
+    ],
+    [
+     "guides/rocket-shapes.svg",
+     "🧩 Frankie glues the rectangle first, then the big triangle on top."
+    ],
+    [
+     "guides/rocket-shapes.svg",
+     "🪟 Glue 2 circle windows and 2 fins at the bottom."
+    ],
+    [
+     "guides/rocket-shapes.svg",
+     "🔢 Count: how many triangles? How many circles? Then count down 10 to 1: blast off!"
+    ]
+   ],
+   "look": "Grown-up: name each shape as he glues it. 'Triangle on the TOP.'",
+   "q": "Count the shapes on your sheet."
+  },
+  "worksheet": [
+   "Count the shapes in the rocket. Circle the numbers.<br><img src=\"guides/ws-rocket.svg\" style=\"height:150px;float:right;margin-left:10px\">Triangles △: <span style=\"font-size:26px;letter-spacing:6px\">2 &nbsp; 3 &nbsp; 4</span><br>Circles ◯: <span style=\"font-size:26px;letter-spacing:6px\">1 &nbsp; 2 &nbsp; 3</span><div style='clear:both'></div>",
+   "Read it. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">hop &nbsp; top &nbsp; mop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🧹 &nbsp; 🐇 &nbsp; 🔝</span>",
+   "Circle the words that rhyme with <b>hop</b>: <span style=\"font-size:28px;letter-spacing:6px\">top &nbsp; cat &nbsp; mop</span>",
+   "Circle every <b>the</b>: <span style=\"font-size:22px;letter-spacing:2px\">The rocket is big. The rocket is red.</span>",
+   "Trace: <span style=\"font-size:42px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">The top.</span><br><b>Stretch:</b> Write <b>top</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ]
+ }
+}

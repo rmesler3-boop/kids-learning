@@ -1,0 +1,151 @@
+{
+ "date": "2026-11-10",
+ "subject": "science",
+ "theme": "Space & the Moon",
+ "henry": {
+  "title": "Gravity and Weight on Other Worlds",
+  "intro": "Mass stays the same. Weight changes with gravity. (About 15 minutes.)",
+  "steps": [
+   "📖 <b>Read</b> each chunk. Tap 🔊 if you want.",
+   "🛑 <b>Stop</b> and answer each check.",
+   "🧮 <b>Find</b> your weight on the Moon and Mars.",
+   "✏️ <b>Fill in</b> the worksheet. Try the rover bonus if you want."
+  ],
+  "links": [
+   [
+    "NASA Space Place: What Is Gravity?",
+    "https://spaceplace.nasa.gov/what-is-gravity/en/",
+    "Read the first few paragraphs. Find why you would weigh less on a smaller world."
+   ],
+   [
+    "NASA: gravity compared to Earth (table)",
+    "https://nssdc.gsfc.nasa.gov/planetary/factsheet/planet_table_ratio.html",
+    "Scroll to the row 'Surface gravity'. Moon ≈ 0.17, Mars ≈ 0.38, Earth = 1."
+   ]
+  ],
+  "passage": [
+   {
+    "text": "🧲 <b>Gravity</b> is a pull between things that have mass. Earth's gravity pulls you down. That pull is your <b>weight</b>.",
+    "q": "What is weight?",
+    "a": "The pull of gravity on you."
+   },
+   {
+    "text": "⚖️ Your <b>mass</b> (how much stuff you are made of) stays the same everywhere. Your <b>weight</b> changes if gravity changes.",
+    "q": "What stays the same on every world?",
+    "a": "Your mass."
+   },
+   {
+    "text": "🌕 The Moon's gravity is about <b>1/6</b> of Earth's. A 60 lb kid weighs about <b>10 lb</b> on the Moon (60 ÷ 6).",
+    "q": "How do you find Moon weight?",
+    "a": "Divide Earth weight by 6."
+   },
+   {
+    "text": "🔴 Mars has weaker gravity than Earth, about <b>0.4</b> times (a bit under half). A 60 lb kid weighs about <b>24 lb</b> there (60 × 0.4).",
+    "q": "Is Mars gravity stronger or weaker than Earth's?",
+    "a": "Weaker."
+   },
+   {
+    "text": "🏠 Home tip: jumping high does <b>not</b> change Earth's gravity. Games and videos can only help you <b>notice</b> how different worlds feel.",
+    "q": "Can a home experiment change gravity?",
+    "a": "No. It can only help you notice differences."
+   }
+  ],
+  "words": [
+   [
+    "gravity",
+    "a pull between things with mass"
+   ],
+   [
+    "weight",
+    "how hard gravity pulls on you"
+   ],
+   [
+    "mass",
+    "how much stuff something is made of"
+   ],
+   [
+    "surface",
+    "the outside of a world"
+   ]
+  ],
+  "handsOn": {
+   "title": "🧮 Weight on other worlds (+ optional rover)",
+   "steps": [
+    [
+     "guides/weight-worlds.svg",
+     "Pick a weight close to yours, or use 60 lb from the chart."
+    ],
+    [
+     "guides/weight-worlds.svg",
+     "Moon: divide by 6. Write it on the worksheet."
+    ],
+    [
+     "guides/weight-worlds.svg",
+     "Mars: multiply by 0.4 (or take a bit under half). Write it."
+    ],
+    [
+     "",
+     "🎮 Optional: Drive a rover (see bonus below). Predict which world feels floatier, then try the Moon and one other body."
+    ]
+   ],
+   "look": "Mass does not change. Weight = mass × gravity. Weaker gravity → smaller weight → floatier jumps.",
+   "q": "Questions 3–6 use the chart and your math."
+  },
+  "worksheet": [
+   "Weight is: Circle: how hard gravity pulls / how tall you are",
+   "Mass on the Moon: Circle: stays the same / goes to zero",
+   "60 lb on Earth → Moon (÷ 6) ≈ ____ lb. Circle: 10 / 30 / 60",
+   "60 lb on Earth → Mars (× 0.4) ≈ ____ lb. Circle: 10 / 24 / 60",
+   "Weaker gravity feels: Circle: floatier / heavier",
+   "Can a jump at home change Earth's gravity? Circle: yes / no",
+   "Optional rover: I predicted ______ felt floatier. After driving I think ______ did, because ______."
+  ],
+  "challenge": "Use your real weight. Find Moon weight (÷ 6) and Mars weight (× 0.4). Which is closer to your Earth weight?",
+  "bonus": "OPTIONAL bonus (5–10 min), only if Regolith works on the grown-up's Windows PC: <b>Drive a rover</b>. Grown-up starts Regolith and sets up free play on a Moon site. Core lesson works fine without the game — skip it if it isn't working.\n\n<b>Henry:</b> Predict first: which world will feel floatier, the Moon or another body? Grown-up boards you in the rover. Hold <b>W</b> to drive a short way (WASD steers; Shift boosts). Press <b>E</b> to get out, then <b>Space</b> to jump while walking (Space does not jump while driving). Grown-up then loads another body (Mercury or Enceladus are fine; Mars is okay but has known issues). Drive a little and jump again. Say which world felt floatier and why (link it to gravity). Observation only — no measuring speeds. <b>H</b> hides help. Backspace or Home recovers the rover from a pit. Bodies that load: Moon, Mars, Mercury, Venus, Enceladus.\n\n<b>Frankie:</b> Grown-up sets up on the Moon and boards. Frankie holds <b>W</b> briefly, then stops. Count a few craters. Point to what is light and what is dark. Skip if the game isn't working."
+ },
+ "frankie": {
+  "title": "Floaty Jumps and Moon Looks 🌕",
+  "intro": "Grown-up, read aloud: On the Moon, jumps feel floaty because gravity is weaker. Mass stays the same — you don't shrink! (About 14 minutes.)",
+  "steps": [
+   "🐇 <b>Hop</b> 5 times on Earth. Feel the landing.",
+   "👀 <b>Look</b> at light and dark on the Moon picture.",
+   "🔤 <b>Sound out</b> b-i-g and h-o-p.",
+   "✏️ <b>Trace</b>, then write: I can hop. (stretch!)"
+  ],
+  "links": [
+   [
+    "NASA Space Place: All About the Moon",
+    "https://spaceplace.nasa.gov/all-about-the-moon/en/",
+    "Grown-up: scroll the Moon page. Point to light and dark parts."
+   ]
+  ],
+  "handsOn": {
+   "title": "🐇 Hops + optional rover",
+   "steps": [
+    [
+     "guides/moon-light-dark.svg",
+     "👀 Light parts are high ground. Dark parts are flat low land."
+    ],
+    [
+     "",
+     "🐇 Frankie hops 5 times. Grown-up: 'On the Moon, the same hop would feel floatier!'"
+    ],
+    [
+     "",
+     "🎮 Optional: Grown-up starts Regolith on the Moon and boards. Frankie holds W a little, stops, counts craters, and points to light and dark. Skip if it isn't working."
+    ]
+   ],
+   "look": "Grown-up: say 'floaty' and 'heavy' as he hops. Don't claim we changed gravity.",
+   "q": "Circle light and dark on your sheet."
+  },
+  "worksheet": [
+   "Circle what feels floatier: <span style=\"font-size:26px;letter-spacing:4px\">Earth hop &nbsp; Moon hop</span>",
+   "Count the craters. Circle the number.<br><span style=\"font-size:30px;letter-spacing:4px\">🌑🌑🌑 + 🌑🌑 =</span> <span style=\"font-size:26px;letter-spacing:6px\">4 &nbsp; 5 &nbsp; 6</span>",
+   "Light or dark? Draw a line.<br><span style=\"font-size:22px;letter-spacing:2px\">high ground &nbsp; flat low land</span><br><span style=\"font-size:26px;letter-spacing:6px\">LIGHT &nbsp; DARK</span>",
+   "Sound it out. Draw a line to the picture.<br><span style=\"font-size:28px;letter-spacing:6px\">big &nbsp; hop &nbsp; sun</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; ☀️ &nbsp; 🐘</span>",
+   "Circle every <b>can</b>: <span style=\"font-size:24px;letter-spacing:2px\">I can hop. I can see.</span>",
+   "Trace: <span style=\"font-size:40px;letter-spacing:8px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I can hop.</span><br><b>Stretch:</b> Write <b>big</b> by yourself: <span style='display:inline-block;border-bottom:3px solid #111;width:40%;height:30px'></span>"
+  ],
+  "bonus": "OPTIONAL: Drive a rover in Regolith (grown-up sets it up). Frankie holds W briefly, stops, counts craters, and says what is light and dark. Skip if the game isn't working."
+ }
+}

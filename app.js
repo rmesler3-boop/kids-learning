@@ -52,6 +52,7 @@ function chunksHtml(L){let h='';
  if(L.passage)h+=`<div class="pass"><h3>📖 Read, then stop and think</h3>${L.passage.map((c,i)=>`<div class="chunk"><button class="act rdb" onclick="speakEl('ch${i}')">🔊 Read it to me</button><p id="ch${i}">${c.text}</p><details class="chk"><summary>🛑 Stop and think: what did that say?</summary><p><b>${c.q}</b></p><details><summary>Show answer</summary><p>${c.a}</p></details></details></div>`).join('')}
  ${L.words?`<div class="wb"><b>🔤 Word bank</b><ul>${L.words.map(([w,m])=>`<li><b>${w}</b>: ${m}</li>`).join('')}</ul></div>`:''}</div>`;
  if(L.challenge)h+=`<details class="chal"><summary>🏅 Challenge (only if you want more!)</summary><p>${L.challenge}</p></details>`;
+ if(L.bonus)h+=`<details class="chal"><summary>🎮 Optional bonus (only if you want!)</summary><p>${L.bonus}</p></details>`;
  return h}
 let SPK=null;
 function speakEl(id){const el=document.getElementById(id);if(!el||!('speechSynthesis'in window)){alert('Read-aloud is not available on this device.');return}

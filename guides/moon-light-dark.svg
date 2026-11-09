@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 160" font-family="Arial" font-weight="bold">
+<rect width="100%" height="100%" fill="#0f172a" rx="12"/>
+<text x="210" y="32" font-size="18" fill="#fff" text-anchor="middle">Light and dark on the Moon</text>
+<circle cx="110" cy="95" r="40" fill="#e2e8f0"/>
+<text x="110" y="145" font-size="14" fill="#fff" text-anchor="middle">light = high ground</text>
+<circle cx="310" cy="95" r="40" fill="#e2e8f0"/>
+<path d="M270,95 A40,40 0 0,1 350,95 A20,40 0 0,0 270,95" fill="#475569"/>
+<text x="310" y="145" font-size="14" fill="#fff" text-anchor="middle">dark = flat low land</text>
+</svg>
