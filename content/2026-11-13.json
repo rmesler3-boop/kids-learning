@@ -7,17 +7,32 @@
   "mission": "Collect two describing words for Venus and two for Enceladus, then write 3 sentences that compare them, including one simile.",
   "done": "Both word pairs are filled, and your 3 sentences are written.",
   "words": [
-   ["adjective", "a word that tells how something looks"],
-   ["simile", "a comparison that uses like or as"],
-   ["pale", "light in color"],
-   ["hazy", "hard to see far"]
+   [
+    "adjective",
+    "a word that tells how something looks"
+   ],
+   [
+    "simile",
+    "a comparison that uses like or as"
+   ],
+   [
+    "pale",
+    "light in color"
+   ],
+   [
+    "hazy",
+    "hard to see far"
+   ]
   ],
   "flow": [
    {
     "title": "Describing words on Venus",
     "teach": "<p>A describing word tells how something looks. <b>Example, about a playground, not about space:</b> The playground was noisy and bright.</p><p>Drive on Venus. Pick two words that match what you see. You may use the bank or your own words: hazy, bright, pale, rough, smooth, dark, rocky, cracked.</p>",
     "pics": [
-     ["guides/draw-wasd.svg", "W A S D. Stop and look close, then far."]
+     [
+      "guides/draw-wasd.svg",
+      "W A S D. Stop and look close, then far."
+     ]
     ],
     "sheet": "Venus place name:<div class=\"line\"></div>Two words for how it looks: <span class=\"blank\"></span> and <span class=\"blank\"></span>"
    },
@@ -37,9 +52,18 @@
   "parentKey": {
    "assess": "Score two look-words for each world and 3 sentences that follow the starters, with like or as in sentence 3. Words should match what he says he saw. Do not require the word ice. The NASA sentence is not scored.",
    "items": [
-    {"q": "1", "a": "A readable place name and two describing words tied to what he saw."},
-    {"q": "2", "a": "A readable place name and two describing words tied to what he saw."},
-    {"q": "3", "a": "Three sentences on their own lines. Example shape: On Venus, it looked dark and rough. But on Enceladus, it looked pale and smooth. One place looked as pale as a sheet of paper. Sentence 3 needs like or as."}
+    {
+     "q": "1",
+     "a": "A readable place name and two describing words tied to what he saw."
+    },
+    {
+     "q": "2",
+     "a": "A readable place name and two describing words tied to what he saw."
+    },
+    {
+     "q": "3",
+     "a": "Three sentences on their own lines. Example shape: On Venus, it looked dark and rough. But on Enceladus, it looked pale and smooth. One place looked as pale as a sheet of paper. Sentence 3 needs like or as."
+    }
    ]
   }
  },
@@ -52,21 +76,27 @@
     "title": "Two worlds",
     "teach": "<p>Grown-up, read aloud. He drives a little with W and points at things he chooses. Light, dark, or other are all fine.</p>",
     "pics": [
-     ["guides/draw-wasd.svg", "W to roll a little, then stop."],
-     ["guides/card-count.svg", "Point, then count your points."]
+     [
+      "guides/draw-wasd.svg",
+      "W to roll a little, then stop."
+     ],
+     [
+      "guides/card-count.svg",
+      "Point, then count your points."
+     ]
     ],
     "sheets": [
-     "Venus. Circle: light / dark / other. I counted: ____",
-     "Enceladus. Circle: light / dark / other. I counted: ____",
-     "Stretch, only if you want it: add the two counts ____. Which had more? Venus / Enceladus / same"
+     "Venus. Circle: light / dark / other. I counted: <span class=\"countbox\"></span>",
+     "Enceladus. Circle: light / dark / other. I counted: <span class=\"countbox\"></span>",
+     "Stretch, only if you want it: add the two counts <span class=\"countbox\"></span>. Which had more? Venus / Enceladus / same"
     ]
    },
    {
     "title": "Read and write fog",
     "teach": "<p>Grown-up, name the pictures first. The cloud is fog. The drop is wet. The fire is hot. Hot matches the fire picture. It is not a word for how the world looks.</p>",
     "sheets": [
-     "Draw a line. Words: fog, wet, hot. Pictures: fire 🔥 &nbsp; fog 🌫️ &nbsp; wet drop 💧.",
-     "Circle every <b>it</b>: I see it. I like it.<br>Trace: I see it.<br>Write <b>fog</b>: __________"
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">fog</div><div class=\"mword\">wet</div><div class=\"mword\">hot</div></div><div class=\"mcol\"><div class=\"mpic\">🔥</div><div class=\"mpic\">🌫️</div><div class=\"mpic\">💧</div></div></div>",
+     "Circle every <b>it</b>: I see it. I like it.<br>Trace:<div class=\"trace\">I see it.</div>Write <b>fog</b>: <span class=\"writebox\"></span>"
     ]
    }
   ],
@@ -74,11 +104,26 @@
   "parentKey": {
    "assess": "Score both look circles, both counts, the word match, and writing fog. The add-and-compare line is optional. Other and same are acceptable answers.",
    "items": [
-    {"q": "1", "a": "Light, dark, or other, plus his count."},
-    {"q": "2", "a": "Light, dark, or other, plus his count."},
-    {"q": "3", "a": "Optional. The sum of his counts, and Venus, Enceladus, or same to match those counts."},
-    {"q": "4", "a": "fog to the cloud, wet to the drop, hot to the fire picture."},
-    {"q": "5", "a": "Both <b>it</b> words circled. He traces and writes <b>fog</b>."}
+    {
+     "q": "1",
+     "a": "Light, dark, or other, plus his count."
+    },
+    {
+     "q": "2",
+     "a": "Light, dark, or other, plus his count."
+    },
+    {
+     "q": "3",
+     "a": "Optional. The sum of his counts, and Venus, Enceladus, or same to match those counts."
+    },
+    {
+     "q": "4",
+     "a": "fog to the cloud, wet to the drop, hot to the fire picture."
+    },
+    {
+     "q": "5",
+     "a": "Both <b>it</b> words circled. He traces and writes <b>fog</b>."
+    }
    ]
   }
  }

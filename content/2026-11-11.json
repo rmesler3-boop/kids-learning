@@ -7,25 +7,43 @@
   "mission": "Put three real exploration events in order, then write a game log of what you see on Mercury today.",
   "done": "The timeline is in order, both year problems are done, and your game log is written.",
   "words": [
-   ["spacecraft", "a machine sent to study space"],
-   ["orbit", "to circle around a world"],
-   ["crater", "a round pit"],
-   ["log", "a first-hand record of the date, the place, and what you saw"]
+   [
+    "spacecraft",
+    "a machine sent to study space"
+   ],
+   [
+    "orbit",
+    "to circle around a world"
+   ],
+   [
+    "crater",
+    "a round pit"
+   ],
+   [
+    "log",
+    "a first-hand record of the date, the place, and what you saw"
+   ]
   ],
   "flow": [
    {
     "title": "Three dates, in order",
     "teach": "<p>NASA Space Place: on July 20, 1969, Neil Armstrong and Buzz Aldrin were the first people to set foot on the Moon. The Apollo 11 crew also included Michael Collins, who stayed in orbit.</p><p>NASA: Mariner 10 was the first spacecraft sent to Mercury. It flew past Mercury in 1974. MESSENGER orbited Mercury from 2011 to 2015.</p><p>People have walked on the Moon. People have not walked on Mercury. Spacecraft studied Mercury.</p><p><b>Example of years between, using different years:</b> 2015 - 2011 = 4. That is the length of MESSENGER's orbit mission. Your problems use other years.</p>",
-    "sheet": "Put these in order, earliest first:<br>A. Mariner 10 flies past Mercury (1974)<br>B. MESSENGER begins orbiting Mercury (2011)<br>C. Apollo 11 lands on the Moon (1969)<br>1st ______ 2nd ______ 3rd ______<br>Years between, show the subtraction:<br>a) From Apollo 11 to Mariner 10: ______<br>b) From Apollo 11 to MESSENGER's orbit: ______<br>Have people walked on Mercury? ______ Name one spacecraft that studied it: ______"
+    "sheet": "Put these in order, earliest first:<br>A. Mariner 10 flew past Mercury (1974)<br>B. MESSENGER orbited Mercury (2011)<br>C. Apollo 11 lands on the Moon (1969)<br>1st ______ 2nd ______ 3rd ______<br>Years between. Show the subtraction.<br>a) From Apollo 11 to Mariner 10:<span class=\"work sub\"></span>b) From Apollo 11 to MESSENGER:<span class=\"work sub\"></span>Have people walked on Mercury? ______ Name one spacecraft that studied it: ______"
    },
    {
     "title": "A game log from today",
     "teach": "<p>A log is a first-hand record: the date, the place, and what you saw. Armstrong's Moon landing is a record from 1969. Your log is a record of the game today. It is not a record of the real Mercury from the past.</p><p>Look for a crater (a round pit), a cliff (a long steep edge), or a plain (wide flat land). You might see something else. That is fine.</p>",
     "pics": [
-     ["guides/card-shapes.svg", "Crater, cliff, and plain."],
-     ["guides/draw-wasd.svg", "Drive with W A S D. A grown-up reads the place name."]
+     [
+      "guides/card-shapes.svg",
+      "Crater, cliff, and plain."
+     ],
+     [
+      "guides/draw-wasd.svg",
+      "Drive with W A S D. A grown-up reads the place name."
+     ]
     ],
-    "sheet": "<b>My game log for today</b><br>Date: __________<br>Place name from the screen: __________<br>I saw (circle any): crater / cliff / plain / other __________<br>One sentence about the most interesting thing I saw: ________________________________"
+    "sheet": "<b>My game log for today</b><br>Date: __________<br>Place name from the screen:<div class=\"line\"></div>I saw (circle any): crater / cliff / plain / other __________<br>One sentence about the most interesting thing I saw:<div class=\"line\"></div><div class=\"line\"></div>"
    }
   ],
   "challenge": "<p>Optional. Space Place says the Moon has almost no atmosphere. On a windy day on Earth, what can the air do that the Moon's air cannot?</p>",
@@ -33,9 +51,18 @@
   "parentKey": {
    "assess": "Score the order, both subtractions, the spacecraft answer, and a complete game log. Do not grade which shapes he saw. The challenge is not scored.",
    "items": [
-    {"q": "1", "a": "Order: C 1969, then A 1974, then B 2011.<br>a) 1974 - 1969 = <b>5</b>.<br>b) 2011 - 1969 = <b>42</b>.<br>People have <b>not</b> walked on Mercury. Spacecraft: <b>Mariner 10</b> or <b>MESSENGER</b>."},
-    {"q": "2", "a": "Today's date, the place name you opened, at least one circle or the word other, and one complete sentence. It is a log of the game, not a historical record of Mercury."},
-    {"q": "Challenge", "a": "Earth's air can blow things. The Moon has almost no atmosphere, so it does not have wind like Earth."}
+    {
+     "q": "1",
+     "a": "Order: C 1969, then A 1974, then B 2011.<br>a) 1974 - 1969 = <b>5</b>.<br>b) 2011 - 1969 = <b>42</b>.<br>People have <b>not</b> walked on Mercury. Spacecraft: <b>Mariner 10</b> or <b>MESSENGER</b>."
+    },
+    {
+     "q": "2",
+     "a": "Today's date, the place name you opened, at least one circle or the word other, and one complete sentence. It is a log of the game, not a historical record of Mercury."
+    },
+    {
+     "q": "Challenge",
+     "a": "Earth's air can blow things. The Moon has almost no atmosphere, so it does not have wind like Earth."
+    }
    ]
   }
  },
@@ -47,27 +74,37 @@
    {
     "title": "The real photo",
     "teach": "<p>Grown-up, open the photo and say: a real astronaut made this bootprint in 1969. It is not the game.</p>",
-    "link": ["Real Moon bootprint photo", "https://images.nasa.gov/details/as11-40-5878", "A grown-up opens this."],
+    "link": [
+     "Real Moon bootprint photo",
+     "https://images.nasa.gov/details/as11-40-5878",
+     "A grown-up opens this."
+    ],
     "sheet": "Circle one: the real 1969 bootprint photo / the rover game today."
    },
    {
     "title": "Three short looks",
     "teach": "<p>Grown-up, you already landed on Mercury for Henry, or you land now. Frankie drives a little with W and stops three times. At each stop he counts round pits he can see. Zero is allowed.</p>",
     "pics": [
-     ["guides/draw-wasd.svg", "W to roll. Then stop."],
-     ["guides/card-shapes.svg", "A crater is a round pit."]
+     [
+      "guides/draw-wasd.svg",
+      "W to roll. Then stop."
+     ],
+     [
+      "guides/card-shapes.svg",
+      "A crater is a round pit."
+     ]
     ],
     "sheets": [
-     "Round pits I see. Stop 1 ____ &nbsp; Stop 2 ____ &nbsp; Stop 3 ____",
-     "Stretch, only if you want it: add the three numbers. ____"
+     "Round pits I see. Stop 1 <span class=\"countbox\"></span> Stop 2 <span class=\"countbox\"></span> Stop 3 <span class=\"countbox\"></span>",
+     "Stretch, only if you want it: add the three numbers. <span class=\"countbox\"></span>"
     ]
    },
    {
     "title": "Read and write pit",
     "teach": "<p>Grown-up, name the pictures first: a hole for pit, a map, a cap.</p>",
     "sheets": [
-     "Draw a line. Words: pit, map, cap. Pictures: cap 🧢 &nbsp; hole 🕳️ &nbsp; map 🗺️.",
-     "Circle every <b>on</b>: A pit is on the map. I am on it.<br>Trace: I see a pit.<br>Write <b>pit</b>: __________"
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">pit</div><div class=\"mword\">map</div><div class=\"mword\">cap</div></div><div class=\"mcol\"><div class=\"mpic\">🧢</div><div class=\"mpic\">🕳️</div><div class=\"mpic\">🗺️</div></div></div>",
+     "Circle every <b>on</b>: A pit is on the map. I am on it.<br>Trace:<div class=\"trace\">I see a pit.</div>Write <b>pit</b>: <span class=\"writebox\"></span>"
     ]
    }
   ],
@@ -75,11 +112,26 @@
   "parentKey": {
    "assess": "Score the photo circle, the three counts, the word match, and writing pit. Adding the counts is optional.",
    "items": [
-    {"q": "1", "a": "He circles the real 1969 bootprint photo."},
-    {"q": "2", "a": "Three counts that match what he pointed at, including zero."},
-    {"q": "3", "a": "Optional. The sum of his three counts."},
-    {"q": "4", "a": "pit to the hole, map to the map, cap to the cap."},
-    {"q": "5", "a": "Both <b>on</b> words circled. He traces the sentence and writes <b>pit</b>."}
+    {
+     "q": "1",
+     "a": "He circles the real 1969 bootprint photo."
+    },
+    {
+     "q": "2",
+     "a": "Three counts that match what he pointed at, including zero."
+    },
+    {
+     "q": "3",
+     "a": "Optional. The sum of his three counts."
+    },
+    {
+     "q": "4",
+     "a": "pit to the hole, map to the map, cap to the cap."
+    },
+    {
+     "q": "5",
+     "a": "Both <b>on</b> words circled. He traces the sentence and writes <b>pit</b>."
+    }
    ]
   }
  }

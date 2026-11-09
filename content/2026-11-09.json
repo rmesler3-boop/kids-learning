@@ -8,10 +8,22 @@
   "done": "Problems 1, 2, and 3 are filled in, and your work is in the boxes.",
   "sheetNote": "Practice mission: these numbers are made up for math.",
   "words": [
-   ["denominator", "the bottom number of a fraction"],
-   ["remainder", "what is left after you make equal groups"],
-   ["equation", "a math sentence with both sides equal"],
-   ["variable", "a letter that stands for a mystery number"]
+   [
+    "denominator",
+    "the bottom number of a fraction"
+   ],
+   [
+    "remainder",
+    "what is left after you make equal groups"
+   ],
+   [
+    "equation",
+    "a math sentence with both sides equal"
+   ],
+   [
+    "variable",
+    "a letter that stands for a mystery number"
+   ]
   ],
   "flow": [
    {
@@ -34,10 +46,22 @@
   "parentKey": {
    "assess": "Score problems 1, 2, and 3 only. A 5 means all three are correct and the work is shown. A 4 is one slip. The challenge is not scored. Reading the examples is practice, not the score.",
    "items": [
-    {"q": "1", "a": "a) 3/4 = 9/12 and 1/6 = 2/12, so the tray is <b>11/12</b> full.<br>b) 12/12 - 11/12 = <b>1/12</b> empty.<br>c) <b>smaller</b>. 1/12 is smaller than 1/8 because twelfths are smaller pieces than eighths (2/24 is less than 3/24)."},
-    {"q": "2", "a": "27 list: 27, 54, 81, 108, 135, 162, 189, 216, 243.<br><b>87 full boxes, 5 left over.</b><br>235 ÷ 27 = 8, because 8 × 27 = 216. 235 - 216 = 19. Bring down 4 to make 194. 7 × 27 = 189. 194 - 189 = 5.<br>Check: 27 × 87 + 5 = 2,349 + 5 = 2,354."},
-    {"q": "3", "a": "Equation: <b>15 × m + 12 = 132</b>.<br>132 - 12 = 120. 120 ÷ 15 = <b>8</b>. So m = 8 minutes.<br>Check: 15 × 8 + 12 = 132."},
-    {"q": "Challenge", "a": "7 × k + 3 = 45 gives k = 6, because 45 - 3 = 42 and 42 ÷ 7 = 6.<br>Two rovers: 8h + 5 = 45, so 8h = 40 and <b>h = 5</b>. A = 20, B = 25."}
+    {
+     "q": "1",
+     "a": "a) 3/4 = 9/12 and 1/6 = 2/12, so the tray is <b>11/12</b> full.<br>b) 12/12 - 11/12 = <b>1/12</b> empty.<br>c) <b>smaller</b>. 1/12 is smaller than 1/8 because twelfths are smaller pieces than eighths (2/24 is less than 3/24)."
+    },
+    {
+     "q": "2",
+     "a": "27 list: 27, 54, 81, 108, 135, 162, 189, 216, 243.<br><b>87 full boxes, 5 left over.</b><br>235 ÷ 27 = 8, because 8 × 27 = 216. 235 - 216 = 19. Bring down 4 to make 194. 7 × 27 = 189. 194 - 189 = 5.<br>Check: 27 × 87 + 5 = 2,349 + 5 = 2,354."
+    },
+    {
+     "q": "3",
+     "a": "Equation: <b>15 × m + 12 = 132</b>.<br>132 - 12 = 120. 120 ÷ 15 = <b>8</b>. So m = 8 minutes.<br>Check: 15 × 8 + 12 = 132."
+    },
+    {
+     "q": "Challenge",
+     "a": "7 × k + 3 = 45 gives k = 6, because 45 - 3 = 42 and 42 ÷ 7 = 6.<br>Two rovers: 8h + 5 = 45, so 8h = 40 and <b>h = 5</b>. A = 20, B = 25."
+    }
    ]
   }
  },
@@ -51,22 +75,22 @@
     "title": "Count on and find the hiding number",
     "teach": "<p>Grown-up, read this aloud. Start at the first number and hop forward.</p><p>Number line: 0 1 2 3 4 5 6 7 8 9 10 11 12.</p><p>Example: 4 + 2. Start at 4, hop 2, land on 6.</p>",
     "sheets": [
-     "6 + 3 = ____. Start at 6 and hop 3. Number line: 0 1 2 3 4 5 6 7 8 9 10 11 12.",
-     "5 + ____ = 9. Circle: 3 &nbsp; 4 &nbsp; 6",
-     "Stretch, only if you want it: 8 + 4 = ____"
+     "6 + 3 = <span class=\"countbox\"></span>. Start at 6 and hop 3.<div class=\"nums\">0 1 2 3 4 5 6 7 8 9 10 11 12</div>",
+     "5 + <span class=\"countbox\"></span> = 9. Circle: 3 &nbsp; 4 &nbsp; 6",
+     "Stretch, only if you want it: 8 + 4 = <span class=\"countbox\"></span>"
     ]
    },
    {
     "title": "Count down",
     "teach": "<p>Say the numbers backward, like a rocket.</p>",
-    "sheet": "Fill the missing numbers: 5, 4, ___, 2, ___, blast off."
+    "sheet": "Fill the missing numbers: 5, 4, <span class=\"countbox\"></span>, 2, <span class=\"countbox\"></span>, blast off."
    },
    {
     "title": "Read and write sun",
     "teach": "<p>Grown-up, point to each picture and say its name before he matches: the sun, a red circle, a rabbit.</p><p>Then he finds the word <b>see</b>, traces the sentence, and writes <b>sun</b>.</p>",
     "sheets": [
-     "Draw a line from each word to its picture. Words: sun, red, hop. Pictures: rabbit 🐇 &nbsp; sun ☀️ &nbsp; red circle 🔴.<br>Circle every <b>see</b>: I see the sun. I see a hop.",
-     "Trace: I see the sun.<br>Write <b>sun</b>: __________"
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">sun</div><div class=\"mword\">red</div><div class=\"mword\">hop</div></div><div class=\"mcol\"><div class=\"mpic\">🐇</div><div class=\"mpic\">☀️</div><div class=\"mpic\">🔴</div></div></div>Circle every <b>see</b>: I see the sun. I see a hop.",
+     "Trace:<div class=\"trace\">I see the sun.</div>Write <b>sun</b>: <span class=\"writebox\"></span>"
     ]
    }
   ],
@@ -74,12 +98,30 @@
   "parentKey": {
    "assess": "Score problems 1, 2, 4, 5, and writing sun. Problem 3 (8 + 4) is optional. A 5 means those required parts are done. You read the words aloud.",
    "items": [
-    {"q": "1", "a": "9. Start at 6 and hop 3."},
-    {"q": "2", "a": "4. Check: 5 + 4 = 9."},
-    {"q": "3", "a": "Optional. 12."},
-    {"q": "4", "a": "3 and 1. The line is 5, 4, 3, 2, 1."},
-    {"q": "5", "a": "sun to the sun picture, red to the red circle, hop to the rabbit. Both <b>see</b> words circled."},
-    {"q": "6", "a": "He traces the sentence and writes <b>sun</b>. Writing sun is required."}
+    {
+     "q": "1",
+     "a": "9. Start at 6 and hop 3."
+    },
+    {
+     "q": "2",
+     "a": "4. Check: 5 + 4 = 9."
+    },
+    {
+     "q": "3",
+     "a": "Optional. 12."
+    },
+    {
+     "q": "4",
+     "a": "3 and 1. The line is 5, 4, 3, 2, 1."
+    },
+    {
+     "q": "5",
+     "a": "sun to the sun picture, red to the red circle, hop to the rabbit. Both <b>see</b> words circled."
+    },
+    {
+     "q": "6",
+     "a": "He traces the sentence and writes <b>sun</b>. Writing sun is required."
+    }
    ]
   }
  }

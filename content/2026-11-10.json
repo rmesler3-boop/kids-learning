@@ -7,15 +7,24 @@
   "mission": "Drive on the Moon and on Mars, write what each place looks like, and use the reading to name one difference in their air.",
   "done": "Both rows of the table are filled, and problems 2 and 3 are answered.",
   "words": [
-   ["air", "the gases around a world"],
-   ["horizon", "where the ground meets the sky"]
+   [
+    "air",
+    "the gases around a world"
+   ],
+   [
+    "horizon",
+    "where the ground meets the sky"
+   ]
   ],
   "flow": [
    {
     "title": "Read, then look at both worlds",
     "teach": "<p>NASA Space Place says the Moon has almost no atmosphere. It also says Mars has a very thin atmosphere made mostly of carbon dioxide, and people could not breathe it.</p><p>Air can change how a sky looks. Write the colors and shapes you see today.</p><p>Drive with W, A, S, and D. Stop and look. A grown-up switches from the Moon to Mars.</p>",
     "pics": [
-     ["guides/draw-wasd.svg", "W forward, A left, D right, S back. Stop often."]
+     [
+      "guides/draw-wasd.svg",
+      "W forward, A left, D right, S back. Stop often."
+     ]
     ],
     "sheet": "<b>Field notes.</b><table><tr><th></th><th>Moon</th><th>Mars</th></tr><tr><td>Name on the screen</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr><tr><td>Sky looks</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr><tr><td>Ground looks</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr><tr><td>One thing I noticed</td><td><div class=\"cell\"></div></td><td><div class=\"cell\"></div></td></tr></table>"
    },
@@ -35,10 +44,22 @@
   "parentKey": {
    "assess": "Score the table, a difference taken from his own rows, and a sentence that the Moon has almost no air while Mars has thin air. Do not grade the colors or what he noticed. The challenge is not scored.",
    "items": [
-    {"q": "1", "a": "Both rows filled with the names you actually opened and what he saw. Any honest notes. Photo is fine if the game did not load."},
-    {"q": "2", "a": "A difference, or a sameness, that matches his table."},
-    {"q": "3", "a": "The Moon has almost no air. Mars has a thin atmosphere, mostly carbon dioxide. His own words are fine."},
-    {"q": "Challenge", "a": "1.62 rounds to 2. 3.73 rounds to 4. 4 is about 2 times 2. Accept about 2 or a little more than 2. The 60-pound rock is about 10 pounds on the Moon (60 ÷ 6)."}
+    {
+     "q": "1",
+     "a": "Both rows filled with the names you actually opened and what he saw. Any honest notes. Photo is fine if the game did not load."
+    },
+    {
+     "q": "2",
+     "a": "A difference, or a sameness, that matches his table."
+    },
+    {
+     "q": "3",
+     "a": "The Moon has almost no air. Mars has a thin atmosphere, mostly carbon dioxide. His own words are fine."
+    },
+    {
+     "q": "Challenge",
+     "a": "1.62 rounds to 2. 3.73 rounds to 4. 4 is about 2 times 2. Accept about 2 or a little more than 2. The 60-pound rock is about 10 pounds on the Moon (60 ÷ 6)."
+    }
    ]
   }
  },
@@ -51,25 +72,31 @@
     "title": "Moon, then Mars",
     "teach": "<p>Grown-up, read aloud. He drives with W. He stops and points at things he chooses, such as rocks or holes. Make one mark for each thing he points to.</p>",
     "pics": [
-     ["guides/draw-wasd.svg", "W forward. A and D turn. S backs up."],
-     ["guides/card-count.svg", "Point, then make one mark."]
+     [
+      "guides/draw-wasd.svg",
+      "W forward. A and D turn. S backs up."
+     ],
+     [
+      "guides/card-count.svg",
+      "Point, then make one mark."
+     ]
     ],
     "sheets": [
-     "Moon. Things I pointed to (marks): __________ Number: ____<br>The ground looks: __________ (any word, or other)",
-     "Mars. Things I pointed to (marks): __________ Number: ____<br>The ground looks: __________ (any word, or other)"
+     "Moon. Marks: <span class=\"tally\"></span> Number: <span class=\"countbox\"></span><br>The ground looks: <span class=\"writebox\"></span>",
+     "Mars. Marks: <span class=\"tally\"></span> Number: <span class=\"countbox\"></span><br>The ground looks: <span class=\"writebox\"></span>"
     ]
    },
    {
     "title": "Which had more?",
     "teach": "<p>Compare his two numbers. Same is a fine answer.</p>",
-    "sheet": "Which had more things? Circle: Moon / Mars / same.<br>Stretch, only if you want it: How many more? ____"
+    "sheet": "Which had more things? Circle: Moon / Mars / same.<br>Stretch, only if you want it: How many more? <span class=\"countbox\"></span>"
    },
    {
     "title": "Read and write red",
     "teach": "<p>Grown-up, name the pictures first: a bus, a pin, a red circle.</p>",
     "sheets": [
-     "Draw a line. Words: bus, pin, red. Pictures: red circle 🔴 &nbsp; bus 🚌 &nbsp; pin 📌.",
-     "Circle every <b>look</b>: I look at the Moon. I look at Mars.<br>Trace: I look at Mars.<br>Write <b>red</b>: __________"
+     "Draw a line from each word to its picture.<div class=\"match\"><div class=\"mcol\"><div class=\"mword\">bus</div><div class=\"mword\">pin</div><div class=\"mword\">red</div></div><div class=\"mcol\"><div class=\"mpic\">🔴</div><div class=\"mpic\">🚌</div><div class=\"mpic\">📌</div></div></div>",
+     "Circle every <b>look</b>: I look at the Moon. I look at Mars.<br>Trace:<div class=\"trace\">I look at Mars.</div>Write <b>red</b>: <span class=\"writebox\"></span>"
     ]
    }
   ],
@@ -77,11 +104,26 @@
   "parentKey": {
    "assess": "Score both counts, the more/same circle, the word match, and writing red. The how-many-more line is optional. Do not grade the color words. Same is correct when his numbers match.",
    "items": [
-    {"q": "1", "a": "His Moon marks match his number. Any ground word, including other."},
-    {"q": "2", "a": "His Mars marks match his number. Any ground word, including other."},
-    {"q": "3", "a": "Moon, Mars, or same, matching his two numbers. The stretch is the difference."},
-    {"q": "4", "a": "bus to the bus, pin to the pin, red to the red circle."},
-    {"q": "5", "a": "Both <b>look</b> words circled. He traces the sentence and writes <b>red</b>."}
+    {
+     "q": "1",
+     "a": "His Moon marks match his number. Any ground word, including other."
+    },
+    {
+     "q": "2",
+     "a": "His Mars marks match his number. Any ground word, including other."
+    },
+    {
+     "q": "3",
+     "a": "Moon, Mars, or same, matching his two numbers. The stretch is the difference."
+    },
+    {
+     "q": "4",
+     "a": "bus to the bus, pin to the pin, red to the red circle."
+    },
+    {
+     "q": "5",
+     "a": "Both <b>look</b> words circled. He traces the sentence and writes <b>red</b>."
+    }
    ]
   }
  }

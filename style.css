@@ -49,6 +49,16 @@ details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333
 .work{display:block;border:2px solid #111;min-height:1in;margin:.12rem 0}
 .work.mid{min-height:1in}
 .work.tall{min-height:2.5in}
+.work.sub{min-height:.75in}
+.match{display:flex;justify-content:space-between;gap:1.4in;margin:.08in 0 .12in}
+.mcol{display:flex;flex-direction:column;gap:.18in}
+.mword{font-weight:900;font-size:26pt;min-height:.5in;display:flex;align-items:center}
+.mpic{font-size:36pt;line-height:1;min-height:.5in;display:flex;align-items:center;justify-content:center}
+.trace{display:block;margin:.04in 0;font-weight:900;font-size:36pt;line-height:1.05;letter-spacing:.02em;color:transparent;-webkit-text-stroke:2px #222}
+.writebox{display:inline-block;width:3in;height:.6in;border:3px solid #111;vertical-align:middle}
+.tally{display:inline-block;width:2.4in;height:.5in;border:3px solid #111;vertical-align:middle}
+.countbox{display:inline-block;width:1.5in;height:.55in;border:3px solid #111;vertical-align:middle}
+.nums{font-size:20pt;letter-spacing:.08em;font-weight:700}
 #ws table{border-collapse:collapse;width:100%;margin:.1in 0;table-layout:fixed}
 #ws td,#ws th{border:1px solid #111;padding:3px 6px;vertical-align:top}
 #ws td:first-child,#ws th:first-child{width:1.35in}
@@ -59,11 +69,20 @@ details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333
 @media screen{#ws.offscreen{position:absolute;left:-14000px;width:7.5in}}
 @media print{
  html,body,.henry,.frankie,.wrap,.card{height:auto!important;max-height:none!important;overflow:visible!important;min-height:0!important}
- .wrap>*:not(.card),.card>*:not(#ws){display:none!important}
+ .wrap>*:not(.card),.card>*:not(#ws),.card+.card{display:none!important}
  #ws.plain{display:block!important;position:static!important;left:auto!important;top:auto!important;max-height:none!important;overflow:visible!important;width:7.5in;font-size:14pt}
  #ws.plain h2{font-size:16pt;margin:0 0 .08in}
  #ws.plain li{margin-bottom:.12in;break-inside:avoid;page-break-inside:avoid}
  #ws .work.mid{min-height:1in}
  #ws .work.tall{min-height:2.5in}
+ #ws .work.sub{min-height:.75in}
  #ws .cell{min-height:.65in}
+ #ws.kid{font-size:22pt;line-height:1.15}
+ #ws.kid h2{font-size:24pt;margin:0 0 .02in}
+ #ws.kid p{margin:.02in 0}
+ #ws.kid ol{margin:.04in 0;padding-left:.35in}
+ #ws.kid li{margin-bottom:.03in}
+ #ws.kid li:last-child{margin-bottom:0}
+ #ws.kid .mword,#ws.kid .mpic{min-height:.42in}
+ #ws.kid .match{gap:.9in;margin:.02in 0}
 }
