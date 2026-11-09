@@ -3,164 +3,97 @@
  "subject": "art/music",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "Twinkle on Piano, Then the F Chord",
-  "intro": "The star tune for this Moon week. Piano first, then ukulele chord F. About 15 minutes. The cello is broken — leave it in the case. A guitar pluck is only the challenge.",
-  "steps": [
-   "🎵 <b>Listen</b> to the first minute, or hum Twinkle if the video will not play.",
-   "🎹 <b>Play</b> line 1 on the piano: C C G G A A G, then F F E E D D C.",
-   "🎸 <b>Learn</b> F on the ukulele: two fingers, like the picture.",
-   "🔁 <b>Strum</b> C, F, C while you sing “Twinkle, twinkle, little star.”",
-   "✏️ <b>Fill in</b> the worksheet."
+  "title": "Twinkle on Piano and Ukulele",
+  "mission": "Play the first Twinkle phrase on the piano, then strum C and F on the ukulele while you sing.",
+  "done": "You played the piano phrase, strummed C then F, and answered problems 1 through 5.",
+  "words": [
+   ["variation", "the same tune, played a new way"],
+   ["chord", "more than one note at the same time"]
   ],
-  "links": [
-   [
-    "Video: Mozart’s 12 variations on Twinkle",
-    "https://www.youtube.com/watch?v=NO-ecxHEPqI",
-    "First minute only. Hear the plain tune, then faster notes. Humming counts if the video fails."
-   ]
-  ],
-  "passage": [
+  "flow": [
    {
-    "text": "⭐ <b>Twinkle, Twinkle, Little Star</b> uses an old <b>French</b> tune. The words come from Jane Taylor’s poem, 1806.",
-    "q": "Which country is the tune from?",
-    "a": "France."
+    "title": "Piano phrase",
+    "teach": "<p>Twinkle uses an old French tune. Mozart wrote 12 variations on it. A variation is the same tune, played a new way.</p><p>Find C: the white key just to the left of the two black keys. Play <b>C C G G A A G</b>.</p><p>If the video will not play, hum Twinkle and then play.</p>",
+    "link": ["Listen: first minute of Mozart's variations", "https://www.youtube.com/watch?v=NO-ecxHEPqI", "Hum the tune if the video will not play."],
+    "pics": [
+     ["guides/piano-c-to-a.svg", "C is the white key just left of the two black keys."]
+    ],
+    "sheets": [
+     "The Twinkle tune came from: France / Japan",
+     "A variation is: the same tune changed / a brand-new song",
+     "Piano: C C G G A A ___"
+    ]
    },
    {
-    "text": "🎹 <b>Mozart</b> wrote <b>12 variations</b>. A variation is the same tune, changed — faster, fancier, or softer.",
-    "q": "What is a variation?",
-    "a": "The same tune, changed."
-   },
-   {
-    "text": "🔤 The <b>ABC song</b> uses this tune. So does Baa, Baa, Black Sheep. On the ukulele, “little” in line 1 takes the <b>F</b> chord.",
-    "q": "Which chord is on “little”?",
-    "a": "F."
+    "title": "Ukulele C, then F",
+    "teach": "<p>Look at the pictures. C is one finger: the ring finger on the A string.</p><p>F is two fingers. Pointer finger on the E string, fret 1. Middle finger on the G string, fret 2.</p><p>Strum C four times, then F four times. Sing \"Twinkle, twinkle\" on C and \"little\" on F.</p>",
+    "pics": [
+     ["guides/uke-c-chord.svg", "C: one finger, the ring finger, on the A string."],
+     ["guides/uke-f-chord.svg", "F: pointer on E at fret 1, middle finger on G at fret 2."]
+    ],
+    "sheets": [
+     "F chord: pointer finger on the ____ string, fret 1. Middle finger on the ____ string, fret 2.",
+     "I played the piano phrase, then strummed C and F. Circle: yes / not yet"
+    ]
    }
   ],
-  "words": [
-   [
-    "variation",
-    "the same tune, changed"
-   ],
-   [
-    "composer",
-    "a person who writes music"
-   ],
-   [
-    "melody",
-    "the tune you can sing"
-   ],
-   [
-    "chord",
-    "notes played together"
-   ]
-  ],
-  "handsOn": {
-   "title": "Piano line, then F on the ukulele",
-   "steps": [
-    [
-     "guides/piano-c-to-a.svg",
-     "Find C: the white key just left of the two black keys."
-    ],
-    [
-     "guides/piano-c-to-a.svg",
-     "Play C C G G A A G. Then F F E E D D C. That is line 1."
-    ],
-    [
-     "guides/piano-c-to-a.svg",
-     "Make one small change: play it softer, or a little faster."
-    ],
-    [
-     "guides/uke-f-chord.svg",
-     "Ukulele F: pointer on the E string, fret 1. Middle finger on the G string, fret 2."
-    ],
-    [
-     "guides/uke-c-chord.svg",
-     "Switch C for 4 strums, then F for 4 strums. Count the switches."
-    ],
-    [
-     "guides/uke-f-chord.svg",
-     "Sing: “Twinkle, twinkle” on C, “little” on F, “star” on C."
-    ]
-   ],
-   "look": "F needs two fingertips. Thumb stays behind the neck. The cello stays in the case.",
-   "q": "Questions 5 to 7 come from the piano and the ukulele."
-  },
-  "worksheet": [
-   "The Twinkle tune is a ______ song. Circle: French / Japanese",
-   "Mozart wrote ____ variations. Circle: 3 / 12",
-   "A variation is: Circle: the same tune, changed / a brand new song",
-   "Same tune: Circle: ABC song / Happy Birthday",
-   "Piano: C C G G A A ___. Circle: G / F",
-   "For F: pointer on the ____ string, middle on the ____ string.",
-   "I switched C to F ____ times. The cello was not used. Circle: true"
-  ],
-  "challenge": "Play your softer or faster variation for someone and let them guess the song. If a guitar is out, pluck one open string and say if it sounds lower than the ukulele. Then go back to the ukulele. Do not use the cello.",
+  "challenge": "<p>Optional. Play C C G G A A G a new way: softer, faster, or bouncy. That is your variation.</p><p>If a guitar is out, pluck one open string, then pluck the ukulele. Which sounds lower?</p>",
+  "adult": "<p>The cello is broken. Leave it in the case. Do not hand it to him. A guitar is only for the optional challenge.</p><p>He is a beginner. An honest attempt at the piano phrase and at switching from C to F is a full music score, along with problems 1 through 4.</p>",
   "parentKey": {
-   "assess": "Score the worksheet and whether he played the piano line and switched C and F. 5 = tune and chord attempted, and the circled facts are right. The guitar pluck and the variation performance are the challenge, not required. There is no Regolith today.",
+   "assess": "Score a real attempt at the piano phrase, a real attempt at C then F, and correct answers on problems 1 through 4. Problem 5 is his own yes. The challenge is not scored.",
    "items": [
-    {
-     "q": "Facts",
-     "a": "French. 12. The same tune, changed. ABC song. The next piano note is <b>G</b> (C C G G A A G)."
-    },
-    {
-     "q": "F chord",
-     "a": "Pointer on the <b>E</b> string, fret 1. Middle finger on the <b>G</b> string, fret 2. Switch count is whatever he actually counted. Cello unused: <b>true</b>."
-    }
+    {"q": "1", "a": "France."},
+    {"q": "2", "a": "The same tune changed."},
+    {"q": "3", "a": "G."},
+    {"q": "4", "a": "Pointer on the <b>E</b> string, fret 1. Middle finger on the <b>G</b> string, fret 2. This matches the F-chord picture."},
+    {"q": "5", "a": "Yes, if he tried both parts. Not yet means finish the playing before you score a 5."},
+    {"q": "Challenge", "a": "Any real change in speed or volume. A guitar's low open string usually sounds lower than the ukulele. Either observation he can defend is fine."}
    ]
   }
  },
  "frankie": {
-  "title": "Twinkle Dots and Seven Stars ⭐🎹",
-  "intro": "Grown-up, read aloud. We play a star song and put out 7 star stickers. About 14 minutes. No cello. No drawing with a pencil — stickers or coins are the stars.",
-  "steps": [
-   "🏷️ <b>Find</b> the new purple 6, after red 5.",
-   "🎶 <b>Play</b> the number tune with a grown-up.",
-   "⭐ <b>Put</b> 7 stickers, coins, or LEGO like the Big Dipper.",
-   "🔤 <b>Sound out</b> dot. Trace, then write it."
-  ],
-  "links": [],
-  "handsOn": {
-   "title": "Twinkle numbers and the Big Dipper",
-   "steps": [
-    [
-     "guides/piano-c-to-a.svg",
-     "Grown-up: if you use stickers, purple 6 is the white key just after red 5. C is key 1."
+  "title": "Twinkle Numbers and the Big Dipper",
+  "mission": "Play the number tune, place 7 paper dots or stickers like the Big Dipper picture, and write dot.",
+  "done": "You finished the number tune, placed 7 marks like the picture, matched the words, and wrote dot.",
+  "flow": [
+   {
+    "title": "Number tune",
+    "teach": "<p>Grown-up, before he starts: put paper dots, coins, or stickers on piano keys 1 through 6. You do not need to buy stickers. Key 1 is C, the white key just left of the two black keys. Key 6 is the next white key after key 5.</p><p>He presses <b>1 1 5 5 6 6 5</b>, then <b>4 4 3 3 2 2 1</b>. Sing with him.</p>",
+    "pics": [
+     ["guides/piano-c-to-a.svg", "Key 1 is C, just left of the two black keys."],
+     ["guides/twinkle-numbers.svg", "Press the numbers in order."]
     ],
-    [
-     "guides/twinkle-numbers.svg",
-     "Press 1 1 5 5 6 6 5, then 4 4 3 3 2 2 1. Sing along. Humming counts."
+    "sheet": "Finish the tune: 1 1 5 5 6 6 ___"
+   },
+   {
+    "title": "Seven stars like the picture",
+    "teach": "<p>Copy the Big Dipper picture on this page. Use 7 paper dots, coins, or stickers. 3 go in the handle. 4 go in the cup. This is the one art job this week.</p>",
+    "pics": [
+     ["guides/big-dipper.svg", "Copy this Big Dipper. 3 in the handle, 4 in the cup."]
     ],
-    [
-     "guides/big-dipper.svg",
-     "Put 7 stars on dark paper, or use 7 coins or LEGO bricks. 3 in the handle, 4 in the cup."
-    ],
-    [
-     "guides/big-dipper.svg",
-     "Count them out loud together."
+    "sheets": [
+     "3 + 4 = ____ stars in the Big Dipper.",
+     "Stretch, only if you want it: a cloud covers 2 of the 7 stars. How many still shine? ____"
     ]
-   ],
-   "look": "The jump from 1 up to 5 is the hard part. Point at red 5 before he plays it.",
-   "q": "Circle 6, count 7 stars, and trace."
-  },
-  "worksheet": [
-   "Which key is new? Circle the purple 6.<br><span style=\"font-size:28px\">1 &nbsp; 2 &nbsp; 3 &nbsp; 4 &nbsp; 5 &nbsp; 6</span>",
-   "Count the Big Dipper stars. Circle the number.<br><span style=\"font-size:30px\">⭐⭐⭐ + ⭐⭐⭐⭐ =</span> <span style=\"font-size:26px;letter-spacing:6px\">6 &nbsp; 7 &nbsp; 8</span>",
-   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">dot &nbsp; pig &nbsp; cup</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐷 &nbsp; ☕ &nbsp; 🔵</span>",
-   "Circle every <b>is</b>: <span style=\"font-size:22px\">It is a star. It is big.</span>",
-   "Circle the star: <span style=\"font-size:40px;letter-spacing:12px\">🌕 ⭐ 🚀</span>",
-   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">a big star</span><br><b>Stretch:</b> Write <b>dot</b>: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
+   },
+   {
+    "title": "Read and write dot",
+    "teach": "<p>Grown-up, name the pictures first: a blue dot, a pig, a cup (the mug).</p>",
+    "sheets": [
+     "Draw a line. dot, pig, cup. Pictures: blue dot 🔵 &nbsp; pig 🐷 &nbsp; cup ☕.",
+     "Circle every <b>is</b>: It is a star. It is big.<br>Trace: a big star.<br>Write <b>dot</b>: __________"
+    ]
+   }
   ],
+  "adult": "<p>Set out keys 1 through 6 with paper dots or stickers before the timer. Do not require a store-bought sticker pack. The picture to copy is the Big Dipper on this page. The cello stays in its case.</p>",
   "parentKey": {
-   "assess": "Score the playing and the sheet. Purple 6, 7 stars, word match, both is words, the star picture. Writing dot is the stretch. No Regolith and no cello.",
+   "assess": "Score the tune number, 7 stars placed like the picture, 3 + 4, the word match, and writing dot. The cloud question is optional.",
    "items": [
-    {
-     "q": "Music and count",
-     "a": "Circle <b>6</b>. Big Dipper has <b>7</b> stars (3 in the handle, 4 in the cup)."
-    },
-    {
-     "q": "Words",
-     "a": "dot → 🔵, pig → 🐷, cup → ☕. Circle both <b>is</b>. Circle ⭐. Stretch: dot."
-    }
+    {"q": "1", "a": "5. The phrase starts 1 1 5 5 6 6 5."},
+    {"q": "2", "a": "7. He should place 7 marks like the Big Dipper picture."},
+    {"q": "3", "a": "Optional. 5."},
+    {"q": "4", "a": "dot to the blue dot, pig to the pig, cup to the mug."},
+    {"q": "5", "a": "Both <b>is</b> words circled. He traces and writes <b>dot</b>."}
    ]
   }
  }

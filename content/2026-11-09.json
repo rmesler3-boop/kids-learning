@@ -3,130 +3,83 @@
  "subject": "math",
  "theme": "Space & the Moon",
  "henry": {
-  "title": "Rover Rules: Fractions, Division, and an Unknown",
-  "intro": "A 15-minute math lab. The story is a rover mission, but every number is a <b>pretend model</b> made up for practice. These are not Regolith readings and not NASA measurements. Your score is problems 1–3 on the worksheet.",
-  "steps": [
-   "📖 <b>Read</b> the three short chunks. Tap 🔊 if you want. Answer each check.",
-   "👀 <b>Study</b> the worked example on the worksheet. It is already solved.",
-   "🧮 <b>Solve</b> problems 1, 2, and 3. Show your work. This is the assignment.",
-   "🏅 <b>Challenge</b> only if you finish and want more. It is not required."
+  "title": "Rover Supply Math",
+  "mission": "Solve 3 rover supply problems: add fractions, divide bolts into boxes, and find one mystery number. Practice mission: the numbers are made up for math.",
+  "done": "Problems 1, 2, and 3 are filled in, and your work is in the boxes.",
+  "sheetNote": "Practice mission: these numbers are made up for math.",
+  "words": [
+   ["denominator", "the bottom number of a fraction"],
+   ["remainder", "what is left after you make equal groups"],
+   ["equation", "a math sentence with both sides equal"],
+   ["variable", "a letter that stands for a mystery number"]
   ],
-  "links": [],
-  "passage": [
+  "flow": [
    {
-    "text": "🔢 Every number today is a <b>pretend model</b>. It was made up for math. It is not a distance, fuel, or speed from the game, and it is not a NASA fact.",
-    "q": "Are today’s numbers game readings?",
-    "a": "No. They are pretend model numbers."
+    "title": "Add fractions",
+    "teach": "<p>To add fractions, first cut them into same-size pieces.</p><p><b>Example (different numbers from your problem):</b> 1/2 + 1/3. The bottoms 2 and 3 both fit into 6. 1/2 = 3/6 and 1/3 = 2/6, so 3/6 + 2/6 = <b>5/6</b>. A whole is 6/6, so the empty part is 6/6 - 5/6 = <b>1/6</b>. When both fractions have 1 on top, the bigger bottom means smaller pieces: 1/6 is smaller than 1/4.</p>",
+    "sheet": "<b>Fractions.</b> A sample tray is one whole. Rocks fill 3/4. Dust fills 1/6. The bottoms 4 and 6 both fit into 12.<br>a) 3/4 = ___/12 and 1/6 = ___/12. Together the tray is ______ full.<br>b) The empty part is ______.<br>c) Is the empty part bigger or smaller than 1/8? ______<br>How I know: ________________"
    },
    {
-    "text": "🍕 A <b>fraction</b> names part of one whole. To add 1/2 and 1/3, use sixths: 1/2 = 3/6 and 1/3 = 2/6, so 3/6 + 2/6 = <b>5/6</b>.",
-    "q": "What is 1/2 + 1/3?",
-    "a": "5/6."
+    "title": "Divide by a two-digit number",
+    "teach": "<p>Make a list of multiples first, then divide.</p><p><b>Example:</b> 989 ÷ 23. List: 23, 46, 69, 92 (that is 23 × 1, 2, 3, 4).</p><pre>      43\n23)989\n    92\n     69\n     69\n      0</pre><p>23 fits into 98 four times (92). 98 - 92 = 6. Bring down 9 to make 69. 23 fits into 69 three times exactly. Answer: 43, remainder 0. Check: 23 × 43 = 989.</p>",
+    "sheet": "<b>Long division.</b> The crew has 2,354 bolts. Each box holds 27 bolts.<br>My 27 list (×1 through ×9): 27, 54, ___, ___, ___, ___, ___, ___, ___<br><span class=\"work\"></span>Full boxes: ______ &nbsp; Bolts left over: ______<br>Check: 27 × ____ + ____ = 2,354"
    },
    {
-    "text": "⚖️ An <b>equation</b> says both sides are equal. The letter is an <b>unknown</b>. <b>Inverse</b> operations undo each other: division undoes multiplication, and subtraction undoes addition. Example: 20 = 4 × t, so t = 20 ÷ 4 = 5. Check: 4 × 5 = 20.",
-    "q": "What undoes multiplication?",
-    "a": "Division."
+    "title": "Find the mystery number",
+    "teach": "<p>A letter can stand for a mystery number. Undo the last step first.</p><p><b>Example:</b> 5 × m + 6 = 41. Undo + 6: 41 - 6 = 35. Undo × 5: 35 ÷ 5 = 7. So m = 7. Check: 5 × 7 + 6 = 41.</p>",
+    "sheet": "<b>Mystery number.</b> A rover drives 15 meters each minute. It had already driven 12 meters. The total distance is now 132 meters. Let m be the minutes on the timer.<br>Equation: ____ × m + ____ = ____<br>m = ______<br>Check: ________________"
    }
   ],
-  "words": [
-   [
-    "pretend model",
-    "numbers made up for this math, not a measurement"
-   ],
-   [
-    "fraction",
-    "a part of one whole, such as 3/4"
-   ],
-   [
-    "quotient",
-    "the result of a division, not counting the leftover"
-   ],
-   [
-    "remainder",
-    "the leftover after making equal groups"
-   ],
-   [
-    "equation",
-    "a statement that two sides are equal"
-   ],
-   [
-    "unknown",
-    "the number a letter stands for"
-   ],
-   [
-    "inverse",
-    "the operation that undoes another"
-   ]
-  ],
-  "fitPrint": true,
-  "example": "<b>Worked example — already done. Not scored.</b> PRETEND model. Not the game. Not NASA.<br>Rule: distance = 4 × minutes. Needed distance: 20.<br>Equation: 20 = 4 × t. Inverse of ×4 is ÷4, so t = 20 ÷ 4 = <b>5</b>.<br>Check: 4 × 5 = 20. Both sides match.",
-  "worksheet": [
-   "<b>Fractions.</b> PRETEND model. One sample tray is the whole. Rocks fill 3/4. Dust fills 1/6. Hint: 3/4 = 9/12 and 1/6 = 2/12.<br>a) Fraction filled: ______<br>b) Fraction still empty: ______<br>c) Which is smaller, the empty part or 1/8? ______ &nbsp; Show the comparison.",
-   "<b>Long division.</b> PRETEND model. 2,354 bolts go into boxes that hold 27 bolts.<br>Full boxes: ______ &nbsp; Bolts left over: ______<br>Show the division in the box.<div style=\"border:2px solid #111;height:1.15in;margin-top:4px\"></div>",
-   "<b>Algebra bridge.</b> PRETEND model rule: distance = 15 × minutes + 12. The team needs distance 132. Let m stand for minutes.<br>a) Equation: 132 = 15 × m + 12<br>b) Undo +12, then undo ×15. m = ______<br>c) Check: 15 × ____ + 12 = ______"
-  ],
-  "challenge": "Stretch, not required. Two pretend rovers work the same number of hours, h. Rover A collects 4 × h samples. Rover B collects 4 × h + 5 samples. Together they collect 45 samples. Find h, then check both rules. These are still pretend model numbers.",
+  "challenge": "<p><b>Extra practice, not required.</b> Solve 7 × k + 3 = 45. Then try this: two rovers work the same number of hours, h. Rover A collects 4 × h samples. Rover B collects 4 × h + 5 samples. Together they collect 45. Find h.</p>",
   "parentKey": {
-   "assess": "Score problems 1–3 only. The example is teaching. Reading checks are a warm-up, not the math score. The challenge is optional. Full credit needs the work, not only a final number. 5 = all three correct with work. 4 = one slip with the method mostly right. 3 = about half. 2 = a real try. 1 = needs another pass.",
+   "assess": "Score problems 1, 2, and 3 only. A 5 means all three are correct and the work is shown. A 4 is one slip. The challenge is not scored. Reading the examples is practice, not the score.",
    "items": [
-    {
-     "q": "1. Fractions",
-     "a": "a) 3/4 + 1/6 = 9/12 + 2/12 = <b>11/12</b> filled.<br>b) 1 − 11/12 = <b>1/12</b> empty.<br>c) The empty part, 1/12, is smaller than 1/8. Common denominator 24: 1/12 = 2/24 and 1/8 = 3/24. 2/24 &lt; 3/24. (One twelfth is a smaller piece than one eighth.)"
-    },
-    {
-     "q": "2. 2,354 ÷ 27",
-     "a": "<b>87 full boxes, remainder 5 bolts.</b><br>27 into 235 is 8, because 27 × 8 = 216. 235 − 216 = 19. Bring down 4 to make 194. 27 × 7 = 189. 194 − 189 = 5.<br>Check: 27 × 87 = 2,349, and 2,349 + 5 = 2,354."
-    },
-    {
-     "q": "3. 132 = 15m + 12",
-     "a": "Subtract 12: 120 = 15 × m. Divide by 15: <b>m = 8</b> minutes.<br>Check: 15 × 8 + 12 = 120 + 12 = 132. Both sides equal."
-    },
-    {
-     "q": "Challenge",
-     "a": "4h + (4h + 5) = 45 → 8h + 5 = 45 → 8h = 40 → <b>h = 5</b>.<br>Check: A = 4 × 5 = 20. B = 20 + 5 = 25. 20 + 25 = 45."
-    }
+    {"q": "1", "a": "a) 3/4 = 9/12 and 1/6 = 2/12, so the tray is <b>11/12</b> full.<br>b) 12/12 - 11/12 = <b>1/12</b> empty.<br>c) <b>smaller</b>. 1/12 is smaller than 1/8 because twelfths are smaller pieces than eighths (2/24 is less than 3/24)."},
+    {"q": "2", "a": "27 list: 27, 54, 81, 108, 135, 162, 189, 216, 243.<br><b>87 full boxes, 5 left over.</b><br>235 ÷ 27 = 8, because 8 × 27 = 216. 235 - 216 = 19. Bring down 4 to make 194. 7 × 27 = 189. 194 - 189 = 5.<br>Check: 27 × 87 + 5 = 2,349 + 5 = 2,354."},
+    {"q": "3", "a": "Equation: <b>15 × m + 12 = 132</b>.<br>132 - 12 = 120. 120 ÷ 15 = <b>8</b>. So m = 8 minutes.<br>Check: 15 × 8 + 12 = 132."},
+    {"q": "Challenge", "a": "7 × k + 3 = 45 gives k = 6, because 45 - 3 = 42 and 42 ÷ 7 = 6.<br>Two rovers: 8h + 5 = 45, so 8h = 40 and <b>h = 5</b>. A = 20, B = 25."}
    ]
   }
  },
  "frankie": {
-  "title": "Rocket Count-On 🚀",
-  "intro": "Grown-up, read aloud. Rockets count, and one number is hiding. About 14 minutes. No game today.",
-  "steps": [
-   "🔢 <b>Count on</b> from 6. Three more.",
-   "❓ <b>Find</b> the hiding number.",
-   "🔤 <b>Sound out</b> sun, red, and hop.",
-   "✏️ <b>Trace</b>, then write sun."
+  "title": "Rocket Count-On",
+  "mission": "Count on to add, find the hiding number, count down, and write the word sun.",
+  "done": "Problems 1, 2, 4, and 5 are done, and you wrote sun.",
+  "words": [],
+  "flow": [
+   {
+    "title": "Count on and find the hiding number",
+    "teach": "<p>Grown-up, read this aloud. Start at the first number and hop forward.</p><p>Number line: 0 1 2 3 4 5 6 7 8 9 10 11 12.</p><p>Example: 4 + 2. Start at 4, hop 2, land on 6.</p>",
+    "sheets": [
+     "6 + 3 = ____. Start at 6 and hop 3. Number line: 0 1 2 3 4 5 6 7 8 9 10 11 12.",
+     "5 + ____ = 9. Circle: 3 &nbsp; 4 &nbsp; 6",
+     "Stretch, only if you want it: 8 + 4 = ____"
+    ]
+   },
+   {
+    "title": "Count down",
+    "teach": "<p>Say the numbers backward, like a rocket.</p>",
+    "sheet": "Fill the missing numbers: 5, 4, ___, 2, ___, blast off."
+   },
+   {
+    "title": "Read and write sun",
+    "teach": "<p>Grown-up, point to each picture and say its name before he matches: the sun, a red circle, a rabbit.</p><p>Then he finds the word <b>see</b>, traces the sentence, and writes <b>sun</b>.</p>",
+    "sheets": [
+     "Draw a line from each word to its picture. sun, red, hop. Pictures: sun ☀️ &nbsp; red circle 🔴 &nbsp; rabbit 🐇.<br>Circle every <b>see</b>: I see the sun. I see a hop.",
+     "Trace: I see the sun.<br>Write <b>sun</b>: __________"
+    ]
+   }
   ],
-  "links": [],
-  "fitPrint": true,
-  "worksheet": [
-   "Count on. Circle the sum.<br><span style=\"font-size:28px\">6 + 3 =</span> <span style=\"font-size:26px;letter-spacing:8px\">8 &nbsp; 9 &nbsp; 10</span>",
-   "The unknown hides. Circle it.<br><span style=\"font-size:28px\">5 + ____ = 9</span><br><span style=\"font-size:26px;letter-spacing:8px\">3 &nbsp; 4 &nbsp; 6</span>",
-   "Which is more? Circle it. <span style=\"font-size:32px;letter-spacing:10px\">7 &nbsp; 4</span>",
-   "Sound it out. Draw a line.<br><span style=\"font-size:28px;letter-spacing:8px\">sun &nbsp; red &nbsp; hop</span><br><span style=\"font-size:36px;letter-spacing:14px\">🐇 &nbsp; 🔴 &nbsp; ☀️</span>",
-   "Circle every <b>see</b>: <span style=\"font-size:22px\">I see the sun. I see a hop.</span>",
-   "Trace: <span style=\"font-size:40px;letter-spacing:6px;color:#fff;-webkit-text-stroke:2px #777;font-weight:900\">I see the sun.</span><br><b>Stretch:</b> Write <b>sun</b> by yourself: <span style=\"display:inline-block;border-bottom:3px solid #111;width:40%;height:30px\"></span>"
-  ],
+  "challenge": "",
   "parentKey": {
-   "assess": "Score the worksheet. 5 = count-on, the missing addend, the comparison, and the word match are right, and he traced. Writing sun alone is the stretch, not required for a 5. Reading is supported by you.",
+   "assess": "Score problems 1, 2, 4, 5, and writing sun. Problem 3 (8 + 4) is optional. A 5 means those required parts are done. You read the words aloud.",
    "items": [
-    {
-     "q": "6 + 3",
-     "a": "9."
-    },
-    {
-     "q": "5 + ____ = 9",
-     "a": "4. Check: 5 + 4 = 9."
-    },
-    {
-     "q": "Which is more?",
-     "a": "7."
-    },
-    {
-     "q": "Words",
-     "a": "sun → ☀️, red → 🔴, hop → 🐇. He should circle both <b>see</b> words. Stretch spelling: sun."
-    }
+    {"q": "1", "a": "9. Start at 6 and hop 3."},
+    {"q": "2", "a": "4. Check: 5 + 4 = 9."},
+    {"q": "3", "a": "Optional. 12."},
+    {"q": "4", "a": "3 and 1. The line is 5, 4, 3, 2, 1."},
+    {"q": "5", "a": "sun to the sun picture, red to the red circle, hop to the rabbit. Both <b>see</b> words circled."},
+    {"q": "6", "a": "He traces the sentence and writes <b>sun</b>. Writing sun is required."}
    ]
   }
  }

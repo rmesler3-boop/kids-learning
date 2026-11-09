@@ -38,3 +38,17 @@ details.guide img{display:block;width:100%;max-width:480px;border:2px solid #333
 #ws.fit{font-size:12.5pt}#ws.fit h2{font-size:16pt;margin:0 0 .12in}#ws.fit li{margin-bottom:.28in}#ws .ex{border:2px solid #111;padding:.06in .1in;margin:0 0 .12in}
 .henry .card ol li{margin:.5rem 0;font-size:1.1em}
 @media print{.rdb{display:none!important}}
+.task{background:#fff;color:#111;border:4px solid #111;border-radius:14px;padding:.7rem .9rem;margin:.8rem 0}
+.task h3{margin:.1rem 0 .4rem}
+.teach{font-size:1.05em;line-height:1.45}
+.teach pre,.sheet pre{font-family:ui-monospace,monospace;font-size:.95em;line-height:1.2;background:#f8fafc;padding:.3rem .5rem;overflow:auto}
+.gfig{margin:.4rem 0}.gfig img{display:block;width:100%;max-width:460px;background:#fff;border:3px solid #111;border-radius:10px}
+.gfig figcaption{font-weight:700;margin-top:.2rem}
+.turn{background:#fffbeb;border:3px dashed #111;border-radius:10px;padding:.45rem .6rem;margin-top:.45rem}
+.donebox{background:#dcfce7;color:#111;border:3px solid #166534;border-radius:12px;padding:.45rem .7rem}
+.work{display:block;border:2px solid #111;min-height:.95in;margin:.15rem 0}
+#ws table{border-collapse:collapse;width:100%;margin:.1in 0}
+#ws td,#ws th{border:1px solid #111;padding:3px 6px;vertical-align:top}#ws .cell{min-height:.38in}
+#ws.plain li{margin-bottom:.22in}
+@media screen{#ws.offscreen{position:absolute;left:-14000px;width:7.5in}}
+@media print{#ws.offscreen{left:0!important;height:auto}#ws.plain{font-size:13.5pt}#ws.plain h2{font-size:16pt;margin:0 0 .1in}#ws.plain li{margin-bottom:.18in}#ws .work{min-height:.7in}}
